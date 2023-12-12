@@ -11,8 +11,12 @@
             "id": "ee176dc3cf13d071",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Express.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/Express.md"
+              }
             }
           },
           {
@@ -134,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,7 +154,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2d8970a807ae8769",
+  "active": "ee176dc3cf13d071",
   "lastOpenFiles": [
     "JavaScript/Express.md",
     "conflict-files-obsidian-git.md",
