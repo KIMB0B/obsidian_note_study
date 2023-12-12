@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3812fd8c31aa3dbd",
+        "id": "0173a87b2aafb4d5",
         "type": "tabs",
         "children": [
           {
-            "id": "d4ccc1581be001b6",
+            "id": "1ffdaf4647dbfb6f",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
                 "file": ".obsidian/workspace.json",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "456b2140a3da1e87",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "staged": false
+                "staged": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,10 +149,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "456b2140a3da1e87",
+  "active": "1ffdaf4647dbfb6f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "JavaScript/Express.md",
+    "conflict-files-obsidian-git.md",
     "무제 파일.canvas",
     "JavaScript"
   ]
