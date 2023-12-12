@@ -36,11 +36,24 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//JavaScript",
     "//Spaces",
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/JavaScript",
-    "//Spaces/Spaces/JavaScript"
+    "//Spaces/Spaces/JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//Spring Boot",
+    "//Spring Boot",
+    "//Spring Boot",
+    "//JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//JavaScript",
+    "//Spring Boot",
+    "//Spring Boot"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -61,11 +74,12 @@
   "dataviewInlineContext": false,
   "inlineContextNameLayout": "vertical",
   "waypoints": [
-    "Spaces/Home",
-    "/",
-    "spaces://$tags"
+    "/"
   ],
-  "rootSpaces": [],
+  "rootSpaces": [
+    "Spring Boot",
+    "JavaScript"
+  ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",
@@ -82,9 +96,9 @@
   "autoAddContextsToSubtags": true,
   "autoMigration08": false,
   "releaseNotesPrompt": 0.804,
-  "enableDefaultSpaces": true,
-  "enableTagSpaces": true,
-  "enableHomeSpace": true,
+  "enableDefaultSpaces": false,
+  "enableTagSpaces": false,
+  "enableHomeSpace": false,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false
