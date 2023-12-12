@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0173a87b2aafb4d5",
+        "id": "72b2682c480fd680",
         "type": "tabs",
         "children": [
           {
-            "id": "1ffdaf4647dbfb6f",
+            "id": "ee176dc3cf13d071",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -137,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1ffdaf4647dbfb6f",
+  "active": "2d8970a807ae8769",
   "lastOpenFiles": [
     "JavaScript/Express.md",
     "conflict-files-obsidian-git.md",
