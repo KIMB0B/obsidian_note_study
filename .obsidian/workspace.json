@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,7 +155,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ee176dc3cf13d071",
+  "active": "2d8970a807ae8769",
   "lastOpenFiles": [
     "JavaScript/Express.md",
     "conflict-files-obsidian-git.md",
