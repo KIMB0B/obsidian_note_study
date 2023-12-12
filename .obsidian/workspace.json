@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d86479e990f5f9e9",
+        "id": "44b2d883359cc047",
         "type": "tabs",
         "children": [
           {
-            "id": "b88bfabe2d1fb1c8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b4c6ca35f85281d8",
+            "id": "5d6c5de71e216f79",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b4c6ca35f85281d8",
+  "active": "5d6c5de71e216f79",
   "lastOpenFiles": [
+    "무제 파일.canvas",
     "JavaScript/Express.md",
     "JavaScript"
   ]
