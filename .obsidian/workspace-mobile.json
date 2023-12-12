@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf512c5daa9a4bfb",
+            "type": "leaf",
+            "state": {
+              "type": "make-file-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,9 +82,17 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "f831c133a364eef3",
+        "type": "leaf",
+        "state": {
+          "type": "mk-file-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "3446f8e2214a7fa8",
@@ -85,7 +104,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "JavaScript/Express.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +120,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "JavaScript/Express.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +130,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "JavaScript/Express.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -131,6 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "318025db58e7d1e7",
-  "lastOpenFiles": []
+  "active": "bf512c5daa9a4bfb",
+  "lastOpenFiles": [
+    "Spaces/Home",
+    "JavaScript/Express.md",
+    "Spaces"
+  ]
 }
