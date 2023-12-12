@@ -1,1 +1,6 @@
-{}
+{
+  "spellcheck": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./"
+}
