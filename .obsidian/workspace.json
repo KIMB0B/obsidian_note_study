@@ -11,11 +11,10 @@
             "id": "5d6c5de71e216f79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "JavaScript/Express.md",
-                "mode": "source",
-                "source": false
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +121,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JavaScript/Express.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "2d8970a807ae8769",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,8 +151,9 @@
   },
   "active": "5d6c5de71e216f79",
   "lastOpenFiles": [
-    "무제 파일.canvas",
+    "conflict-files-obsidian-git.md",
     "JavaScript/Express.md",
+    "무제 파일.canvas",
     "JavaScript"
   ]
 }
