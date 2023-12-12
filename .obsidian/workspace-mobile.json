@@ -23,9 +23,11 @@
             "id": "bf512c5daa9a4bfb",
             "type": "leaf",
             "state": {
-              "type": "make-file-view",
+              "type": "markdown",
               "state": {
-                "path": "https://www.make.md/static/latest.md"
+                "file": "JavaScript/Express.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,6 +106,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "JavaScript/Express.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -120,6 +123,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "JavaScript/Express.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +134,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "JavaScript/Express.md"
+          }
         }
       }
     ],
@@ -148,8 +154,9 @@
   },
   "active": "bf512c5daa9a4bfb",
   "lastOpenFiles": [
-    "Spaces/Home",
+    "Spaces/Untitled.md",
     "JavaScript/Express.md",
+    "Spaces/Home",
     "Spaces"
   ]
 }

@@ -35,7 +35,20 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Spaces",
+    "//Spaces/Spaces/Home",
+    "//Spaces",
+    "//Spaces",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//JavaScript",
+    "//Spaces",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
