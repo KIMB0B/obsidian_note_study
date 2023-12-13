@@ -1,8 +1,6 @@
 # 정의
 > JavaScript에서 [[Rest API]] 서버 개발을 하게 해주는 프레임워크 중 하나.
-
 ---
-
 # 설치
 ### [[NPM]]
 ```
@@ -22,7 +20,6 @@ import express from `express`;
 
 const app = express();
 ```
-
 ### [[Swagger]]
 swagger란 폴더를 만들고 그 안에 설정파일과 ~.swagger.js형식의 Swagger파일을 만듦
 
@@ -50,7 +47,6 @@ import { options } from './swagger/config.js';
 ...
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 ```
-
 ### [[CORS]]
 ```
 ...
@@ -60,12 +56,14 @@ import cors from 'cors';
 app.use(cors());            //모든 Origin 허용
 app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
-
 ---
-
 # 메서드 구현
+### GET
 ```
-app.get("/users", (req, res) => {
-	res.send({ ... });
+// localhost:3000/user?name=철수
+app.get("/user", (req, res) => {
+	const name = req.query.name
+	res.send(users.filter( user => name));
 });
 ```
+### POST
