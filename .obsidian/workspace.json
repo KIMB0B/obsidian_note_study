@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Apollo.md"
+                "file": "JavaScript/Express.md"
               }
             }
           },
@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,10 +163,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0a4d5587b80cbc11",
+  "active": "ee176dc3cf13d071",
   "lastOpenFiles": [
-    "JavaScript/Express.md",
     "JavaScript/Apollo.md",
+    "JavaScript/Express.md",
     "Network/Rest API.md",
     "Network/GraphQL.md",
     "Network/CORS.md",

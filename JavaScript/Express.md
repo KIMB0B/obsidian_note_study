@@ -1,6 +1,8 @@
 # 정의
 > JavaScript에서 [[Rest API]] 서버 개발을 하게 해주는 프레임워크 중 하나.
 
+---
+
 # 설치
 ### [[NPM]]
 ```
@@ -10,6 +12,8 @@ npm install express
 ```
 yarn add express
 ```
+
+---
 
 # 초기설정
 ### 기초
@@ -57,8 +61,11 @@ app.use(cors());            //모든 Origin 허용
 app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
 
-# GET
+---
+
+# 메서드 구현
 ```
-...
-app.get
+app.get("/users", (req, res) => {
+	res.send({ ... });
+});
 ```
