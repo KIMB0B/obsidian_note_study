@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "01f28521c706d385",
+        "id": "72b2682c480fd680",
         "type": "tabs",
         "children": [
           {
-            "id": "abf300c841c66421",
+            "id": "ee176dc3cf13d071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,14 +65,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "2e378701179747bd",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
           }
         ]
       }
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Apollo.md"
+                "file": "JavaScript/Express.md"
               }
             }
           },
@@ -147,7 +139,7 @@
             }
           },
           {
-            "id": "7e653ae269455f81",
+            "id": "0a4d5587b80cbc11",
             "type": "leaf",
             "state": {
               "type": "custom-frames-codecamp_backend",
@@ -155,51 +147,38 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 918.5
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "abf300c841c66421",
+  "active": "0a4d5587b80cbc11",
   "lastOpenFiles": [
-    "JavaScript/Express.md",
-    "JavaScript/Apollo.md",
-    "Docs/Swagger.md",
+    "Network/Rest API.md",
     "Network/GraphQL.md",
     "Network/CORS.md",
-    "JavaScript/NPM.md",
-    "JavaScript/YARN.md",
-    "Network/Rest API.md",
     "Network",
-    "Docs",
-    "conflict-files-obsidian-git.md",
-    "STUDY.md",
-    "Express.md",
-    "Java/Java.md",
-    "Java/SpringBoot/SpringBoot.md",
-    "Database/Database.md",
-    "Java/SpringBoot",
-    "Database",
-    "Java/SpringBoot",
-    "Java/SpringBoot",
-    "Python/Python.md",
-    "JavaScript/JavaScript.md",
-    "Python",
-    "Untitled.md",
-    "Java/SpringBoot",
+    "JavaScript/YARN.md",
+    "JavaScript/NPM.md",
+    "JavaScript/Apollo.md",
     "Java/SpringBoot",
     "Java",
-    "무제 파일.canvas"
+    "Docs/Swagger.md",
+    "Docs",
+    "JavaScript/Express.md",
+    "conflict-files-obsidian-git.md",
+    "무제 파일.canvas",
+    "JavaScript"
   ]
 }
