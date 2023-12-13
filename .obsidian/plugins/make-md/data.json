@@ -64,7 +64,11 @@
     "//Python",
     "//Python",
     "//Database",
-    "//SpringBpot"
+    "//SpringBpot",
+    "//SpringBpot",
+    "//SpringBpot",
+    "//SpringBoot",
+    "//Java"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
