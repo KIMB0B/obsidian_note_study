@@ -60,11 +60,7 @@
     "//Python",
     "//Python",
     "//Database",
-    "//SpringBpot",
-    "//SpringBpot",
-    "//SpringBpot",
-    "//SpringBoot",
-    "//Java"
+    "//SpringBpot"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -95,8 +91,6 @@
     "JavaScript",
     "Java/SpringBoot",
     "Python",
-    "Database",
-    "Java/SpringBot",
     "Database"
   ],
   "spacesUseAlias": false,
