@@ -71,6 +71,7 @@ app.use(cors({origin: ~})); //특정 Origin만 허용
 ### GET
 ```
 // localhost:3000/user?name=철수
+
 app.get("/user", (req, res) => {
 	const name = req.query.name;
 	res.status(200);
@@ -83,6 +84,7 @@ app.get("/user", (req, res) => {
 // {
 // 	 name: "철수"
 // }
+
 app.post("/user", (req, res) => {
 	const newUser = req.body;
 	users.push(newUser);
