@@ -158,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 918.5
+    "width": 918.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +172,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8190c4dc0d1efdc",
+  "active": "ee176dc3cf13d071",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "STUDY.md",
