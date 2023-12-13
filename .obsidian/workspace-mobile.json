@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Express.md",
+                "file": "JavaScript/Express.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cf20fc31ea5669d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,21 +84,9 @@
           "type": "bookmarks",
           "state": {}
         }
-      },
-      {
-        "id": "bc55a6cff0e1d0a1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SpringBoot/SpringBoot.md",
-            "mode": "source",
-            "source": false
-          }
-        }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "3446f8e2214a7fa8",
@@ -97,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Express.md",
+            "file": "conflict-files-obsidian-git.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Express.md",
+            "file": "conflict-files-obsidian-git.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -126,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Express.md"
+            "file": "conflict-files-obsidian-git.md"
           }
         }
       },
@@ -152,13 +153,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "be220043486f09c6",
+  "active": "2cf20fc31ea5669d",
   "lastOpenFiles": [
+    "JavaScript/Express.md",
+    "conflict-files-obsidian-git.md",
     "SpringBoot/SpringBoot.md",
-    "Express.md",
     "JavaScript/JavaScript.md",
     "/SpringBoot/SpringBoot.md",
-    "SpringBoot",
+    "Java/SpringBoot",
     "/SpringBoot",
     "/Express.md",
     "Java/Java.md",
