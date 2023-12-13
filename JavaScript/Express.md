@@ -20,6 +20,7 @@ import express from `express`;
 
 const app = express();
 ```
+### a
 ### [[Swagger]]
 swagger란 폴더를 만들고 그 안에 설정파일과 ~.swagger.js형식의 Swagger파일을 만듦
 
@@ -60,6 +61,7 @@ app.use(cors({origin: ~})); //특정 Origin만 허용
 # 메서드 구현
 ### GET
 ```
+
 // localhost:3000/user?name=철수
 app.get("/user", (req, res) => {
 	const name = req.query.name
