@@ -11,9 +11,11 @@
             "id": "bf512c5daa9a4bfb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "JavaScript"
+                "file": "JavaScript/Express.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "JavaScript/Express.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "JavaScript/Express.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +121,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "JavaScript/Express.md"
+          }
         }
       },
       {
@@ -145,13 +151,13 @@
   "active": "bf512c5daa9a4bfb",
   "lastOpenFiles": [
     "JavaScript/JavaScript.md",
+    "JavaScript/Untitled.md",
+    "Spring Boot/Spring Boot.md",
+    "Untitled.md",
+    "JavaScript",
     "JavaScript/Express.md",
     "STUDY.md",
-    "Spring Boot/Spring Boot.md",
-    "JavaScript",
     "Spring Boot",
-    "Untitled.md",
-    "JavaScript/Untitled.md",
     "Spaces/JavaScript/JavaScript.md",
     "Spaces/JavaScript",
     "Spaces",
