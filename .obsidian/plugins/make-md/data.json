@@ -65,8 +65,7 @@
     "//SpringBpot",
     "//SpringBoot",
     "//Java",
-    "//SpringBpot",
-    "//SpringBoot"
+    "//SpringBpot"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
