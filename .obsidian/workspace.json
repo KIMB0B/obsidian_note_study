@@ -136,14 +136,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "7e653ae269455f81",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-codecamp_backend",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 918.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +163,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2d8970a807ae8769",
+  "active": "7e653ae269455f81",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "STUDY.md",
