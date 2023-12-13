@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Express.md",
+                "file": "Java/Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,15 +66,14 @@
             }
           },
           {
-            "id": "7546059116c1a161",
+            "id": "2e378701179747bd",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Express.md",
+                "file": "Java/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Express.md",
+                "file": "Java/Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Express.md"
+                "file": "Java/Java.md"
               }
             }
           },
@@ -151,25 +150,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7546059116c1a161",
+  "active": "d8190c4dc0d1efdc",
   "lastOpenFiles": [
-    "Java/SpringBoot/SpringBoot.md",
     "STUDY.md",
     "Express.md",
+    "Java/SpringBoot/SpringBoot.md",
     "Database/Database.md",
     "Java/SpringBoot",
     "Database",
