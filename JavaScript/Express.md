@@ -6,3 +6,12 @@
 npm install express
 ```
 
+### 적용법
+##### 기초
+```
+import express from `express`
+
+const app = express()
+```
+
+##### [[Swagger]]
