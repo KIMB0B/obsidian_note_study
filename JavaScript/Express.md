@@ -11,7 +11,7 @@ npm install express
 yarn add express
 ```
 
-# 적용법
+# 초기설정
 ### 기초
 ```
 import express from `express`;
@@ -51,5 +51,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 ```
 import cors from 'cors';
 
-app.use(cors());
+app.use(cors());            //모든 Origin 허용
+app.use(cors({origin: ~})); //특정 Origin만 허용
 ```

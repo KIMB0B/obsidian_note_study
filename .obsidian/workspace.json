@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "JavaScript/Express.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
