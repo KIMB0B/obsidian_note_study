@@ -49,6 +49,7 @@
     "//JavaScript",
     "//JavaScript",
     "//JavaScript",
+    "//JavaScript",
     "//JavaScript"
   ],
   "expandFolderOnClick": true,
@@ -77,7 +78,8 @@
     "Spring Boot",
     "JavaScript",
     "JavaScript",
-    "SpringBpot"
+    "SpringBpot",
+    "JavaScript"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
