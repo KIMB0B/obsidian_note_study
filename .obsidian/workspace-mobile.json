@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "JavaScript/Express.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -142,8 +142,9 @@
   },
   "active": "be220043486f09c6",
   "lastOpenFiles": [
-    "Network/CORS.md",
     "Docs/Swagger.md",
+    "JavaScript/Express.md",
+    "Network/CORS.md",
     "/Network/CORS.md",
     "JavaScript/YARN.md",
     "JavaScript/NPM.md",
@@ -155,7 +156,6 @@
     "Docs",
     "/Network",
     "/Docs",
-    "JavaScript/Express.md",
     "conflict-files-obsidian-git.md",
     "SpringBoot/SpringBoot.md",
     "JavaScript/JavaScript.md",
