@@ -44,13 +44,7 @@
     "//Spring Boot",
     "//Spring Boot",
     "//Spring Boot",
-    "//JavaScript",
-    "//JavaScript",
-    "//JavaScript",
-    "//JavaScript",
-    "//JavaScript",
-    "//JavaScript",
-    "//JavaScript"
+    "//SpringBoot"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -71,8 +65,7 @@
   "dataviewInlineContext": false,
   "inlineContextNameLayout": "vertical",
   "waypoints": [
-    "/",
-    "SpringBoot"
+    "/"
   ],
   "rootSpaces": [
     "Spring Boot",
