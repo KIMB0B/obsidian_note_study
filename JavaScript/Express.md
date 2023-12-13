@@ -56,3 +56,9 @@ import cors from 'cors';
 app.use(cors());            //모든 Origin 허용
 app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
+
+# GET
+```
+...
+app.get
+```
