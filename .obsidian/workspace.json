@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript.md",
+                "file": "JavaScript/Express.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,17 +64,8 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "7546059116c1a161",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript.md",
+                "file": "JavaScript/Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript.md",
+                "file": "JavaScript/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript.md"
+                "file": "JavaScript/Express.md"
               }
             }
           },
@@ -161,17 +152,14 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7546059116c1a161",
+  "active": "2d8970a807ae8769",
   "lastOpenFiles": [
     "JavaScript/Express.md",
-    "JavaScript/JavaScript.md",
-    "SpringBoot/SpringBoot.md",
-    "JavaScript",
     "conflict-files-obsidian-git.md",
-    "무제 파일.canvas"
+    "무제 파일.canvas",
+    "JavaScript"
   ]
 }
