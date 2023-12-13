@@ -72,7 +72,8 @@ app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
 // localhost:3000/user?name=철수
 app.get("/user", (req, res) => {
-	const name = req.query.name
+	const name = req.query.name;
+	res.status(200);
 	res.send(users.filter( user => name));
 });
 ```
@@ -80,10 +81,12 @@ app.get("/user", (req, res) => {
 ```
 // localhost:3000
 // {
-	// 	name: "철수"
-}
-app.get("/user", (req, res) => {
-	const name = req.query.name
-	res.send(users.filter( user => name));
+// 	 name: "철수"
+// }
+app.post("/user", (req, res) => {
+	const newUser = req.body;
+	users.push(newUser);
+	res.status(200);
+	res.send(`${newUser.name} 사용자 추가 성공`);
 });
 ```
