@@ -20,7 +20,16 @@ import express from `express`;
 
 const app = express();
 ```
-### a
+### 미들웨어
+[공식문서 참조](https://expressjs.com/ko/api.html#express)
+```
+app.use(express.json());
+app.use(express.raw());
+app.use(express.Router());
+app.use(express.static());
+app.use(express.text());
+app.use(express.urlencoded());
+```
 ### [[Swagger]]
 swagger란 폴더를 만들고 그 안에 설정파일과 ~.swagger.js형식의 Swagger파일을 만듦
 
@@ -61,7 +70,6 @@ app.use(cors({origin: ~})); //특정 Origin만 허용
 # 메서드 구현
 ### GET
 ```
-
 // localhost:3000/user?name=철수
 app.get("/user", (req, res) => {
 	const name = req.query.name
@@ -69,3 +77,13 @@ app.get("/user", (req, res) => {
 });
 ```
 ### POST
+```
+// localhost:3000
+// {
+	// 	name: "철수"
+}
+app.get("/user", (req, res) => {
+	const name = req.query.name
+	res.send(users.filter( user => name));
+});
+```
