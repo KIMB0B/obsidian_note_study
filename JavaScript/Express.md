@@ -49,8 +49,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 
 ### [[CORS]]
 ```
+...
 import cors from 'cors';
 
+...
 app.use(cors());            //모든 Origin 허용
 app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
