@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3afbbbbb2aec0373",
+        "id": "17a3495083ef9aed",
         "type": "tabs",
         "children": [
           {
-            "id": "bf512c5daa9a4bfb",
+            "id": "be220043486f09c6",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "JavaScript"
+                "file": "Express.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Express.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Express.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +121,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Express.md"
+          }
         }
       },
       {
@@ -142,9 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf512c5daa9a4bfb",
+  "active": "41f9d7d0937c6cbd",
   "lastOpenFiles": [
-    "JavaScript/Express.md",
+    "SpringBpot/SpringBpot.md",
+    "Express.md",
+    "SpringBpot",
     "JavaScript/JavaScript.md",
     "STUDY.md",
     "Spring Boot/Spring Boot.md",

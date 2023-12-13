@@ -71,12 +71,13 @@
   "inlineContextNameLayout": "vertical",
   "waypoints": [
     "/",
-    null
+    "SpringBoot"
   ],
   "rootSpaces": [
     "Spring Boot",
     "JavaScript",
-    "JavaScript"
+    "JavaScript",
+    "SpringBpot"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
