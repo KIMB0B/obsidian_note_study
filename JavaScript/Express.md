@@ -14,9 +14,9 @@ yarn add express
 # 적용법
 ### 기초
 ```
-import express from `express`
+import express from `express`;
 
-const app = express()
+const app = express();
 ```
 
 ### [[Swagger]]
@@ -39,12 +39,17 @@ export const options = {
 - 메인코드에 적용
 ```
 ...
-import swaggerUi from 'swagger-ui-express' 
-import swaggerJSDoc from 'swagger-jsdoc'
-import { options } from './swagger/config.js'
+import swaggerUi from 'swagger-ui-express';
+import swaggerJSDoc from 'swagger-jsdoc';
+import { options } from './swagger/config.js';
 
 ...
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 ```
 
 ### [[CORS]]
+```
+import cors from 'cors';
+
+app.use(cors());
+```
