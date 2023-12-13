@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Express.md"
+                "file": "JavaScript/Apollo.md"
               }
             }
           },
@@ -166,7 +167,6 @@
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
@@ -174,10 +174,13 @@
   "active": "abf300c841c66421",
   "lastOpenFiles": [
     "JavaScript/Express.md",
-    "JavaScript/YARN.md",
-    "JavaScript/NPM.md",
+    "JavaScript/Apollo.md",
     "Docs/Swagger.md",
+    "Network/GraphQL.md",
     "Network/CORS.md",
+    "JavaScript/NPM.md",
+    "JavaScript/YARN.md",
+    "Network/Rest API.md",
     "Network",
     "Docs",
     "conflict-files-obsidian-git.md",

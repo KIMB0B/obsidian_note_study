@@ -1,5 +1,5 @@
 # 정의
-> JavaScript에서 Rest API 서버 개발을 하게 해주는 프레임워크 중 하나
+> JavaScript에서 [[Rest API]] 서버 개발을 하게 해주는 프레임워크 중 하나.
 
 # 설치
 ### [[NPM]]
@@ -49,8 +49,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 
 ### [[CORS]]
 ```
+...
 import cors from 'cors';
 
+...
 app.use(cors());            //모든 Origin 허용
 app.use(cors({origin: ~})); //특정 Origin만 허용
 ```
