@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Express.md",
+                "file": "JavaScript/Apollo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Express.md"
+                "file": "JavaScript/Apollo.md"
               }
             }
           },
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,18 +166,18 @@
   },
   "active": "0a4d5587b80cbc11",
   "lastOpenFiles": [
+    "JavaScript/Express.md",
+    "JavaScript/Apollo.md",
     "Network/Rest API.md",
     "Network/GraphQL.md",
     "Network/CORS.md",
     "Network",
     "JavaScript/YARN.md",
     "JavaScript/NPM.md",
-    "JavaScript/Apollo.md",
     "Java/SpringBoot",
     "Java",
     "Docs/Swagger.md",
     "Docs",
-    "JavaScript/Express.md",
     "conflict-files-obsidian-git.md",
     "무제 파일.canvas",
     "JavaScript"
