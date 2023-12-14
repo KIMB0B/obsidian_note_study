@@ -4,6 +4,7 @@
 docker rmi [OPTIONS] IMAGE_ID [IMAGE...]
 ```
 
+---
 # 옵션
 
 | Option       | Short | Description                        |

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker 명령어 모음.md",
+                "file": "JavaScript/YARN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#정의",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker 명령어 모음.md",
+                "file": "JavaScript/YARN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker 명령어 모음.md",
+                "file": "JavaScript/YARN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker 명령어 모음.md"
+                "file": "JavaScript/YARN.md"
               }
             }
           },
@@ -163,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -180,8 +181,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10d0dbf533031cc8",
+  "active": "78ea783620089452",
   "lastOpenFiles": [
+    "JavaScript/NPM.md",
     "Docker/Container.md",
     "Docker/Volume.md",
     "Docker/Image.md",
@@ -193,14 +195,13 @@
     "Docker/docker exec.md",
     "Docker/docker build.md",
     "Docker/Docker 명령어 모음.md",
+    "Docs/Swagger.md",
     "Network/CORS.md",
     "Network/GraphQL.md",
     "Network/Rest API.md",
     "JavaScript/YARN.md",
-    "JavaScript/NPM.md",
     "JavaScript/Express.md",
     "JavaScript/Apollo.md",
-    "Docs/Swagger.md",
     "Docker",
     "Network",
     "Docs",

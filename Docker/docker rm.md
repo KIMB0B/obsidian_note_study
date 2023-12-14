@@ -4,6 +4,7 @@
 docker rm [OPTIONS] CONTAINER_ID [CONTAINER...]
 ```
 
+---
 # 옵션
 
 |   Option    | Short | Description                                 |

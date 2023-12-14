@@ -4,6 +4,7 @@
 docker ps [OPTIONS]
 ```
 
+---
 # 옵션
 
 |   Option   | Short | Default | Description                                                                            |
@@ -17,6 +18,7 @@ docker ps [OPTIONS]
 |  --quiet   |  -q   |         | 컨테이너 ID만 표시                                                                     |
 |   --size   |  -s   |         | 전체 파일 크기 표시                                                                    |
 
+---
 # 결과예시
 
 | CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |

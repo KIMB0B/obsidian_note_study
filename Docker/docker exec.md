@@ -4,6 +4,7 @@
 docker exec [OPTIONS] CONTAINER_ID COMMAND [ARG...]
 ```
 
+---
 # 옵션
 
 |    Option     | Short | Description                                             |
@@ -18,6 +19,7 @@ docker exec [OPTIONS] CONTAINER_ID COMMAND [ARG...]
 |    --user     |  -u   | 사용자 이름 또는 UID (형식: <name\|uid>[:<group\|gid>]) |
 |   --workdir   |  -w   | API 1.35+ 컨테이너 내 작업 디렉토리                     |
 
+---
 # 사용 예시
 
 ```
