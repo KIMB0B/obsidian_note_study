@@ -204,6 +204,8 @@
   },
   "active": "53c70dc7c346786b",
   "lastOpenFiles": [
+    "JavaScript/NPM.md",
+    "JavaScript/YARN.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker.md",
     "Docker/docker run.md",
@@ -228,8 +230,6 @@
     "Network/CORS.md",
     "Docker",
     "Network/Rest API.md",
-    "JavaScript/YARN.md",
-    "JavaScript/NPM.md",
     "Network/GraphQL.md",
     "Network",
     "Java/SpringBoot",
