@@ -1,2 +1,7 @@
-# 정의
-> 지정된 도커의 [[Container]]를 삭제.
+# 사용법
+
+```
+docker rm [OPTIONS] CONTAINER_ID [CONTAINER...]
+```
+
+# 옵션
