@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiTerminal",
       "RiFilePdfLine",
       "TiApi",
       "SiDatabricks",
-      "LiComputer",
-      "LiContainer"
+      "LiComputer"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -45,5 +45,11 @@
   "Docker/Image.md": "LiComputer",
   "Docker/Volume.md": "SiDatabricks",
   "Network/Rest API.md": "TiApi",
-  "Docker/Dockerfile.md": "RiFilePdfLine"
+  "Docker/Dockerfile.md": "RiFilePdfLine",
+  "Docker/docker build.md": "LiTerminal",
+  "Docker/docker exec.md": "LiTerminal",
+  "Docker/docker ps.md": "LiTerminal",
+  "Docker/docker rm.md": "LiTerminal",
+  "Docker/docker rmi.md": "LiTerminal",
+  "Docker/docker run.md": "LiTerminal"
 }
