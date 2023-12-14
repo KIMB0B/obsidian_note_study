@@ -16,3 +16,11 @@ docker ps [OPTIONS]
 | --no-trunc |       |         | Don't truncate output                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | --quiet    | -q    |         | Only display container IDs                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --size     | -s    |         | Display total file sizes                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+# 결과예시
+
+| CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+| ------------ | ----- | ------- | ------- | ------ | ----- | ----- |
+|715ebfcee040|busybox|"top"|16 minutes ago|Up 16 minutes|            |i_am_nostalgic|
+|d5c976d3c462|busybox|"top"|23 minutes ago|Up 23 minutes|            |top|
+|9b6247364a03|busybox|"top"|24 minutes ago|Up 24 minutes|            |nostalgic_stallman|
