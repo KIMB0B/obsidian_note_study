@@ -7,7 +7,7 @@
 ```
 npm install @apollo/server
 ```
-### [[YARN]]
+### [[Yarn]]
 ```
 yarn add @apollo/server
 ```

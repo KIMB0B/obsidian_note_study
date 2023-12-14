@@ -6,7 +6,7 @@
 ```
 npm install express
 ```
-### [[YARN]]
+### [[Yarn]]
 ```
 yarn add express
 ```
