@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "JavaScript/Apollo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "JavaScript/Apollo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "JavaScript/Apollo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/MongoDB.md"
+                "file": "JavaScript/Apollo.md"
               }
             }
           },
@@ -161,17 +161,9 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "06b60e5eeea005b8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -188,10 +180,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8190c4dc0d1efdc",
+  "active": "5182aab78308879a",
   "lastOpenFiles": [
-    "일정",
+    "2023-12-14.md",
+    "일정/Untitled Kanban.md",
+    "JavaScript/Apollo.md",
+    "Drawing 2023-12-14 17.42.17.excalidraw.md",
     "Database/MongoDB.md",
+    "일정",
     "Docker/docker rmi.md",
     "Docker/docker rm.md",
     "Docker/docker run.md",
@@ -210,7 +206,6 @@
     "Docker/Dockerfile.md",
     "Docker/Image.md",
     "Docker/Volume.md",
-    "JavaScript/Apollo.md",
     "JavaScript/Express.md",
     "JavaScript/NPM.md",
     "JavaScript/Yarn.md",
@@ -223,11 +218,8 @@
     "Network",
     "Docs",
     "conflict-files-obsidian-git.md",
-    "STUDY.md",
-    "Express.md",
     "Java/SpringBoot",
     "Database",
-    "Java/SpringBoot",
     "무제 파일.canvas"
   ]
 }
