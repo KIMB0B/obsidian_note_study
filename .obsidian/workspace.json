@@ -163,11 +163,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 551.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +180,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5182aab78308879a",
+  "active": "4cf42e9fa6585c94",
   "lastOpenFiles": [
+    "JavaScript/Express.md",
+    "JavaScript/Apollo.md",
     "2023-12-14.md",
     "일정/Untitled Kanban.md",
-    "JavaScript/Apollo.md",
     "Drawing 2023-12-14 17.42.17.excalidraw.md",
     "Database/MongoDB.md",
     "일정",
@@ -206,7 +207,6 @@
     "Docker/Dockerfile.md",
     "Docker/Image.md",
     "Docker/Volume.md",
-    "JavaScript/Express.md",
     "JavaScript/NPM.md",
     "JavaScript/Yarn.md",
     "Network/CORS.md",

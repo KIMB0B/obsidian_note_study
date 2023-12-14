@@ -53,3 +53,6 @@ const server = new ApolloServer({
 }) 
 ...
 ```
+
+---
+# 메서드 구현
