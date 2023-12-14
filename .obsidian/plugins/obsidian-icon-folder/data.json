@@ -51,6 +51,5 @@
   "Docker/docker ps.md": "LiTerminal",
   "Docker/docker rm.md": "LiTerminal",
   "Docker/docker rmi.md": "LiTerminal",
-  "Docker/docker run.md": "LiTerminal",
-  "JavaScript/YARN.md": "SiYarn"
+  "Docker/docker run.md": "LiTerminal"
 }

@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/YARN.md",
+                "file": "JavaScript/Yarn.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/YARN.md",
+                "file": "JavaScript/Yarn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/YARN.md",
+                "file": "JavaScript/Yarn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/YARN.md"
+                "file": "JavaScript/Yarn.md"
               }
             }
           },
@@ -205,7 +205,7 @@
   "active": "53c70dc7c346786b",
   "lastOpenFiles": [
     "JavaScript/NPM.md",
-    "JavaScript/YARN.md",
+    "JavaScript/Yarn.md",
     "conflict-files-obsidian-git.md",
     "Docker/Docker.md",
     "Docker/docker run.md",
