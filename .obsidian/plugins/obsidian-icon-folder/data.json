@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiReadthedocs",
       "TiBrandDocker",
       "SiYarn",
       "LiTerminal",
-      "RiFilePdfLine",
-      "TiApi"
+      "RiFilePdfLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,12 +28,10 @@
   },
   "Database": "LiDatabase",
   "Docker": "SiDocker",
-  "Docs": "SiSwagger",
   "JavaScript": "SiJavascript",
   "Network": "TiNetwork",
   "Java/SpringBoot": "SiSpringboot",
   "Database/MongoDB.md": "SiMongodb",
-  "Docs/Swagger.md": "SiSwagger",
   "Network/GraphQL.md": "SiGraphql",
   "Network/CORS.md": "RiErrorWarningFill",
   "JavaScript/NPM.md": "SiNpm",
@@ -52,5 +50,7 @@
   "Docker/docker rm.md": "LiTerminal",
   "Docker/docker rmi.md": "LiTerminal",
   "Docker/docker run.md": "LiTerminal",
-  "Docker/Docker-compose.md": "TiBrandDocker"
+  "Docker/Docker-compose.md": "TiBrandDocker",
+  "API Docs": "SiReadthedocs",
+  "API Docs/Swagger.md": "SiSwagger"
 }

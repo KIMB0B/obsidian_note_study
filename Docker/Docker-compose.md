@@ -2,11 +2,13 @@
 
 > 여러 개의 [[Image]]를 실행시키는 [[Container]]를 만들기 위한 [[Docker]] 기능
 
+---
 # 사용법
 
 여러 [[Dockerfile]]을 한번에 정의하는 docker-compose.yaml을 만들면 사용 가능
 
-# 사용 예시
+---
+# docker-compose 작성 예시
 ```
 version: '3.7'
 
