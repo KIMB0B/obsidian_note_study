@@ -11,4 +11,9 @@
 
 ---
 # 구문
+![[MongoDB 구문 차이.png]]
 
+---
+# 설치
+
+[설치 매뉴얼 - Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
