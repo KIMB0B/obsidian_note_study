@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiBrandDocker",
       "SiYarn",
       "LiTerminal",
       "RiFilePdfLine",
-      "TiApi",
-      "SiDatabricks"
+      "TiApi"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -51,5 +51,6 @@
   "Docker/docker ps.md": "LiTerminal",
   "Docker/docker rm.md": "LiTerminal",
   "Docker/docker rmi.md": "LiTerminal",
-  "Docker/docker run.md": "LiTerminal"
+  "Docker/docker run.md": "LiTerminal",
+  "Docker/Docker-compose.md": "TiBrandDocker"
 }
