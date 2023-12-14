@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Container.md",
+                "file": "Database/MongoDB.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Container.md",
+                "file": "Database/MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Container.md",
+                "file": "Database/MongoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Container.md"
+                "file": "Database/MongoDB.md"
               }
             }
           },
@@ -182,9 +182,12 @@
   },
   "active": "10d0dbf533031cc8",
   "lastOpenFiles": [
+    "Database/resources/MongoDB 용어 차이.png",
+    "Database/MongoDB.md",
+    "Database/resources",
+    "Docker/Container.md",
     "Docker/docker build.md",
     "Docker/Docker.md",
-    "Docker/Container.md",
     "Database/NOSQL/MongoDB.md",
     "Database/NOSQL",
     "Database/SQL",
@@ -212,11 +215,8 @@
     "conflict-files-obsidian-git.md",
     "STUDY.md",
     "Express.md",
-    "Java/Java.md",
-    "Java/SpringBoot/SpringBoot.md",
     "Java/SpringBoot",
     "Database",
-    "Java/SpringBoot",
     "Java/SpringBoot",
     "무제 파일.canvas"
   ]
