@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74c1791c17df2fc1",
+        "id": "84f8c1e700d9d06f",
         "type": "tabs",
         "children": [
           {
-            "id": "d3c832543c9b2e1d",
+            "id": "4cf42e9fa6585c94",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -89,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Database/MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Database/MongoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Database/MongoDB.md"
+              }
             }
           },
           {
@@ -171,7 +175,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d3c832543c9b2e1d",
+  "active": "d8190c4dc0d1efdc",
   "lastOpenFiles": [
     "Database/MongoDB.md",
     "Docker/docker rmi.md",
