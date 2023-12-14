@@ -19,8 +19,44 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1638ac81e86dc6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52a9cd089700425d",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "53c70dc7c346786b",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Docs/Swagger.md",
+                "staged": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/docker run.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/docker run.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker/docker run.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,15 +195,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3e28187ca8abdc17",
+  "active": "53c70dc7c346786b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Docker/Docker.md",
+    "Docker/docker run.md",
+    "Docker/docker rmi.md",
+    "Database/resources/MongoDB 용어 차이.png",
+    "Database/resources/MongoDB 구문 차이.png",
+    "Database/resources",
+    "Database/MongoDB.md",
+    "Database",
     "Docker/docker rm.md",
     "Docker/docker ps.md",
     "Docker/docker build.md",
     "Docker/Container.md",
     "Docker/Image.md",
     "Docker/Dockerfile.md",
-    "Docker/docker run.md",
     "Docker/Volume.md",
     "Docker/docker exec.md",
     "JavaScript/Express.md",
@@ -188,7 +228,6 @@
     "Java/SpringBoot",
     "Java",
     "Docs",
-    "conflict-files-obsidian-git.md",
     "무제 파일.canvas",
     "JavaScript"
   ]

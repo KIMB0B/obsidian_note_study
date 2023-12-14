@@ -4,7 +4,7 @@
 ```
 npm install graphql
 ```
-##### [[YARN]]
+##### [[Yarn]]
 ```
 yarn add graphql
 ```

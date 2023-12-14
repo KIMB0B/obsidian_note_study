@@ -7,7 +7,7 @@
 ```
 npm install @apollo/server
 ```
-### [[YARN]]
+### [[Yarn]]
 ```
 yarn add @apollo/server
 ```
@@ -53,3 +53,6 @@ const server = new ApolloServer({
 }) 
 ...
 ```
+
+---
+# 메서드 구현

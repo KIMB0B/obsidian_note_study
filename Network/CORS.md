@@ -11,7 +11,7 @@
 ```
 npm install cors
 ```
-##### [[YARN]]
+##### [[Yarn]]
 ```
 yarn add cors
 ```
