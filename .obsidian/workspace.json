@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6287fc9d5e259e57",
+        "id": "1d9472a62419cf3d",
         "type": "tabs",
         "children": [
           {
-            "id": "235d7e9c03ac803a",
+            "id": "10d0dbf533031cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/명령어 모음.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2b230d8a24609f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/명령어 모음.md",
+                "file": "Docker/Image.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/명령어 모음.md",
+                "file": "Docker/Image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/명령어 모음.md",
+                "file": "Docker/Image.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/명령어 모음.md"
+                "file": "Docker/Image.md"
               }
             }
           },
@@ -186,16 +172,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2b230d8a24609f7",
+  "active": "10d0dbf533031cc8",
   "lastOpenFiles": [
+    "Docker/Docker 명령어 모음.md",
+    "Docker/Container.md",
     "Docker/docker rmi.md",
-    "Docker/명령어 모음.md",
     "Docker/docker rm.md",
     "Docker/docker ps.md",
     "Docker/docker exec.md",
     "Docker/docker build.md",
     "Docker/docker run.md",
-    "Docker/Container.md",
     "JavaScript/Apollo.md",
     "Docker/Volume.md",
     "Docker/Image.md",
