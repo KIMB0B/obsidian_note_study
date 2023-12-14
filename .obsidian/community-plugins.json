@@ -3,5 +3,7 @@
   "obsidian-excalidraw-plugin",
   "editing-toolbar",
   "obsidian-custom-frames",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-kanban",
+  "calendar"
 ]
