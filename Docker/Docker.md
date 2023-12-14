@@ -1,6 +1,8 @@
+[공식문서 참조](https://docs.docker.com/reference/)
 # 정의
 
 > 애플리케이션을 컨테이너화하여 개발, 배포 및 실행을 용이하게 하는 오픈 소스 플랫폼
+> [[Dockerfile]]을 통해 [[Image]]를 만들고 이를 바탕으로 [[Container]]를 생성/실행하며, 데이터의 영속성을 위해 [[Volume]]을 활용
 
 ---
 # 명령어

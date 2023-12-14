@@ -180,8 +180,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10d0dbf533031cc8",
+  "active": "d8190c4dc0d1efdc",
   "lastOpenFiles": [
+    "Database",
     "Docker/Dockerfile.md",
     "Docker/Image.md",
     "Docker/Container.md",
@@ -210,7 +211,6 @@
     "Express.md",
     "Java/Java.md",
     "Java/SpringBoot/SpringBoot.md",
-    "Database/Database.md",
     "Java/SpringBoot",
     "Database",
     "Java/SpringBoot",
