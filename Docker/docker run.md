@@ -90,5 +90,26 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 |      --privileged       |       |         | 이 컨테이너에 확장된 권한 부여                                                                                                                                                                                                                                        |
 |        --publish        |  -p   |         | 컨테이너의 포트(들)를 호스트에 공개                                                                                                                                                                                                                                   |
 |      --publish-all      |  -P   |         | 모든 노출된 포트를 무작위 포트로 공개                                                                                                                                                                                                                                 |
-|         --pull          |       | missing | 실행 전 이미지 가져오기 (항상, 없음, 절대 안 함)                                                                                                                                                                                                                      |
+|         --pull          |       | missing | 실행 전 이미지 가져오기 (always, missing, never)                                                                                                                                                                                                                      |
 |         --quiet         |  -q   |         | 가져오기 출력 억제                                                                                                                                                                                                                                                    |
+|--read-only|||컨테이너의 루트 파일 시스템을 읽기 전용으로 마운트|
+|--restart||no|컨테이너 종료 시 적용할 재시작 정책|
+|--rm|||컨테이너 종료 시 자동으로 컨테이너 제거|
+|--runtime|||이 컨테이너에 사용할 런타임|
+|--security-opt|||보안 옵션|
+|--shm-size|||/dev/shm의 크기|
+|--sig-proxy||TRUE|수신된 신호를 프로세스에 프록시|
+|--stop-signal|||컨테이너를 중지시키는 신호|
+|--stop-timeout|||API 1.25+ 컨테이너를 중지시키기 위한 시간 제한 (초 단위)|
+|--storage-opt|||컨테이너의 스토리지 드라이버 옵션|
+|--sysctl|||Sysctl 옵션|
+|--tmpfs|||tmpfs 디렉토리 마운트|
+|--tty|-t||가상 TTY 할당|
+|--ulimit|||Ulimit 옵션|
+|--user|-u||사용자 이름 또는 UID (형식: <name\|uid>[:<group\|gid>])|
+|--userns|||사용할 사용자 네임스페이스|
+|--uts|||사용할 UTS 네임스페이스|
+|--volume|-v||볼륨 바인드 마운트|
+|--volume-driver|||컨테이너에 대한 선택적 볼륨 드라이버|
+|--volumes-from|||지정된 컨테이너에서 볼륨 마운트|
+|--workdir|-w||컨테이너 내 작업 디렉토리|                        |       |         |                                                                                                                                                                                                                                                                       |
