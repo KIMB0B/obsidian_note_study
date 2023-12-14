@@ -4,23 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "b390312c8700b231",
+        "id": "95d6ebacebf9a8c5",
         "type": "tabs",
         "children": [
           {
-            "id": "066ee4d518f7c49f",
+            "id": "3e28187ca8abdc17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "Docker/docker run.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1638ac81e86dc6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52a9cd089700425d",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "53c70dc7c346786b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/YARN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -65,14 +103,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "2e378701179747bd",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
           }
         ]
       }
@@ -94,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "JavaScript/YARN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,9 +141,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/MongoDB.md",
+                "file": "JavaScript/YARN.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -134,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/MongoDB.md"
+                "file": "JavaScript/YARN.md"
               }
             }
           },
@@ -147,41 +177,19 @@
             }
           },
           {
-            "id": "7e653ae269455f81",
+            "id": "0a4d5587b80cbc11",
             "type": "leaf",
             "state": {
               "type": "custom-frames-codecamp_backend",
               "state": {}
             }
-          },
-          {
-            "id": "5182aab78308879a",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "a66519f59fc1ab2c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9e7bf85d29e39354",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 551.5
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,46 +202,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "066ee4d518f7c49f",
+  "active": "53c70dc7c346786b",
   "lastOpenFiles": [
-    "Database/MongoDB.md",
-    "JavaScript/Apollo.md",
-    "JavaScript/Express.md",
-    "2023-12-14.md",
-    "일정/Untitled Kanban.md",
-    "Drawing 2023-12-14 17.42.17.excalidraw.md",
-    "일정",
-    "Docker/docker rmi.md",
-    "Docker/docker rm.md",
-    "Docker/docker run.md",
-    "Docker/docker ps.md",
-    "Docker/docker exec.md",
-    "Database/resources/MongoDB 구문 차이.png",
-    "Database/resources/MongoDB 용어 차이.png",
-    "Database/resources",
-    "Docker/Container.md",
-    "Docker/docker build.md",
-    "Docker/Docker.md",
-    "Database/NOSQL/MongoDB.md",
-    "Database/NOSQL",
-    "Database/SQL",
-    "Database",
-    "Docker/Dockerfile.md",
-    "Docker/Image.md",
-    "Docker/Volume.md",
-    "JavaScript/NPM.md",
-    "JavaScript/Yarn.md",
-    "Network/CORS.md",
-    "Network/GraphQL.md",
-    "Network/Rest API.md",
-    "Docs/Swagger.md",
-    "[NPM.md",
-    "Docker",
-    "Network",
-    "Docs",
     "conflict-files-obsidian-git.md",
-    "Java/SpringBoot",
+    "Docker/Docker.md",
+    "Docker/docker run.md",
+    "Docker/docker rmi.md",
+    "Database/resources/MongoDB 용어 차이.png",
+    "Database/resources/MongoDB 구문 차이.png",
+    "Database/resources",
+    "Database/MongoDB.md",
     "Database",
-    "무제 파일.canvas"
+    "Docker/docker rm.md",
+    "Docker/docker ps.md",
+    "Docker/docker build.md",
+    "Docker/Container.md",
+    "Docker/Image.md",
+    "Docker/Dockerfile.md",
+    "Docker/Volume.md",
+    "Docker/docker exec.md",
+    "JavaScript/Express.md",
+    "JavaScript/Apollo.md",
+    "Docs/Swagger.md",
+    "무제 폴더 1",
+    "Network/CORS.md",
+    "Docker",
+    "Network/Rest API.md",
+    "JavaScript/YARN.md",
+    "JavaScript/NPM.md",
+    "Network/GraphQL.md",
+    "Network",
+    "Java/SpringBoot",
+    "Java",
+    "Docs",
+    "무제 파일.canvas",
+    "JavaScript"
   ]
 }
