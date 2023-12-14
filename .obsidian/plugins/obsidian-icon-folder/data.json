@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "RiErrorWarningFill",
+      "SiGraphql",
+      "SiMongodb",
+      "SiSpringboot",
+      "TiNetwork"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -19,5 +25,15 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true
-  }
+  },
+  "Database": "LiDatabase",
+  "Docker": "SiDocker",
+  "Docs": "SiSwagger",
+  "JavaScript": "SiJavascript",
+  "Network": "TiNetwork",
+  "Java/SpringBoot": "SiSpringboot",
+  "Database/MongoDB.md": "SiMongodb",
+  "Docs/Swagger.md": "SiSwagger",
+  "Network/GraphQL.md": "SiGraphql",
+  "Network/CORS.md": "RiErrorWarningFill"
 }
