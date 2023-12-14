@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c9a10941403c0f7",
+        "id": "74c1791c17df2fc1",
         "type": "tabs",
         "children": [
           {
-            "id": "85dc37a0b6b8a59a",
+            "id": "d3c832543c9b2e1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/MongoDB.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/MongoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Database/MongoDB.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,14 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "85dc37a0b6b8a59a",
+  "active": "d3c832543c9b2e1d",
   "lastOpenFiles": [
+    "Database/MongoDB.md",
     "Docker/docker rmi.md",
     "Docker/docker rm.md",
     "Docker/docker run.md",
     "Docker/docker ps.md",
     "Docker/docker exec.md",
-    "Database/MongoDB.md",
     "Database/resources/MongoDB 구문 차이.png",
     "Database/resources/MongoDB 용어 차이.png",
     "Database/resources",
