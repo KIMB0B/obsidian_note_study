@@ -1,9 +1,9 @@
-| 명령어               | 설명                                                   |
-| -------------------- | ------------------------------------------------------ |
-| **[[docker build]]** | [[Dockerfile]]의 내용에 따라 도커의 [[Image]]를 생성   |
-| **[[docker run]]**   | [[Image]]기반으로 하나의 독립적인 [[Container]]를 만듬 |
-| **[[docker ps]]**    | 실행하고있는 [[Container]]의 목록과 정보를 조회        |
-| **[[docker exec]]**  | 실행중인 [[Container]]에 명령을 실행                   |
-| **[[docker rm]]**    | [[Container]]를 삭제                                   |
-| **[[docker rmi]]**   | [[Image]]를 삭제                                       |
+|        명령어        |                          설명                          |
+|:--------------------:|:------------------------------------------------------:|
+| **[[docker build]]** |  [[Dockerfile]]의 내용에 따라 도커의 [[Image]]를 생성  |
+|  **[[docker run]]**  | [[Image]]기반으로 하나의 독립적인 [[Container]]를 만듬 |
+|  **[[docker ps]]**   |    실행하고있는 [[Container]]의 목록과 정보를 조회     |
+| **[[docker exec]]**  |          실행중인 [[Container]]에 명령을 실행          |
+|  **[[docker rm]]**   |                  [[Container]]를 삭제                  |
+|  **[[docker rmi]]**  |                    [[Image]]를 삭제                    |
 
