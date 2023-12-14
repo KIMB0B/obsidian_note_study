@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "84f8c1e700d9d06f",
+        "id": "b390312c8700b231",
         "type": "tabs",
         "children": [
           {
-            "id": "4cf42e9fa6585c94",
+            "id": "066ee4d518f7c49f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,6 +164,20 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "a66519f59fc1ab2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e7bf85d29e39354",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,14 +194,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4cf42e9fa6585c94",
+  "active": "066ee4d518f7c49f",
   "lastOpenFiles": [
+    "Database/MongoDB.md",
     "JavaScript/Apollo.md",
     "JavaScript/Express.md",
     "2023-12-14.md",
     "일정/Untitled Kanban.md",
     "Drawing 2023-12-14 17.42.17.excalidraw.md",
-    "Database/MongoDB.md",
     "일정",
     "Docker/docker rmi.md",
     "Docker/docker rm.md",

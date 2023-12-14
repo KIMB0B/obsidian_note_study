@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiErrorWarningFill",
-      "SiGraphql",
-      "SiMongodb",
-      "SiSpringboot",
-      "TiNetwork"
+      "RiFilePdfLine",
+      "TiApi",
+      "SiDatabricks",
+      "LiComputer",
+      "LiContainer"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,5 +35,15 @@
   "Database/MongoDB.md": "SiMongodb",
   "Docs/Swagger.md": "SiSwagger",
   "Network/GraphQL.md": "SiGraphql",
-  "Network/CORS.md": "RiErrorWarningFill"
+  "Network/CORS.md": "RiErrorWarningFill",
+  "JavaScript/NPM.md": "SiNpm",
+  "JavaScript/Yarn.md": "SiYarn",
+  "JavaScript/Express.md": "SiExpress",
+  "JavaScript/Apollo.md": "SiApollographql",
+  "Docker/Docker.md": "SiDocker",
+  "Docker/Container.md": "LiContainer",
+  "Docker/Image.md": "LiComputer",
+  "Docker/Volume.md": "SiDatabricks",
+  "Network/Rest API.md": "TiApi",
+  "Docker/Dockerfile.md": "RiFilePdfLine"
 }
