@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/CORS.md",
+                "file": "JavaScript/YARN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/CORS.md",
+                "file": "JavaScript/YARN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/CORS.md",
+                "file": "JavaScript/YARN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/CORS.md"
+                "file": "JavaScript/YARN.md"
               }
             }
           },
@@ -182,9 +182,11 @@
   },
   "active": "10d0dbf533031cc8",
   "lastOpenFiles": [
-    "JavaScript/YARN.md",
-    "JavaScript/Apollo.md",
     "JavaScript/NPM.md",
+    "JavaScript/YARN.md",
+    "Network/GraphQL.md",
+    "Network/CORS.md",
+    "JavaScript/Apollo.md",
     "[NPM.md",
     "JavaScript/Express.md",
     "Docker/docker build.md",
@@ -199,8 +201,6 @@
     "Docker/docker ps.md",
     "Docker/docker exec.md",
     "Docs/Swagger.md",
-    "Network/CORS.md",
-    "Network/GraphQL.md",
     "Network/Rest API.md",
     "Docker",
     "Network",
