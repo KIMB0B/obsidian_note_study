@@ -48,10 +48,12 @@
             "id": "53c70dc7c346786b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Docs/Swagger.md",
-                "staged": true
+                "file": "JavaScript/YARN.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -122,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/YARN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/YARN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/YARN.md"
+              }
             }
           },
           {
@@ -187,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "command-palette:명령어 팔레트 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
