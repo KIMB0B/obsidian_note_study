@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Apollo.md",
+                "file": "JavaScript/Mongoose.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/Mongoose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/Mongoose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/Mongoose.md"
+              }
             }
           },
           {
@@ -191,8 +195,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2d8970a807ae8769",
+  "active": "50141c3d590eda5c",
   "lastOpenFiles": [
+    "JavaScript/Mongoose.md",
     "JavaScript/Apollo.md",
     "Database/MongoDB.md",
     "API Docs/Swagger.md",
@@ -227,7 +232,6 @@
     "Docker/Dockerfile.md",
     "Docker/Image.md",
     "Docker/Volume.md",
-    "Network/CORS.md",
     "Docker",
     "Network",
     "Java/SpringBoot",
