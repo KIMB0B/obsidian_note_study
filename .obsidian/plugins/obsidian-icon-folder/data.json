@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiArrowsDiagonalMinimize",
       "SiMongoose",
       "SiReadthedocs",
       "TiBrandDocker",
-      "SiYarn",
-      "LiTerminal"
+      "SiYarn"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,5 +53,6 @@
   "Docker/Docker-compose.md": "TiBrandDocker",
   "API Docs": "SiReadthedocs",
   "API Docs/Swagger.md": "SiSwagger",
-  "JavaScript/Mongoose.md": "SiMongoose"
+  "JavaScript/Mongoose.md": "SiMongoose",
+  "Network/Name Resolution.md": "TiArrowsDiagonalMinimize"
 }
