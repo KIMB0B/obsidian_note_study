@@ -64,7 +64,7 @@
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
   "experimentalEnableFourthFont": true,
-  "experimantalFourthFont": "fonts/NanumDaHaengCe.ttf",
+  "experimantalFourthFont": "NanumDaHaengCe.ttf",
   "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
