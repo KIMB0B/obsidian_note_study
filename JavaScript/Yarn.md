@@ -6,8 +6,8 @@
 ---
 # 설치
 
-```
-(sudo) npm install -g yarn
+```bash
+sudo npm install -g yarn
 ```
 
 ---
