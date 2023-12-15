@@ -59,10 +59,21 @@ const schema = new Schema({
 
 ### 모델 생성
 ```javascript
-const model = mongoose.model("Model", schema)
+const Model = mongoose.model("Model", schema);
 ```
 
-### 주요 기능
-`model.~~~`
-- find() : 데이터 조회
-- 
+### 조회
+```javascript
+Model.find();
+```
+
+### 등록
+```javascript
+const model = new Model({ ... });
+model.save();
+```
+
+### 디버그
+```javascript
+mongoose.set("debug", true);
+```
