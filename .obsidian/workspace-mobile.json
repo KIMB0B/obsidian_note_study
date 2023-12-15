@@ -143,8 +143,16 @@
   },
   "active": "be220043486f09c6",
   "lastOpenFiles": [
-    "Docker/Docker.md",
+    "Docker/Docker-compose.md",
     "Docker/docker build.md",
+    "JavaScript/Yarn.md",
+    "API Docs/Swagger.md",
+    "/JavaScript/Yarn.md",
+    "/API Docs/Swagger.md",
+    "/Docker/Docker-compose.md",
+    "API Docs",
+    "/API Docs",
+    "Docker/Docker.md",
     "JavaScript/Express.md",
     "JavaScript/Apollo.md",
     "Network/GraphQL.md",
@@ -167,17 +175,9 @@
     "/Docs",
     "conflict-files-obsidian-git.md",
     "SpringBoot/SpringBoot.md",
-    "JavaScript/JavaScript.md",
-    "/SpringBoot/SpringBoot.md",
     "Java/SpringBoot",
     "/SpringBoot",
-    "/Express.md",
-    "Java/Java.md",
     "JavaScript",
-    "SpringBpot/SpringBpot.md",
-    "Java",
-    "SpringBpot",
-    "STUDY.md",
-    "Spring Boot"
+    "Java"
   ]
 }
