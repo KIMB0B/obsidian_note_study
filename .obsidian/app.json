@@ -3,5 +3,8 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./resources",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "fonts/"
+  ]
 }
