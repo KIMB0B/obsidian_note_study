@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiFilterCode",
       "TiArrowsDiagonalMinimize",
       "SiMongoose",
       "SiReadthedocs",
-      "TiBrandDocker",
-      "SiYarn"
+      "TiBrandDocker"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -54,5 +54,6 @@
   "API Docs": "SiReadthedocs",
   "API Docs/Swagger.md": "SiSwagger",
   "JavaScript/Mongoose.md": "SiMongoose",
-  "Network/Name Resolution.md": "TiArrowsDiagonalMinimize"
+  "Network/Name Resolution.md": "TiArrowsDiagonalMinimize",
+  "JavaScript/Cheerio.md": "TiFilterCode"
 }
