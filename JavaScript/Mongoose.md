@@ -1,6 +1,7 @@
 # 정의
 
 > [[MongoDB]]와 [[Express]] 웹 애플리케이션 프레임워크 간 연결을 생성하는 라이브러리
+> [[MongoDB]]의 쿼리문을 내가 작성한 코드를 보고 대신 실행해주는 역할
 
 ---
 # 설치
@@ -55,3 +56,13 @@ const schema = new Schema({
   }
 });
 ```
+
+### 모델 생성
+```javascript
+const model = mongoose.model("Model", schema)
+```
+
+### 주요 기능
+`model.~~~`
+- find() : 데이터 조회
+- 
