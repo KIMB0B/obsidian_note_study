@@ -135,14 +135,6 @@
             }
           },
           {
-            "id": "2d8970a807ae8769",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "7e653ae269455f81",
             "type": "leaf",
             "state": {
@@ -172,12 +164,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "2d8970a807ae8769",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 551.5
+    "width": 615.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,7 +191,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e7bf85d29e39354",
+  "active": "2d8970a807ae8769",
   "lastOpenFiles": [
     "JavaScript/Apollo.md",
     "Database/MongoDB.md",
