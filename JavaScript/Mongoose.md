@@ -1,4 +1,5 @@
 # 정의
+[공식문서 참조](https://mongoosejs.com/docs/index.html)
 
 > [[MongoDB]]와 [[Express]] 웹 애플리케이션 프레임워크 간 연결을 생성하는 라이브러리
 > [[MongoDB]]의 쿼리문을 내가 작성한 코드를 보고 대신 실행해주는 역할
@@ -23,8 +24,8 @@ yarn add mongoose
 import mongoose from "mongoose";
 
 mongoose.connect('mongodb://localhost:27017/schema')
-	.then(() => )//접속 성공한 경우
-	.catch(() => )//접속 실패한 경우
+	.then(() => ) //접속 성공한 경우
+	.catch(() => ) //접속 실패한 경우
 ```
 
 ### 스키마 생성
