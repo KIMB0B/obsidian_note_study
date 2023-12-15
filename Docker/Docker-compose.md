@@ -30,7 +30,7 @@ services:
 
   # 컴퓨터이름
   my-database:
-    image: mongo:5
+    image: mongo:latest
     ports:
       - 27017:27017
 ```
