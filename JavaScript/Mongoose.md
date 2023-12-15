@@ -23,6 +23,8 @@ yarn add mongoose
 import mongoose from "mongoose";
 
 mongoose.connect('mongodb://localhost:27017/schema')
+	.then(() => )//접속 성공한 경우
+	.catch(() => )//접속 실패한 경우
 ```
 
 ### 스키마 생성
