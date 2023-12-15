@@ -2,5 +2,6 @@
   "spellcheck": false,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./resources"
+  "attachmentFolderPath": "./resources",
+  "showUnsupportedFiles": true
 }
