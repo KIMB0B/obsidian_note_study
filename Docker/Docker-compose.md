@@ -1,7 +1,7 @@
 # 정의
 
 > 여러 개의 [[Image]]를 실행시키는 [[Container]]를 만들기 위한 [[Docker]] 기능
-> [[Name Resolution]]을 통해 
+> [[Name Resolution]]을 통해 각 [[Container]]끼리의 연결을 편하게 해줌
 
 ---
 # 사용법
