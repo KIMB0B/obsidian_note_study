@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxlJava",
       "SiAxios",
       "TiFilterCode",
       "TiArrowsDiagonalMinimize",
-      "SiMongoose",
-      "SiReadthedocs"
+      "SiMongoose"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,6 @@
   "JavaScript/Mongoose.md": "SiMongoose",
   "Network/Name Resolution.md": "TiArrowsDiagonalMinimize",
   "JavaScript/Cheerio.md": "TiFilterCode",
-  "JavaScript/Axios.md": "SiAxios"
+  "JavaScript/Axios.md": "SiAxios",
+  "Java": "BoBxlJava"
 }
