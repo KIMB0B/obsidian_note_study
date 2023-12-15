@@ -5,17 +5,17 @@
 
 # 설치
 ### [[NPM]]
-```
+```bash
 npm install @apollo/server
 ```
 ### [[Yarn]]
-```
+```bash
 yarn add @apollo/server
 ```
 
 # 초기설정
 ### 기초
-```
+```javascript
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 
@@ -45,7 +45,7 @@ startStandaloneServer(server) //기본적으로 4000번 포트
 ```
 
 ### [[CORS]]
-```
+```javascript
 ...
 const server = new ApolloServer({ 
 	typeDefs: typeDefs, 

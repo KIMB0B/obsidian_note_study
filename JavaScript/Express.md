@@ -4,25 +4,25 @@
 ---
 # 설치
 ### [[NPM]]
-```
+```bash
 npm install express
 ```
 ### [[Yarn]]
-```
+```bash
 yarn add express
 ```
 
 ---
 # 초기설정
 ### 기초
-```
+```javascript
 import express from `express`;
 
 const app = express();
 ```
 ### 미들웨어
 [공식문서 참조](https://expressjs.com/ko/api.html#express)
-```
+```javascript
 app.use(express.json());
 app.use(express.raw());
 app.use(express.Router());
@@ -34,7 +34,7 @@ app.use(express.urlencoded());
 swagger란 폴더를 만들고 그 안에 설정파일과 ~.swagger.js형식의 Swagger파일을 만듦
 
 - 설정파일
-```
+```javascript
 export const options = { 
 	definition: { 
 		openapi: '3.0.0', 
@@ -48,7 +48,7 @@ export const options = {
 ```
 
 - 메인코드에 적용
-```
+```javascript
 ...
 import swaggerUi from 'swagger-ui-express';
 import swaggerJSDoc from 'swagger-jsdoc';
@@ -58,7 +58,7 @@ import { options } from './swagger/config.js';
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc(options)));
 ```
 ### [[CORS]]
-```
+```javascript
 ...
 import cors from 'cors';
 
@@ -70,7 +70,7 @@ app.use(cors({origin: ~})); //특정 Origin만 허용
 ---
 # 메서드 구현
 ### GET
-```
+```javascript
 // localhost:3000/user?name=철수
 
 app.get("/user", (req, res) => {
@@ -80,7 +80,7 @@ app.get("/user", (req, res) => {
 });
 ```
 ### POST
-```
+```javascript
 // localhost:3000
 // {
 // 	 name: "철수"

@@ -8,10 +8,10 @@
 # 설치
 ### JavaScript
 ##### [[NPM]]
-```
+```bash
 npm install cors
 ```
 ##### [[Yarn]]
-```
+```bash
 yarn add cors
 ```

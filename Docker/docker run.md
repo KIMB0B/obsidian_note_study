@@ -1,6 +1,6 @@
 # 사용법
 
-```
+```bash
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 

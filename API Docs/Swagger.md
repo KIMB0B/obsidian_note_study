@@ -6,10 +6,10 @@
 # 설치
 ### JavaScript
 ##### [[NPM]]
-```
+```bash
 npm install swagger-ui-express swagger-jsdoc
 ```
 ##### [[Yarn]]
-```
+```bash
 yarn add swagger-ui-express swagger-jsdoc
 ```

@@ -10,7 +10,7 @@
 
 ---
 # docker-compose 작성 예시
-```
+```yaml
 version: '3.7'
 
 # 컴퓨터들

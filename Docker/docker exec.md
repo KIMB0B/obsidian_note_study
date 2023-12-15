@@ -1,6 +1,6 @@
 # 사용법
 
-```
+```bash
 docker exec [OPTIONS] CONTAINER_ID COMMAND [ARG...]
 ```
 
