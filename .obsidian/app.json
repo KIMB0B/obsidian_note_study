@@ -3,5 +3,5 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./resources",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false
 }
