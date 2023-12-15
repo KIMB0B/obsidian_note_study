@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Apollo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Apollo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JavaScript/Apollo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "a66519f59fc1ab2c",
@@ -194,8 +190,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "50141c3d590eda5c",
+  "active": "9e7bf85d29e39354",
   "lastOpenFiles": [
+    "JavaScript/Apollo.md",
     "Database/MongoDB.md",
     "API Docs/Swagger.md",
     "Docker/Docker-compose.md",
@@ -207,7 +204,6 @@
     "API Docs",
     "JavaScript/Express.md",
     "JavaScript/NPM.md",
-    "JavaScript/Apollo.md",
     "2023-12-14.md",
     "일정/Untitled Kanban.md",
     "Drawing 2023-12-14 17.42.17.excalidraw.md",
