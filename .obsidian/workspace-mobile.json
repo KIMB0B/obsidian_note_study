@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "bcd38b78ae6f0f1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "17a3495083ef9aed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be220043486f09c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "816be00725ae3d75",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cace3e8d2a03bcc6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e50ed8ca12a25d99",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "debbfd7b37e5c58e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "6af8952dbea0b841",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3446f8e2214a7fa8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0ff1fd619f84c22b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Docker/Docker.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "379eeb9a63ef5151",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Docker/Docker.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8750311e87a33b1c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Docker/Docker.md"
+          }
+        }
+      },
+      {
+        "id": "b4740fa0d6246b5d",
+        "type": "leaf",
+        "state": {
+          "type": "custom-frames-codecamp_backend",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "be220043486f09c6",
+  "lastOpenFiles": [
+    "Docker/docker build.md",
+    "Docker/Docker-compose.md",
+    "JavaScript/Yarn.md",
+    "API Docs/Swagger.md",
+    "/JavaScript/Yarn.md",
+    "/API Docs/Swagger.md",
+    "/Docker/Docker-compose.md",
+    "API Docs",
+    "/API Docs",
+    "Docker/Docker.md",
+    "JavaScript/Express.md",
+    "JavaScript/Apollo.md",
+    "Network/GraphQL.md",
+    "/JavaScript/Express.md",
+    "/JavaScript/Apollo.md",
+    "/Network/GraphQL.md",
+    "Network/Rest API.md",
+    "/Network/Rest API.md",
+    "Docs/Swagger.md",
+    "Network/CORS.md",
+    "/Network/CORS.md",
+    "JavaScript/YARN.md",
+    "JavaScript/NPM.md",
+    "/Docs/Swagger.md",
+    "/JavaScript/YARN.md",
+    "/JavaScript/NPM.md",
+    "Network",
+    "Docs",
+    "/Network",
+    "/Docs",
+    "conflict-files-obsidian-git.md",
+    "SpringBoot/SpringBoot.md",
+    "Java/SpringBoot",
+    "/SpringBoot",
+    "JavaScript",
+    "Java"
+  ]
+}

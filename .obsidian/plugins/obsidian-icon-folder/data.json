@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiMongoose",
       "SiReadthedocs",
       "TiBrandDocker",
       "SiYarn",
-      "LiTerminal"
+      "LiTerminal",
+      "RiFilePdfLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,6 +52,5 @@
   "Docker/docker run.md": "LiTerminal",
   "Docker/Docker-compose.md": "TiBrandDocker",
   "API Docs": "SiReadthedocs",
-  "API Docs/Swagger.md": "SiSwagger",
-  "JavaScript/Mongoose.md": "SiMongoose"
+  "API Docs/Swagger.md": "SiSwagger"
 }
