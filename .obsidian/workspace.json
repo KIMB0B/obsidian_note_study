@@ -19,8 +19,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61d1f53bef424d78",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/icons/simple-icons/Readthedocs.svg",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "400a68a2e9d602b1",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/icons/tabler-icons/BrandDocker.svg",
+                "staged": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Rest API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Rest API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Rest API.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -163,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "a66519f59fc1ab2c",
@@ -194,8 +215,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "066ee4d518f7c49f",
+  "active": "2d8970a807ae8769",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "JavaScript/Yarn.md",
+    "Docker/Docker-compose.md",
+    "API Docs/Swagger.md",
+    "Docs/Swagger.md",
+    "Docs",
+    "Network/Rest API.md",
+    "API Docs",
     "JavaScript/Express.md",
     "JavaScript/NPM.md",
     "Database/MongoDB.md",
@@ -222,18 +251,10 @@
     "Docker/Dockerfile.md",
     "Docker/Image.md",
     "Docker/Volume.md",
-    "JavaScript/Yarn.md",
     "Network/CORS.md",
-    "Network/GraphQL.md",
-    "Network/Rest API.md",
-    "Docs/Swagger.md",
-    "[NPM.md",
     "Docker",
     "Network",
-    "Docs",
-    "conflict-files-obsidian-git.md",
     "Java/SpringBoot",
-    "Database",
     "무제 파일.canvas"
   ]
 }
