@@ -4,59 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b390312c8700b231",
+        "id": "34078936661f0269",
         "type": "tabs",
         "children": [
           {
-            "id": "066ee4d518f7c49f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network/Rest API.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61d1f53bef424d78",
+            "id": "50141c3d590eda5c",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/icons/simple-icons/Readthedocs.svg",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "400a68a2e9d602b1",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/icons/tabler-icons/BrandDocker.svg",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "713fbc81e1bb2aa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,15 +188,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e7bf85d29e39354",
+  "active": "50141c3d590eda5c",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Network/Rest API.md",
     "JavaScript/Yarn.md",
     "Docker/Docker-compose.md",
     "API Docs/Swagger.md",
     "Docs/Swagger.md",
     "Docs",
-    "Network/Rest API.md",
     "API Docs",
     "JavaScript/Express.md",
     "JavaScript/NPM.md",
