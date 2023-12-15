@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6e0472e00b5bffb7",
+        "id": "c0b9c84daf100153",
         "type": "tabs",
         "children": [
           {
-            "id": "3efba7ccabb3757f",
+            "id": "56eb2d84c9b4576b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker-compose.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker/Docker-compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Docker-compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,6 +125,31 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Docker/Docker-compose.md"
+              }
+            }
+          },
+          {
+            "id": "2bc5aa118e3cc6b9",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-codecamp_backend",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "3537c1a1a2eeaca7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3efba7ccabb3757f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
@@ -125,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 574.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,6 +170,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3efba7ccabb3757f",
-  "lastOpenFiles": []
+  "active": "2bc5aa118e3cc6b9",
+  "lastOpenFiles": [
+    "JavaScript/Mongoose.md"
+  ]
 }
