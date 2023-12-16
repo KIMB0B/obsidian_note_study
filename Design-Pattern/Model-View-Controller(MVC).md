@@ -17,3 +17,9 @@
 1. controller를 조작
 2. controller는 model을 통해서 데이터를 가져옴
 3. 그 정보를 바탕으로 시각적인 표현을 담당하는 View를 제어해서 사용자에게 전달
+
+---
+# 예시
+
+[[MVC 예시]]
+![[Pasted image 20231217024045.png]]

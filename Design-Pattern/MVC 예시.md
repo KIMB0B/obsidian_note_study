@@ -483,8 +483,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 160,
-			"versionNonce": 904087152,
+			"version": 161,
+			"versionNonce": 1056418277,
 			"isDeleted": false,
 			"id": "f53H6Um9",
 			"fillStyle": "solid",
@@ -504,7 +504,7 @@ export class ProductService {
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702745771365,
+			"updated": 1702748508268,
 			"link": null,
 			"locked": false,
 			"fontSize": 63.26679569912535,
@@ -520,8 +520,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 130,
-			"versionNonce": 316714640,
+			"version": 131,
+			"versionNonce": 219943659,
 			"isDeleted": false,
 			"id": "IOkHk4u7",
 			"fillStyle": "solid",
@@ -530,8 +530,8 @@ export class ProductService {
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 6.280469063411055,
-			"x": -607.538848876953,
-			"y": -452.4241828918461,
+			"x": -607.538786928965,
+			"y": -452.37856993869764,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 229.585205078125,
@@ -541,7 +541,7 @@ export class ProductService {
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702745819524,
+			"updated": 1702748508269,
 			"link": null,
 			"locked": false,
 			"fontSize": 56.83333333333339,
@@ -557,8 +557,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 152,
-			"versionNonce": 2134405264,
+			"version": 153,
+			"versionNonce": 1888691525,
 			"isDeleted": false,
 			"id": "aDfMA0Os",
 			"fillStyle": "solid",
@@ -583,7 +583,7 @@ export class ProductService {
 					"type": "arrow"
 				}
 			],
-			"updated": 1702746940930,
+			"updated": 1702748508271,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -599,8 +599,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 97,
-			"versionNonce": 1847692432,
+			"version": 98,
+			"versionNonce": 1905294731,
 			"isDeleted": false,
 			"id": "j9Kaf0N6",
 			"fillStyle": "solid",
@@ -625,7 +625,7 @@ export class ProductService {
 					"type": "arrow"
 				}
 			],
-			"updated": 1702746940930,
+			"updated": 1702748508272,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -693,8 +693,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 77,
-			"versionNonce": 2032465520,
+			"version": 78,
+			"versionNonce": 199767205,
 			"isDeleted": false,
 			"id": "6jI508y5",
 			"fillStyle": "solid",
@@ -714,7 +714,7 @@ export class ProductService {
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702746515974,
+			"updated": 1702748508273,
 			"link": null,
 			"locked": false,
 			"fontSize": 64.60286537025844,
@@ -1470,8 +1470,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 114,
-			"versionNonce": 22226064,
+			"version": 115,
+			"versionNonce": 761173035,
 			"isDeleted": false,
 			"id": "4k46bYqp",
 			"fillStyle": "solid",
@@ -1491,7 +1491,7 @@ export class ProductService {
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702747741961,
+			"updated": 1702748508277,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1507,8 +1507,8 @@ export class ProductService {
 		},
 		{
 			"type": "text",
-			"version": 148,
-			"versionNonce": 438997648,
+			"version": 149,
+			"versionNonce": 1285838853,
 			"isDeleted": false,
 			"id": "ULe3jz6L",
 			"fillStyle": "solid",
@@ -1528,7 +1528,7 @@ export class ProductService {
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702747799778,
+			"updated": 1702748508278,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -1765,40 +1765,6 @@ export class ProductService {
 					134.375
 				]
 			]
-		},
-		{
-			"id": "MULjE0HT4yULCQ1W41JaP",
-			"type": "embeddable",
-			"x": 464.82113265991165,
-			"y": -546.2305716921195,
-			"width": 323.95843505859375,
-			"height": 90.625,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "transparent",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "solid",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"seed": 1617788048,
-			"version": 72,
-			"versionNonce": 944319632,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1702748277197,
-			"link": null,
-			"locked": false,
-			"validated": false,
-			"scale": [
-				1,
-				1
-			]
 		}
 	],
 	"appState": {
@@ -1816,10 +1782,10 @@ export class ProductService {
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 970.6117591857915,
-		"scrollY": 812.2787360597953,
+		"scrollX": 1077.9585609436035,
+		"scrollY": 903.0083514075212,
 		"zoom": {
-			"value": 0.4
+			"value": 0.35000000000000003
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
