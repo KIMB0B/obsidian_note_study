@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbTriangleWithBlocks",
+      "SiMaterialdesign",
       "BoBxlJava",
       "SiAxios",
-      "TiFilterCode",
-      "TiArrowsDiagonalMinimize",
-      "SiMongoose"
+      "TiFilterCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,7 @@
   "Network/Name Resolution.md": "TiArrowsDiagonalMinimize",
   "JavaScript/Cheerio.md": "TiFilterCode",
   "JavaScript/Axios.md": "SiAxios",
-  "Java": "BoBxlJava"
+  "Java": "BoBxlJava",
+  "Design-Pattern": "SiMaterialdesign",
+  "Design-Pattern/Model-View-Controller.md": "IbTriangleWithBlocks"
 }
