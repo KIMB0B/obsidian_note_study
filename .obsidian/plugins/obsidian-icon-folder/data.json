@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxInjection",
       "LiPenTool",
       "IbTriangleWithBlocks",
       "SiMaterialdesign",
-      "BoBxlJava",
-      "SiAxios"
+      "BoBxlJava"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,5 +60,6 @@
   "Java": "BoBxlJava",
   "Design-Pattern": "SiMaterialdesign",
   "Design-Pattern/Model-View-Controller(MVC).md": "IbTriangleWithBlocks",
-  "Design-Pattern/MVC 예시.md": "LiPenTool"
+  "Design-Pattern/MVC 예시.md": "LiPenTool",
+  "Design-Pattern/Dependency Injection(의존성 주입).md": "BoBxInjection"
 }
