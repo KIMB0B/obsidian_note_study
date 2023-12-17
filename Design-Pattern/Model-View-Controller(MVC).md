@@ -21,5 +21,5 @@
 ---
 # 예시
 
-[[MVC 예시]]
+[[MVC 예시]](JavaScript)
 ![[Pasted image 20231217024045.png]]
