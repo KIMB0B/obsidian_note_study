@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiTypescript",
       "TiArrowCurveRight",
       "RaMuscleUp",
       "BoBxInjection",
-      "LiPenTool",
-      "IbTriangleWithBlocks"
+      "LiPenTool"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,8 +60,9 @@
   "Java": "BoBxlJava",
   "Design-Pattern": "SiMaterialdesign",
   "Design-Pattern/Model-View-Controller(MVC).md": "IbTriangleWithBlocks",
-  "Design-Pattern/MVC 예시.md": "LiPenTool",
   "Design-Pattern/의존성 주입(DI).md": "BoBxInjection",
-  "Design-Pattern/강한 결합(Tight Coupling).md": "RaMuscleUp",
-  "Design-Pattern/느슨한 결합(Loose Coupling).md": "TiArrowCurveRight"
+  "Design-Pattern/강한 결합_JavaScript.md": "RaMuscleUp",
+  "Design-Pattern/느슨한 결합_JavaScript.md": "TiArrowCurveRight",
+  "Design-Pattern/MVC_JavaScript.md": "LiPenTool",
+  "TypeScript": "SiTypescript"
 }

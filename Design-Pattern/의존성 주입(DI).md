@@ -14,7 +14,7 @@
 
 ### 형태
 
-[[강한 결합(Tight Coupling)]](JavaScript)
+[[강한 결합_JavaScript]]
 ![[강한 결합 예시.png]]
 
 ---
@@ -27,5 +27,5 @@
 - 테스트 대역으로 치환하기가 쉬워 유닛 테스트가 용이함
 
 ### 형태
-[[느슨한 결합(Loose Coupling)]](JavaScript)
+[[느슨한 결합_JavaScript]]
 ![[느슨한 결합.png]]
