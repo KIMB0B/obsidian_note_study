@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaMuscleUp",
       "BoBxInjection",
       "LiPenTool",
       "IbTriangleWithBlocks",
-      "SiMaterialdesign",
-      "BoBxlJava"
+      "SiMaterialdesign"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -61,5 +61,6 @@
   "Design-Pattern": "SiMaterialdesign",
   "Design-Pattern/Model-View-Controller(MVC).md": "IbTriangleWithBlocks",
   "Design-Pattern/MVC 예시.md": "LiPenTool",
-  "Design-Pattern/Dependency Injection(의존성 주입).md": "BoBxInjection"
+  "Design-Pattern/Dependency Injection(의존성 주입).md": "BoBxInjection",
+  "Design-Pattern/강한 의존성 예시.md": "RaMuscleUp"
 }
