@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiListIndefinite",
+      "RiArtboardLine",
+      "LiAtSign",
       "SiTypescript",
-      "TiArrowCurveRight",
-      "RaMuscleUp",
-      "BoBxInjection",
-      "LiPenTool"
+      "TiArrowCurveRight"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -64,5 +64,9 @@
   "Design-Pattern/강한 결합_JavaScript.md": "RaMuscleUp",
   "Design-Pattern/느슨한 결합_JavaScript.md": "TiArrowCurveRight",
   "Design-Pattern/MVC_JavaScript.md": "LiPenTool",
-  "TypeScript": "SiTypescript"
+  "TypeScript": "SiTypescript",
+  "JavaScript/TypeScript.md": "SiTypescript",
+  "JavaScript/Decorator(TypeScript).md": "LiAtSign",
+  "JavaScript/Interface(TypeScript).md": "RiArtboardLine",
+  "JavaScript/Type Definition(TypeScript).md": "RiListIndefinite"
 }
