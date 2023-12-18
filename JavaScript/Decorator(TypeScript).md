@@ -32,8 +32,9 @@ class ProductController {
 
 // 실행결과: [class ProductController]
 ```
-Decorator는 사실은 함수이며, 해당 Decorator의 인자값은 바로 아래 있는 class인 ProductController
+Decorator는 사실은 함수이며, 해당 Decorator의 인자값은 바로 아래 있는 class인 ProductController가 된 것을 알 수 있음
 
+---
 # VSCODE Experimental Decorators 옵션 설정
 tsconfig.json 파일에 추가 설정을 하였지만, error가 발생한다면? 
 
