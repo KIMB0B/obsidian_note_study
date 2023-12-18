@@ -45,6 +45,7 @@ ts-node를 전역설치를 한 게 아니기 때문에 package.json의 scripts�
 }
 ```
 
+---
 # tsconfig.json 설정
 
 ### tsconfig.json 생성
