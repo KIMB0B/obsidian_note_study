@@ -8,6 +8,7 @@
 
 [[Docker-compose#docker-compose 작성 예시]]를 참고
 ```
+//
 mongodb://my-database:27017/mydocker
 ```
 위 경로가 localhost가 아닌 [[Container]]의 이름 my-database로 지정되는 것으로 사용
