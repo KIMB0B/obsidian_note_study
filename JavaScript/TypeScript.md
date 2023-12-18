@@ -22,23 +22,50 @@ yarn add typescript --dev
 yarn add ts-node # .ts 파일을 실행시키기 위한 패키지
 ```
 
+---
 # package.json 설정
 
 ts-node를 전역설치를 한 게 아니기 때문에 package.json의 scripts에 실행 명령어를 지정해줌
 ```json
+// 예시
 { 
-	"name": "07-02-typescript-decorator", 
+	"name": "project", 
 	"version": "1.0.0", 
 	"main": "index.js", 
 	"license": "MIT", 
-"scripts": { 
-"start:dev": "ts-node index.ts" 
-}, 
-"devDependencies": { 
-"typescript": "^4.8.4" 
-}, 
-"dependencies": { 
-"ts-node": "^10.9.1" 
-} 
+	"scripts": { 
+		"start:dev": "ts-node index.ts" 
+	}, 
+	"devDependencies": { 
+		"typescript": "^4.8.4" 
+	}, 
+	"dependencies": { 
+		"ts-node": "^10.9.1" 
+	} 
 }
 ```
+
+# tsconfig.json 설정
+
+### tsconfig.json 생성
+```bash
+yarn tsc --init
+```
+
+### 생성된 예시
+```json
+{ 
+	"compilerOptions": { 
+		"target": "es2016", 
+		"module": "commonjs", 
+		"esModuleInterop": true, 
+		"forceConsistentCasingInFileNames": true, 
+		"strict": true, 
+		"skipLibCheck": true, 
+		"experimentalDecorators": true, 
+		"noImplicitAny": false 
+	} 
+}
+```
+
+![[Type Definition(TypeScript)]]
