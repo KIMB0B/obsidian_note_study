@@ -14,8 +14,10 @@
 ### [[NPM]]
 ```bash
 npm install typescript --dev
+npm install ts-node # .ts 파일을 실행시키기 위한 패키지
 ```
 ### [[Yarn]]
 ```bash
 yarn add typescript --dev
+yarn add ts-node # .ts 파일을 실행시키기 위한 패키지
 ```
