@@ -10,3 +10,12 @@
 - 코드 가이드 및 자동 완성으로 개발 생산성 향상
 
 ---
+# 설치
+### [[NPM]]
+```bash
+npm install typescript --dev
+```
+### [[Yarn]]
+```bash
+yarn add typescript --dev
+```
