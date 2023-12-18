@@ -1,5 +1,14 @@
+# 정의
 
-# VSCODE 
+> 
+
+---
+# tsconfig.json
+
+
+
+---
+# VSCODE Experimental Decorators 옵션 설정
 tsconfig.json 파일에 추가 설정을 하였지만, error가 발생한다면? 
 
 - error 내용 : Experimental support for decorators is a feature that is subject to change in a future release. 
