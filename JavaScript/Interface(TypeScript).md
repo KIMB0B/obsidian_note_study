@@ -32,10 +32,13 @@ let profile: IProfile = {
 	age: 8, 
 	school: "다람쥐초등학교" 
 }
+
+profile.hobby = "수영" // 미리 지정된 속성이기 때문에 데이터 추가 가능!
+profile.height = 180 // 🚨 기존 profile 객체에는 height가 없기에 데이터 추가 불가능!
 ```
 
 ---
 # 특징
 
-1. 기본적으로 interface안에 지정한 속성들은 객체 선언 시 무조건 선언되어야 하고, 무조건을 원치 않다면 interface의 속성명 뒤에 ?를 붙힘(예시의 hobby속성 참고)
-2. 
+1. 기본적으로 interface안에 지정한 **속성**들은 객체 선언 시 **무조건 선언**되어야 하고, 무조건을 원치 않다면 interface의 속성명 뒤에 <u>물음표(?)</u>를 붙힘(예시의 hobby속성 참고)
+2. interface를 생성할 때 넣지 않은 속성을 나중에 코드 내에서 추가할 순 없음(예시의 height속성 참고)
