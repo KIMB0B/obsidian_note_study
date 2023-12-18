@@ -19,6 +19,21 @@ compilerOptions에 `"experimentalDecorators": true`를 추가해줘야 사용 �
 ```
 
 ---
+# 사용 예시
+```typescript
+function Controller(aaaaaaaaa: any){
+    console.log(aaaaaaaaa)
+}
+
+@Controller
+class ProductController {
+
+}
+
+// 실행결과: [class ProductController]
+```
+Decorator는 사실은 함수이며, 해당 Decorator의 인자값은 바로 아래 있는 class인 ProductController
+
 # VSCODE Experimental Decorators 옵션 설정
 tsconfig.json 파일에 추가 설정을 하였지만, error가 발생한다면? 
 
