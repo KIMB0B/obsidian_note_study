@@ -62,10 +62,6 @@ yarn tsc --init
 		"forceConsistentCasingInFileNames": true, 
 		"strict": true, 
 		"skipLibCheck": true, 
-		"experimentalDecorators": true, 
-		"noImplicitAny": false 
 	} 
 }
 ```
-
-![[Type Definition(TypeScript)]]
