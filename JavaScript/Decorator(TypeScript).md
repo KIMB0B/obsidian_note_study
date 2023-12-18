@@ -1,12 +1,23 @@
 # 정의
 
+> [[TypeScript]]에서 실험적으로 제공하는 기능
 > 구조를 수정하지 않고 기존 객체에 새로운 기능을 추가할 수 있도록 하는 디자인 패턴
 > 
 
 ---
 # tsconfig.json
 
+compilerOptions에 `"experimentalDecorators": true`를 추가해줘야 사용 가능함
+```json
+// tsconfig.js
 
+{
+	"compilerOptions": {
+		// 기존 설정들...
+		"experimentalDecorators": true
+	}
+}
+```
 
 ---
 # VSCODE Experimental Decorators 옵션 설정
