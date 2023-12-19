@@ -2,7 +2,7 @@
   "spellcheck": false,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./resources",
+  "attachmentFolderPath": "./_resources",
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
     "fonts/"
