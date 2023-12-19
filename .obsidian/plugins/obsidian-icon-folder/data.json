@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiHandStop",
       "RiListIndefinite",
       "RiArtboardLine",
       "LiAtSign",
-      "SiTypescript",
-      "TiArrowCurveRight"
+      "SiTypescript"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,6 @@
   "JavaScript/TypeScript/Decorator.md": "LiAtSign",
   "JavaScript/TypeScript/Interface.md": "RiArtboardLine",
   "JavaScript/TypeScript/Type Definition.md": "RiListIndefinite",
-  "JavaScript/TypeScript": "SiTypescript"
+  "JavaScript/TypeScript": "SiTypescript",
+  "JavaScript/TypeScript/접근 제한자.md": "TiHandStop"
 }
