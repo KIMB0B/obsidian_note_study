@@ -31,4 +31,4 @@ function add2(num1: number, num1: number, unit: string): string {
 }
 ```
 
-Object의 타입 지정은 [[Interface(TypeScript)|Interface]]를 통해 타입을 정의한 후 지정할 수 있음
+Object의 타입 지정은 [[Interface|Interface]]를 통해 타입을 정의한 후 지정할 수 있음

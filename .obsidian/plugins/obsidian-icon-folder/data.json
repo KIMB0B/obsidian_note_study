@@ -65,8 +65,9 @@
   "Design-Pattern/느슨한 결합_JavaScript.md": "TiArrowCurveRight",
   "Design-Pattern/MVC_JavaScript.md": "LiPenTool",
   "TypeScript": "SiTypescript",
-  "JavaScript/TypeScript.md": "SiTypescript",
-  "JavaScript/Decorator(TypeScript).md": "LiAtSign",
-  "JavaScript/Interface(TypeScript).md": "RiArtboardLine",
-  "JavaScript/Type Definition(TypeScript).md": "RiListIndefinite"
+  "JavaScript/TypeScript/TypeScript.md": "SiTypescript",
+  "JavaScript/TypeScript/Decorator.md": "LiAtSign",
+  "JavaScript/TypeScript/Interface.md": "RiArtboardLine",
+  "JavaScript/TypeScript/Type Definition.md": "RiListIndefinite",
+  "JavaScript/TypeScript": "SiTypescript"
 }

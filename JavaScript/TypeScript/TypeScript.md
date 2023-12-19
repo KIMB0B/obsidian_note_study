@@ -6,7 +6,7 @@
 ---
 # 특징
 
-- [[Type Definition(TypeScript)|타입지정]]을 통한 에러 사전 방지
+- [[Type Definition|타입지정]]을 통한 에러 사전 방지
 - 코드 가이드 및 자동 완성으로 개발 생산성 향상
 
 ---
