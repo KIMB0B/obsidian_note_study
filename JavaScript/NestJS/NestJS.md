@@ -18,6 +18,6 @@ npx @nestjs/cli new 프로젝트이름
 ---
 # 폴더구조
 
-[[NestJS 기본 폴더구조]]
+[[기본 폴더구조]]
 ![[NestJS 구조 설명.png]]
 
