@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiList",
       "LiListChecks",
       "LiTableProperties",
       "SiNestjs",
-      "TiHandStop",
-      "RiListIndefinite"
+      "TiHandStop"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -74,5 +74,6 @@
   "JavaScript/NestJS": "SiNestjs",
   "SW Project": "LiTableProperties",
   "SW Project/Function Point.md": "LiListChecks",
-  "JavaScript/NestJS/NestJS.md": "SiNestjs"
+  "JavaScript/NestJS/NestJS.md": "SiNestjs",
+  "JavaScript/NestJS/NestJS 기본 폴더구조.md": "LiList"
 }

@@ -4,15 +4,20 @@
 > 
 > [[의존성 주입(DI)]], Inversion of Control(제어의 역전), Module을 통한 구조화 등 생산성에 용이
 
+---
 # 특징
 ![[NestJS 특징.png]]
 
+---
 # 설치
 ### [[NPX]]
 ```bash
 npx @nestjs/cli new 프로젝트이름
 ```
 
+---
 # 폴더구조
 
-![[NestJS 폴더구조.png]]
+[[NestJS 기본 폴더구조]]
+![[NestJS 구조 설명.png]]
+
