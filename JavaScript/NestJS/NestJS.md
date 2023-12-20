@@ -13,3 +13,6 @@
 npx @nestjs/cli new 프로젝트이름
 ```
 
+# 폴더구조
+
+![[NestJS 폴더구조.png]]
