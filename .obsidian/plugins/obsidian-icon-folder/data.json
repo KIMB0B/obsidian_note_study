@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiListChecks",
       "LiTableProperties",
       "SiNestjs",
       "TiHandStop",
-      "RiListIndefinite",
-      "RiArtboardLine"
+      "RiListIndefinite"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -72,5 +72,6 @@
   "JavaScript/TypeScript": "SiTypescript",
   "JavaScript/TypeScript/접근 제한자.md": "TiHandStop",
   "JavaScript/NestJS": "SiNestjs",
-  "SW Project": "LiTableProperties"
+  "SW Project": "LiTableProperties",
+  "SW Project/Function Point.md": "LiListChecks"
 }
