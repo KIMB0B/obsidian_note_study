@@ -71,5 +71,7 @@
   "JavaScript/TypeScript/Type Definition.md": "RiListIndefinite",
   "JavaScript/TypeScript": "SiTypescript",
   "JavaScript/TypeScript/접근 제한자.md": "TiHandStop",
-  "JavaScript/NestJS": "SiNestjs"
+  "JavaScript/NestJS": "SiNestjs",
+  "JavaScript/NestJS/기본 폴더구조.md": "LiList",
+  "JavaScript/NestJS/NestJS.md": "SiNestjs"
 }
