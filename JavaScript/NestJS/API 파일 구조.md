@@ -27,4 +27,28 @@ export class BoardsService {
 }
 ```
 - @Injectable() [[Decorator]]를 통해 해당 클래스가 서비스 클래스인것으로 선언됨
-- 핵심 비즈니스 로직을 
+- 핵심 비즈니스 로직을 각 함수로 구현
+
+--- 
+# Resolver(Controller)
+
+**예시코드**
+```typescript
+import { BoardsService } from './boards.service';
+import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+
+@Resolver()
+export class BoardsResolver {
+	constructor(private readonly boardsService: BoardsService) {}
+
+	@Query(() => [Board], { nullable: true })
+	fetchBoards(): Board[] {
+		return this.boardsService.findAll();
+	}
+
+	@Mutation(() => String)
+	createBoard(@Args('...') ~: ~): string {
+		return this.boardsService.create({ createBoardInput });
+	}
+}
+```
