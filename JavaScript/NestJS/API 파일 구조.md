@@ -26,7 +26,7 @@ export class BoardsService {
 	}
 }
 ```
-- @Injectable() [[Decorator]]를 통해 해당 클래스가 서비스 클래스인것으로 선언됨
+- @Injectable() [[Decorator]]를 통해 해당 클래스가 서비스 클래스인 것으로 선언됨
 - 핵심 비즈니스 로직을 각 함수로 구현
 
 --- 
@@ -52,10 +52,25 @@ export class BoardsResolver {
 	}
 }
 ```
-- @Resolver() [[Decorator]]를 통해 해당 클래스가 컨트롤러 클래스인것으로 선언됨
+- @Resolver() [[Decorator]]를 통해 해당 클래스가 컨트롤러 클래스인 것으로 선언됨
 - Query(조회 기능)과 Mutation(수정 기능)을 나누어 구현
 - @Args [[Decorator]]를 사용하여 API에서 받은 인자를 사용 가능
 
 --- 
 # Module
+
 **예시코드**
+```typescript
+import { Module } from '@nestjs/common';
+import { BoardsResolver } from './boards.resolver';
+import { BoardsService } from './boards.service';
+
+@Module({
+	imports: [],
+	controllers: [],
+	providers: [BoardsResolver, BoardsService],
+})
+export class BoardsModule {}
+```
+- @Module() [[Decorator]]를 통해 해당 클래스가 모듈 클래스인 것으로 선언됨
+- providers 부분에 구현한 Resolver와 Service를 둘 다 넣어줌
