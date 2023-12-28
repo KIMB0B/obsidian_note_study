@@ -53,4 +53,9 @@ export class BoardsResolver {
 }
 ```
 - @Resolver() [[Decorator]]를 통해 해당 클래스가 컨트롤러 클래스인것으로 선언됨
-- Query(조회 기능) 
+- Query(조회 기능)과 Mutation(수정 기능)을 나누어 구현
+- @Args [[Decorator]]를 사용하여 API에서 받은 인자를 사용 가능
+
+--- 
+# Module
+**예시코드**
