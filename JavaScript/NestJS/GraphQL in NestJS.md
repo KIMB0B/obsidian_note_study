@@ -21,3 +21,23 @@ yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 
 --- 
 
+# 설정
+
+app.module.ts에서 설정이 가능함
+
+```typescript
+import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo'; 
+import { Module } from '@nestjs/common'; 
+import { GraphQLModule } from '@nestjs/graphql'; 
+
+@Module({ 
+	imports: [ 
+		... // 여러 
+		GraphQLModule.forRoot<ApolloDriverConfig>({ 
+			driver: ApolloDriver, 
+			autoSchemaFile: 'src/commons/graphql/schema.gql',
+		}),
+	],
+})
+export class AppModule {}
+```
