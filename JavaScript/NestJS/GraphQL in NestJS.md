@@ -23,8 +23,9 @@ yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 
 # 설정
 
-app.module.ts에서 설정이 가능함
+> app.module.ts에서 설정이 가능함
 
+예시1) [[#Schema First]] 방식으로 만든 스키마의 경로를 직접 저장하여 설정한 경우
 ```typescript
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo'; 
 import { Module } from '@nestjs/common'; 
@@ -32,7 +33,25 @@ import { GraphQLModule } from '@nestjs/graphql';
 
 @Module({ 
 	imports: [ 
-		... // 여러 
+		... // 여러 API의 모듈들
+		GraphQLModule.forRoot<ApolloDriverConfig>({ 
+			driver: ApolloDriver, 
+			typePaths: ['./*.graphql'],
+		}),
+	],
+})
+export class AppModule {}
+```
+
+예시2) [[#Code First]] 방식으로 원하는 경로에 스키마 파일이 자동으로 생성되도록 설정한 경우
+```typescript
+import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo'; 
+import { Module } from '@nestjs/common'; 
+import { GraphQLModule } from '@nestjs/graphql'; 
+
+@Module({ 
+	imports: [ 
+		... // 여러 API의 모듈들
 		GraphQLModule.forRoot<ApolloDriverConfig>({ 
 			driver: ApolloDriver, 
 			autoSchemaFile: 'src/commons/graphql/schema.gql',
