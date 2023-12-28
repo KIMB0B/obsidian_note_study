@@ -9,10 +9,22 @@
 --- 
 # Service
 
-예시코드
+**예시코드**
 ```typescript
-import { Injectable, Scope } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 
 @Injectable() 
-export class BoardsService { qqq(): string { return 'Hello World!'; } }
+export class BoardsService { 
+	findAll(): Board[] { // 게시물 조회 기능
+		...
+		return boards;
+	}
+	
+	create(...): string { // 게시물 등록 기능
+		...
+		return '게시물 등록에 성공하였습니다.';
+	}
+}
 ```
+- @Injectable() [[Decorator]]를 통해 해당 클래스가 서비스 클래스인것으로 선언됨
+- 핵심 비즈니스 로직을 
