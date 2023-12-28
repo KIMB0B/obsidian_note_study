@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileStack",
       "SiGraphql",
       "LiList",
       "LiListChecks",
-      "LiTableProperties",
-      "SiNestjs"
+      "LiTableProperties"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -74,5 +74,6 @@
   "JavaScript/NestJS": "SiNestjs",
   "JavaScript/NestJS/기본 폴더구조.md": "LiList",
   "JavaScript/NestJS/NestJS.md": "SiNestjs",
-  "JavaScript/NestJS/GraphQL in NestJS.md": "SiGraphql"
+  "JavaScript/NestJS/GraphQL in NestJS.md": "SiGraphql",
+  "JavaScript/NestJS/API 파일 구조.md": "LiFileStack"
 }

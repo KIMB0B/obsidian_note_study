@@ -10,7 +10,6 @@ yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 ```
 
 --- 
-
 # 빌드 방식
 
 ###  Schema First
@@ -20,7 +19,6 @@ yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 > 데코레이터와 TypeScript 클래스를 사용하여 먼저 작성한 Resolver 을 기반으로 해당 GraphQL 스키마를 자동 생성하는 방법
 
 --- 
-
 # 설정
 
 > app.module.ts에서 설정이 가능함
@@ -62,7 +60,6 @@ export class AppModule {}
 ```
 
 --- 
-
 # 파일 구조
 
 > 각 API 분류별로 아래 세 파일을 한 세트로 만듦
