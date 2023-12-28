@@ -47,8 +47,10 @@ export class BoardsResolver {
 	}
 
 	@Mutation(() => String)
-	createBoard(@Args('...') ~: ~): string {
-		return this.boardsService.create({ createBoardInput });
+	createBoard(@Args('???') ???: ???, ...): string {
+		return this.boardsService.create(...);
 	}
 }
 ```
+- @Resolver() [[Decorator]]를 통해 해당 클래스가 컨트롤러 클래스인것으로 선언됨
+- Query(조회 기능) 
