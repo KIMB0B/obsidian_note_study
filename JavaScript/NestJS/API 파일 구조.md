@@ -74,3 +74,8 @@ export class BoardsModule {}
 ```
 - @Module() [[Decorator]]를 통해 해당 클래스가 모듈 클래스인 것으로 선언됨
 - providers 부분에 구현한 Resolver와 Service를 둘 다 넣어줌
+
+--- 
+# 추가 사항
+
+추가적으로 Entity와 DTO, Interface의 구현 가능
