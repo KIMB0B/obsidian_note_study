@@ -25,13 +25,16 @@ Spring IoC(Inversion of Control) 컨테이너가 관리하는 객체.
 	}
 ```
 	**Configuration을 통한 선언**
-		[[@Configuration]] 참조
+		자세히 보기 -> [[@Configuration]]
+		![[@Configuration]]
 
 # 의존성 주입 방법
 
 Autowired를 통해 의존성 주입이 가능함.
-[[@Autowired]] 참조
 
-# 빈 사용 방법
+자세히 보기 -> [[@Autowired]]
+![[@Autowired]]
 
+# Bean 사용 방법
 
+ApplicationContext 형식의 변수를 선언하여 
