@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxlSpringBoot",
       "LiFileStack",
       "SiGraphql",
       "LiList",
-      "LiListChecks",
-      "LiTableProperties"
+      "LiListChecks"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,7 +31,6 @@
   "Docker": "SiDocker",
   "JavaScript": "SiJavascript",
   "Network": "TiNetwork",
-  "Java/SpringBoot": "SiSpringboot",
   "Database/MongoDB.md": "SiMongodb",
   "Network/GraphQL.md": "SiGraphql",
   "Network/CORS.md": "RiErrorWarningFill",
@@ -76,5 +75,6 @@
   "JavaScript/NestJS/기본 폴더구조.md": "LiList",
   "JavaScript/NestJS/NestJS.md": "SiNestjs",
   "JavaScript/NestJS/GraphQL in NestJS.md": "SiGraphql",
-  "JavaScript/NestJS/API 파일 구조.md": "LiFileStack"
+  "JavaScript/NestJS/API 파일 구조.md": "LiFileStack",
+  "Java/Spring": "BoBxlSpringBoot"
 }
