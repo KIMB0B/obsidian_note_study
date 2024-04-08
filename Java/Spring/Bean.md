@@ -28,6 +28,7 @@ Spring IoC(Inversion of Control) 컨테이너가 관리하는 객체.
 		[[@Configuration|Configuration 자세히보기]]
 		![[@Configuration]]
 
+
 # 의존성 주입 방법
 
 Autowired를 통해 의존성 주입이 가능함.
