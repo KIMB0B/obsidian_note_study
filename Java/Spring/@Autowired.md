@@ -21,7 +21,7 @@ public class OrderServiceImpl implements OrderService {
 }
 ```
 >[!note] 코드 설명
-> OrderServiceImpl생성자에 @Autowired를 추가하여 memberRepository와 discountPolicy의 의존성을 주입받음
+> OrderServiceImpl생성자에 @Autowired를 추가하여 OrderServiceImpl이 생성되면서 동시에 memberRepository와 discountPolicy의 의존성을 주입받음
 ## 2. 수정자(setter) 주입
 ```java
 @Component
@@ -42,4 +42,18 @@ public class OrderServiceImpl implements OrderService {
 }
 ```
 >[!note] 코드 설명
->외부에서 setMemberRepository()나 setDiscountPolicy() setter
+>외부에서 setMemberRepository()나 setDiscountPolicy() 즉 setter 함수를 사용하여 OrderServiceImpl 클래스의 의존성을 주입 가능
+## 3. 필드 주입
+```java
+@Component
+public class OrderServiceImpl implements OrderService {
+	
+    @Autowired    
+    private MemberRepository memberRepository;
+    @Autowired
+    private DiscountPolicy discountPolicy;
+}
+```
+>[!note] 코드 설명
+>필드를 선언한 곳 바로 앞에 @Autowired를 추가하여 의존성 주입 가능
+>매우 간단해보이나 외부에서 의존성 변경이 불가능하기 때문에 스프링 설정을 ㅁ고
