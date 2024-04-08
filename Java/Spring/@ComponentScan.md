@@ -7,5 +7,16 @@
 ```java
 @Configuration
 @ComponentScan
-public class
+public class AutoAppConfig {
+}
 ```
+
+# 추가 옵션
+## 탐색 패키지 위치 지정
+```java
+@ComponentScan(basePackages = "hello.core")
+```
+>[!note] 코드 설명
+>@ComponentScan은 기본 옵션으로 @ComponentScan 어노테이션을 붙힌 클래스가 있는 위치부터 그 하위로 @Component 어노테이션이 붙은 클래스를 스캔한다.
+>그렇기 때문에 이 옵션을 통해 탐색을 시작할 경로를 변경할 수 있다.
+

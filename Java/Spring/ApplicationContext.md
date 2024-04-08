@@ -27,7 +27,7 @@ ac.getBean(RateDiscountPolicy.class);
 ```
 ## 2. [[@Configuration]]을 통해 생성된 빈 조회
 ```java
-AnnotationContext ac = newAnnotationConfigApplicationContext(AppConfig.class);
+AnnotationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
 ac.getBean(RateDiscountPolicy.class);
 ```
