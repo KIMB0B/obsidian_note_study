@@ -11,7 +11,6 @@
 	<bean id="myBean" class="com.example.MyClass"/> 
 </beans>
 ```
-
 ## 2. Annotation을 통한 선언
 ### 주요 Annnotation
 - `@Component`: 일반적인 컴포넌트.
