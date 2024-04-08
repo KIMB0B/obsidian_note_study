@@ -56,4 +56,21 @@ public class OrderServiceImpl implements OrderService {
 ```
 >[!note] 코드 설명
 >필드를 선언한 곳 바로 앞에 @Autowired를 추가하여 의존성 주입 가능
->매우 간단해보이나 외부에서 의존성 변경이 불가능하기 때문에 스프링 설정을 ㅁ고
+>매우 간단해보이나 외부에서 의존성 변경이 불가능하기 때문에 스프링 설정을 목적으로 하는 [[@Configuration]] 같은 곳의 특별한 용도에서만 사용해야 함
+## 4. 일반 메서드 주입
+```java
+@Component
+public class OrderServiceImpl implements OrderService {
+	
+    private MemberRepository memberRepository;
+    private DiscountPolicy discountPolicy;
+    
+    @Autowired
+    public void init(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+}
+```
+>[!note] 코드 설명
+>생성자가 아닌 이와같은 일반 메서드에서도 의존성 주입이 가능하지만 일반적으로 잘 사용하지는 않음
