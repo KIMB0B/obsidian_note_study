@@ -23,6 +23,8 @@
 public class MyBean { 
 }
 ```
+>[!Tip]
+>Bean 선언 이후 @Component가 붙은 클래스들을 자동으로 설정파일으로 만들어주기 위해서 [[@ComponentScan]]을 사용하여 설정 클래스를 만들어줘야 함.
 ## [[@Configuration|3. Configuration을 통한 선언]]
 
 # 의존성 주입 방법
