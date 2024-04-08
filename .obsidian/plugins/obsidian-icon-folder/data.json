@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "BoBxlSpringBoot",
-      "LiFileStack",
-      "SiGraphql",
-      "LiList",
-      "LiListChecks"
+      "BoBxFork",
+      "BoBxsCoffeeBean",
+      "TiTool",
+      "LiLink",
+      "BoBxlSpringBoot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -76,5 +76,9 @@
   "JavaScript/NestJS/NestJS.md": "SiNestjs",
   "JavaScript/NestJS/GraphQL in NestJS.md": "SiGraphql",
   "JavaScript/NestJS/API 파일 구조.md": "LiFileStack",
-  "Java/Spring": "BoBxlSpringBoot"
+  "Java/Spring": "BoBxlSpringBoot",
+  "Java/Spring/@Autowired.md": "LiLink",
+  "Java/Spring/@Configuration.md": "TiTool",
+  "Java/Spring/Bean.md": "BoBxsCoffeeBean",
+  "Java/Spring/ApplicationContext.md": "BoBxFork"
 }
