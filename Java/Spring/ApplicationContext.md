@@ -19,6 +19,11 @@
 	파일, 클래스패스, 외부 등에서 리소스를 편리하게 조회
 
 # 사용 예시
+## 1. [[@Configuration]]을 통해 생성된 빈 조회
 ```java
+AnnotationContext ac = newAnnotationConfigApplicationContext(AppConfig.class);
 
+ac.getBean(RateDiscountPolicy.class);
 ```
+## 2. XML 파일을 통해 생성된 빈 조회
+₩₩
