@@ -25,7 +25,7 @@ ApplicationContext ac = new GenericXmlApplicationContext("appConfig.xml");
 
 ac.getBean(RateDiscountPolicy.class);
 ```
-## 1. [[@Configuration]]을 통해 생성된 빈 조회
+## 2. [[@Configuration]]을 통해 생성된 빈 조회
 ```java
 AnnotationContext ac = newAnnotationConfigApplicationContext(AppConfig.class);
 
