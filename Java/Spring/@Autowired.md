@@ -21,4 +21,25 @@ public class OrderServiceImpl implements OrderService {
 }
 ```
 >[!note] 코드 설명
-> OrderServiceImpl생성자에 @Autowired를 추가하여 
+> OrderServiceImpl생성자에 @Autowired를 추가하여 memberRepository와 discountPolicy의 의존성을 주입받음
+## 2. 수정자(setter) 주입
+```java
+@Component
+public class OrderServiceImpl implements OrderService {
+	
+    private MemberRepository memberRepository;
+    private DiscountPolicy discountPolicy;
+    
+	@Autowired
+	public void setMemberRepository(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+	}
+	
+    @Autowired    
+    public void setDiscountPolicy(DiscountPolicy discountPolicy) {
+        this.discountPolicy = discountPolicy;
+    }
+}
+```
+>[!note] 코드 설명
+>외부에서 setMemberRepository()나 setDiscountPolicy() setter
