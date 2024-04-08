@@ -31,11 +31,23 @@ public class AutoAppConfig {
 	ex) `org\.example\.Default.*`
 
 CUSTOM: `TypeFilter` 이라는 인터페이스를 구현해서 처리 ex) `org.example.MyTypeFilter`
-### 1. 스캔 대상에 추가할 어노테이션
+### 2. 스캔 대상에서 추가
 ```java
 @ComponentScan(
 	includeFilters = {
-		@Filter(type = Filter)
+		@Filter(
+			type = FilterType.ASSIGNABLE_TYPE, classes = RateDiscoutPolicy.class
+		)
 	}	
+)
+```
+### 3. 스캔 대상에서 제외
+```java
+@ComponentScan(
+	excludeFilters = {
+		@Filter(
+			type = FilterType.ASSIGNABLE_TYPE, classes = RateDiscoutPolicy.class
+		)
+	}
 )
 ```
