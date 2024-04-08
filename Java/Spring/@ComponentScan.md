@@ -29,8 +29,8 @@ public class AutoAppConfig {
 	ex) `org.example..*Service+`
 - REGEX: 정규 표현식  
 	ex) `org\.example\.Default.*`
-
-CUSTOM: `TypeFilter` 이라는 인터페이스를 구현해서 처리 ex) `org.example.MyTypeFilter`
+- CUSTOM: `TypeFilter` 이라는 인터페이스를 구현해서 처리 
+	ex) `org.example.MyTypeFilter`
 ### 2. 스캔 대상에서 추가
 ```java
 @ComponentScan(
@@ -46,8 +46,9 @@ CUSTOM: `TypeFilter` 이라는 인터페이스를 구현해서 처리 ex) `org.e
 @ComponentScan(
 	excludeFilters = {
 		@Filter(
-			type = FilterType.ASSIGNABLE_TYPE, classes = RateDiscoutPolicy.class
+			type = FilterType.ASSIGNABLE_TYPE, classes = FixedDiscoutPolicy.class
 		)
 	}
 )
 ```
+
