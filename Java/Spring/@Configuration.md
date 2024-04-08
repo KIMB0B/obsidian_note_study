@@ -1,9 +1,29 @@
 # 정의
 
-Spring 프레임워크에 포함되는 어노테이션. 
 이 어노테이션이 붙은 클래스 내에서 `@Bean` 어노테이션이 붙은 메서드를 통해 Bean을 정의하고, 컨테이너에 등록할 수 있음.
 
 # 사용 예시
 ```java
-
+@Configuration 
+public class AppConfig {  
+    @Bean  
+    public MemberRepository memberRepository() {  
+        return new MemoryMemberRepository();  
+    }  
+  
+    @Bean  
+    public DiscountPolicy discountPolicy() {  
+        return new RateDiscountPolicy();  
+    }  
+  
+    @Bean  
+    public MemberService memberService() {  
+        return new MemberServiceImpl(memberRepository());  
+    }  
+  
+    @Bean  
+    public OrderService orderService() {  
+        return new OrderServiceImpl(memberRepository(), discountPolicy());  
+    }  
+}
 ```
