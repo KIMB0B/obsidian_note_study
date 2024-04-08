@@ -28,3 +28,6 @@ public class AppConfig {
     }  
 }
 ```
+> [!note] 코드 정리
+> memberRepository, discoutPolicy, memberService, orderService 총 4개의 Bean이 생성됨
+> memberService는 memberRepository를, orderService는 memberRepository, discountPolicy를 [[의]]
