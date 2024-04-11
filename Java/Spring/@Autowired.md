@@ -115,5 +115,8 @@ public class OrderServiceImpl implements OrderService {
 ## 1. 필드명 맞추기
 필드명을 주입받으려는 스프링 빈의 이름과 동일하게 지정해주면 매칭이 성공한다.
 ```java
-
+ @Autowired
+ private DiscountPolicy rateDiscountPolicy
 ```
+## 2. [[@Qualifier]] 
+## 3. [[@Primary]]
