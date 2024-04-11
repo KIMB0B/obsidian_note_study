@@ -118,5 +118,5 @@ public class OrderServiceImpl implements OrderService {
  @Autowired
  private DiscountPolicy rateDiscountPolicy
 ```
-## 2. [[@Qualifier]] 
-## 3. [[@Primary]]
+## 2. [[@Qualifier]] 사용
+## 3. [[@Primary ]] 사용
