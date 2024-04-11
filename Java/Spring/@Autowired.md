@@ -77,4 +77,14 @@ public class OrderServiceImpl implements OrderService {
 # 추가 옵션
 
 @Autowired는 기본값으로 해당 어노테이션이 붙은 개체에게 필수적으로 의존성 주입이 되어야 함.
-필수적으로 주입되는
+필수적으로 주입되지 않아도 실행이 가능하게 만드는 옵션이 required = false임.
+```java
+@Component
+public class OrderServiceImpl implements OrderService {
+	
+    @Autowired(required = false)  
+    private MemberRepository memberRepository;
+    @Autowired(required = false)  
+    private DiscountPolicy discountPolicy;
+}
+```
