@@ -73,6 +73,18 @@ public class OrderServiceImpl implements OrderService {
 ```
 >[!note] 코드 설명
 >생성자가 아닌 이와같은 일반 메서드에서도 의존성 주입이 가능하지만 일반적으로 잘 사용하지는 않음
+## 5. Lombok 활용
+```java
+ @Component
+ @RequiredArgsConstructor 
+ public class OrderServiceImpl implements OrderService {
+	 private final MemberRepository memberRepository;
+     private final DiscountPolicy discountPolicy;
+}
+```
+>[!note] 코드 설명
+>@RequiredArgsConstructor를 통해 final이 붙은 필드를 선언해주는 생성자를 자동으로 만들어줌
+>그리고 생성자가 딱 한개만 있으면 @Autowired를 생략할 수 있기 때문에 위와같이 작성만 해도 의존성 주입이 가능함
 
 # 추가 옵션
 
