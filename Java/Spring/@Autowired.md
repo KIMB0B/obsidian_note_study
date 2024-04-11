@@ -2,9 +2,7 @@
 
 > Annotation을 통해 Bean으로 지정된 클래스들의 [[의존성 주입(DI)]]을 위해 사용하는 Annotation
 
-# 옵션
-
-
+# 사용 예시 
 ## 1. 생성자 주입
 ```java
 @Component
@@ -75,3 +73,8 @@ public class OrderServiceImpl implements OrderService {
 ```
 >[!note] 코드 설명
 >생성자가 아닌 이와같은 일반 메서드에서도 의존성 주입이 가능하지만 일반적으로 잘 사용하지는 않음
+
+# 추가 옵션
+
+@Autowired는 기본값으로 해당 어노테이션이 붙은 개체에게 필수적으로 의존성 주입이 되어야 함.
+필수적으로 주입되는
