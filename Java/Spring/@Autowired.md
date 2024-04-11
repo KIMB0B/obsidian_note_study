@@ -107,7 +107,9 @@ public class OrderServiceImpl implements OrderService {
 >DiscountPolicy fixedDiscountPolicy
 >DiscountPolicy rateDiscountPolicy
 
->[!Bug] 스프링 빈
+>[!Bug] 오류 라인
 >@Autowired
  private DiscountPolicy discountPolicy
+ 
+ DiscountPolicy 타입의 스프링 빈이 한개 이상이어서 어떤 빈을 주입하려는건지 정확하게 정할 수 없음
 ## 1. 
