@@ -112,4 +112,8 @@ public class OrderServiceImpl implements OrderService {
  private DiscountPolicy discountPolicy
  
  DiscountPolicy 타입의 스프링 빈이 한개 이상이어서 어떤 빈을 주입하려는건지 정확하게 정할 수 없음
-## 1. 
+## 1. 필드명 맞추기
+필드명을 주입받으려는 스프링 빈의 이름과 동일하게 지정해주면 매칭이 성공한다.
+```java
+
+```
