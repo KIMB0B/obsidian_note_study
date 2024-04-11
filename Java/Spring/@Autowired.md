@@ -108,5 +108,6 @@ public class OrderServiceImpl implements OrderService {
 >DiscountPolicy rateDiscountPolicy
 
 >[!Bug] 스프링 빈
->
+>@Autowired
+ private DiscountPolicy discountPolicy
 ## 1. 
