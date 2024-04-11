@@ -100,3 +100,7 @@ public class OrderServiceImpl implements OrderService {
     private DiscountPolicy discountPolicy;
 }
 ```
+
+# 조회 빈 우선순위 정하기
+## 
+## 1. 
