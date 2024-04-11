@@ -103,7 +103,10 @@ public class OrderServiceImpl implements OrderService {
 
 # 조회 빈 우선순위 정하기
 ## 문제 상황
->[!warnning] 스프링 빈
+>[!Abstract] 스프링 빈
 >DiscountPolicy fixedDiscountPolicy
 >DiscountPolicy rateDiscountPolicy
+
+>[!Bug] 스프링 빈
+>
 ## 1. 
