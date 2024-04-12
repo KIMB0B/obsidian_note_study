@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxRename",
+      "Ti123",
       "RiScanLine",
       "BoBxFork",
-      "BoBxsCoffeeBean",
-      "TiTool",
-      "LiLink"
+      "BoBxsCoffeeBean"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -81,5 +81,7 @@
   "Java/Spring/@Configuration.md": "TiTool",
   "Java/Spring/Bean.md": "BoBxsCoffeeBean",
   "Java/Spring/ApplicationContext.md": "BoBxFork",
-  "Java/Spring/@ComponentScan.md": "RiScanLine"
+  "Java/Spring/@ComponentScan.md": "RiScanLine",
+  "Java/Spring/@Primary.md": "Ti123",
+  "Java/Spring/@Qualifier.md": "BoBxRename"
 }
