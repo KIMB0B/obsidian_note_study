@@ -5,22 +5,23 @@
 
 
 # 사용 예시
-## 1. 빈 등록할 때
+## 빈 등록
 ```java
 @Component
-@Qualifier("mainDiscountPolicy")
-
+@Qualifier("mainDiscountPolicy") //
 public class RateDiscountPolicy implements DiscountPolicy {
 }
 ```
-## 2. 의존성 주입할 때
+## 의존성 주입
 ```java
 @Autowired
 public OrderServiceImpl(
 	MemberRepository memberRepository,
 	@Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy
-) {     this.memberRepository = memberRepository;
-     this.discountPolicy = discountPolicy;
-
+) {     
+	this.memberRepository = memberRepository;
+    this.discountPolicy = discountPolicy;
 }
 ```
+>[!note]코드 설명
+>빈 등록할 때 해당 빈에 @Qualifier를 통해 별명을 지어주고, 의존성을 주입할 때 @Qualifier를 이용하여 지어놓은 별명을 통해 
