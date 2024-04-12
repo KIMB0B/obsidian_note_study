@@ -3,3 +3,24 @@
 > 조회하고 싶은 Bean과 타입이 동일한 다른 Bean 이 한 개 이상 있다면 오류가 남
 > 원하는 조회할 때 사용할 별명을 @Qualifier로 지정해줄 수 있음
 
+
+# 사용 예시
+## 1. 빈 등록할 때
+```java
+@Component
+@Qualifier("mainDiscountPolicy")
+
+public class RateDiscountPolicy implements DiscountPolicy {
+}
+```
+## 2. 의존성 주입할 때
+```java
+@Autowired
+public OrderServiceImpl(
+	MemberRepository memberRepository,
+	@Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy
+) {     this.memberRepository = memberRepository;
+     this.discountPolicy = discountPolicy;
+
+}
+```
