@@ -5,7 +5,6 @@
 
 `http://localhost:8080/hello?username=hello`에 접속한 상황
 ## Start-Line 정보
-
 ```java
 System.out.println("request.getMethod() = " + request.getMethod());
 System.out.println("request.getProtocol() = " + request.getProtocol());
@@ -15,11 +14,30 @@ System.out.println("request.getRequestURI() = " + request.getRequestURI());
 System.out.println("request.getQueryString() = " + request.getQueryString());  
 System.out.println("request.isSecure() = " + request.isSecure()); 
 ```
-
+결과
+```console
+request.getMethod() = GET
+request.getProtocol() = HTTP/1.1
+request.getScheme() = http
+request.getRequestURL() = http://localhost:8080/request-header
+request.getRequestURI() = /request-header
+request.getQueryString() = username=hello
+request.isSecure() = false
+```
 ## 헤더 정보
-
 ```java
 request.getHeaderNames().asIterator().forEachRemaining(headerName -> 
 	System.out.println(headerName + ": " + request.getHeader(headerName))
 );
+```
+결과
+```console
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/ webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 ```
