@@ -4,7 +4,7 @@
 # Http 요청 메시지 조회
 
 `http://localhost:8080/hello?username=hello`에 접속한 상황
-## Start-Line 정보
+## 1. Start-Line 정보
 ```java
 System.out.println("request.getMethod() = " + request.getMethod());
 System.out.println("request.getProtocol() = " + request.getProtocol());
@@ -24,7 +24,8 @@ request.getRequestURI() = /request-header
 request.getQueryString() = username=hello
 request.isSecure() = false
 ```
-## 헤더 정보
+
+## 2. 헤더 정보
 ```java
 request.getHeaderNames().asIterator().forEachRemaining(headerName -> 
 	System.out.println(headerName + ": " + request.getHeader(headerName))
@@ -41,7 +42,8 @@ upgrade-insecure-requests: 1
 user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
 accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/ webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 ```
-# Accept Language 편의 조회
+
+## 3. Accept Language 편의 조회
 ```java
 request.getLocales().asIterator().forEachRemaining(locale -> 
 	System.out.println("locale = " + locale)
@@ -58,7 +60,8 @@ locale = ko_KR
 
 request.getLocale() = ko
 ```
-# Cookie 편의 조회
+
+## 4. Cookie 편의 조회
 testCookie란 이름으로 hello값을 가진 쿠키 값을 넣었을 때
 ```java
 if (request.getCookies() != null) {
@@ -70,4 +73,29 @@ if (request.getCookies() != null) {
 결과
 ```console
 testCookie: hello
+```
+
+## 5. Remote 정보
+```java
+System.out.println("request.getRemoteHost() = " + request.getRemoteHost());
+System.out.println("request.getRemoteAddr() = " + request.getRemoteAddr());
+System.out.println("request.getRemotePort() = " + request.getRemotePort());
+```
+결과
+```console
+request.getRemoteHost() = 0:0:0:0:0:0:0:1 
+request.getRemoteAddr() = 0:0:0:0:0:0:0:1 
+request.getRemotePort() = 54305
+```
+
+## 6. Local 정보
+```java
+System.out.println("request.getLocalName() = " + request.getLocalName()); System.out.println("request.getLocalAddr() = " + request.getLocalAddr());
+System.out.println("request.getLocalPort() = " + request.getLocalPort());
+```
+결과
+```console
+request.getLocalName() = localhost
+request.getLocalAddr() = 0:0:0:0:0:0:0:1
+request.getLocalPort() = 8080
 ```
