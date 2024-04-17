@@ -124,7 +124,7 @@ String messageBody =
 // 우선 해당 JSON 형태에 맞게 데이터 클래스를 생성
 
 @Getter @Setter
- public class HelloData {
+ public class JsonData {
      private String username;
      private int age;
 }

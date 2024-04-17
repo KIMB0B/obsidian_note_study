@@ -31,3 +31,7 @@ public class HelloServlet extends HttpServlet {
 ```
 
 # [[HttpServletRequest]]
+HTTP에 요청이 들어오면서 서버는 요청 메시지를 받아 다양한 정보를 받음
+이걸 코드에서 손쉽게 사용할 수 있게 만들어줌
+
+# [[HttpServletResponse]]
