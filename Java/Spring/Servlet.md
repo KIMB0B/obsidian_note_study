@@ -17,7 +17,7 @@ public class MainApplication {
 
 # 서블릿 생성 예시
 
-HttpServlet 클래스를 extends하여 service()함수를 구형
+HttpServlet 클래스를 extends하여 service()함수를 구현해 사용할 수 있음
 `http://localhost:8080/hello`로 접속하면 일어날 일을 아래 service() 함수에서 정의할 수 있음
 ```java
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
@@ -29,5 +29,4 @@ public class HelloServlet extends HttpServlet {
     }
 }
 ```
-
 
