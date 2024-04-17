@@ -4,12 +4,39 @@
 
 # 스프링 부트 설정
 
-메인 어플리케이션 클래스에서 @ServletComponentScan 을 사용해 프로젝트의 서블릿을 자동으로 등록함
+메인 어플리케이션 클래스에서 `@ServletComponentScan` 을 사용해 프로젝트의 서블릿을 자동으로 등록함
 ```java
-@ServletComponentScan //서블릿 자동 등록 @SpringBootApplication  
-public class ServletApplication {
-
+@ServletComponentScan
+@SpringBootApplication
+public class MainApplication {
      public static void main(String[] args) {
          SpringApplication.run(ServletApplication.class, args);
-        }
+    }
+}
+```
+
+# 서블릿 생성 예시
+
+```java
+@WebServlet(name = "helloServlet", urlPatterns = "/hello")
+ public class HelloServlet extends HttpServlet {
+
+@Override
+     protected void service(HttpServletRequest request, HttpServletResponse
+ response)
+
+             throws ServletException, IOException {
+
+         System.out.println("HelloServlet.service");
+         System.out.println("request = " + request);
+         System.out.println("response = " + response);
+
+         String username = request.getParameter("username");
+         System.out.println("username = " + username);
+
+         response.setContentType("text/plain");
+         response.setCharacterEncoding("utf-8");
+         response.getWriter().write("hello " + username);
+
+} }
 ```
