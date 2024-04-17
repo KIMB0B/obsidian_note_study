@@ -17,6 +17,7 @@ public class MainApplication {
 
 # 서블릿 생성 예시
 
+
 ```java
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
