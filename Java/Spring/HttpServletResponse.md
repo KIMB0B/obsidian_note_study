@@ -1,5 +1,5 @@
 # 정의
-> HTTP 서버가 클라이언트에게 응답을 보내는 데 사용되는 객체
+> [[Servlet]]에서 HTTP 서버가 클라이언트에게 응답을 보내는 데 사용되는 객체
 > HTTP 응답 상태 코드를 설정하고, 응답 헤더를 추가하거나 수정하며, 클라이언트로 보낼 데이터를 쓸 수 있음
 
 # HTTP 응답 설정
@@ -48,4 +48,29 @@ writer.println("<body>");
 writer.println(" <div>안녕?</div>"); 
 writer.println("</body>"); 
 writer.println("</html>");
+```
+
+## 2. JSON 응답
+```java
+// 우선 해당 JSON 형태에 맞게 데이터 클래스를 생성
+
+@Getter @Setter
+ public class JsonData {
+     private String username;
+     private int age;
+}
+```
+
+```java
+response.setHeader("content-type", "application/json");
+response.setCharacterEncoding("utf-8");
+
+JsonData data = new JsonData();
+data.setUsername("kim");
+data.setAge(20);
+
+//{"username":"kim","age":20}
+String result = objectMapper.writeValueAsString(data);
+
+response.getWriter().write(result);
 ```
