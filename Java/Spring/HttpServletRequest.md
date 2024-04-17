@@ -41,3 +41,10 @@ upgrade-insecure-requests: 1
 user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
 accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/ webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 ```
+# Accept Language 편의 조회
+```java
+request.getLocales().asIterator().forEachRemaining(locale -> 
+	System.out.println("locale = " + locale)
+);
+System.out.println("request.getLocale() = " + request.getLocale());
+```
