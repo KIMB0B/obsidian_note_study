@@ -19,14 +19,11 @@ public class MainApplication {
 
 ```java
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
- public class HelloServlet extends HttpServlet {
+public class HelloServlet extends HttpServlet {
 
-@Override
-     protected void service(HttpServletRequest request, HttpServletResponse
- response)
-
-             throws ServletException, IOException {
-
+	@Override
+    protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    
          System.out.println("HelloServlet.service");
          System.out.println("request = " + request);
          System.out.println("response = " + response);
@@ -37,6 +34,6 @@ public class MainApplication {
          response.setContentType("text/plain");
          response.setCharacterEncoding("utf-8");
          response.getWriter().write("hello " + username);
-
-} }
+    }
+}
 ```
