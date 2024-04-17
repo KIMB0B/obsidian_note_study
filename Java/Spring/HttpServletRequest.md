@@ -100,7 +100,7 @@ request.getLocalAddr() = 0:0:0:0:0:0:0:1
 request.getLocalPort() = 8080
 ```
 
-# 파라미터 조회
+# 전달값 조회
 ## 1. 쿼리 파라미터
 ```java
 //단일 파라미터 조회

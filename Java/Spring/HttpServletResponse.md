@@ -31,4 +31,21 @@ cookie.setMaxAge(600); //600초
 response.addCookie(cookie);
 ```
 
-##
+## 5. redirect 편의 설정
+```java
+response.sendRedirect("/hello.html");
+```
+
+# 데이터 응답
+## 1. HTML 직접 응답
+```java
+response.setContentType("text/html");
+response.setCharacterEncoding("utf-8");
+
+PrintWriter writer = response.getWriter(); 
+writer.println("<html>"); 
+writer.println("<body>");  
+writer.println(" <div>안녕?</div>"); 
+writer.println("</body>"); 
+writer.println("</html>");
+```
