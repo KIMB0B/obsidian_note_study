@@ -101,13 +101,24 @@ request.getLocalPort() = 8080
 ```
 
 # 파라미터 조회
-## 1. GET 쿼리 파라미터
+## 1. 쿼리 파라미터
 ```java
-String username = request.getParameter("username"); //단일 파라미터 조회
-Enumeration<String> parameterNames = request.getParameterNames(); //파라미터 이름들 모두 조회
-Map<String, String[]> parameterMap = request.getParameterMap(); //파라미터를 Map으로 조회
-String[] usernames = request.getParameterValues("username"); //복수 파라미터 조회
+//단일 파라미터 조회
+String username = request.getParameter("username"); 
+//파라미터 이름들 모두 조회
+Enumeration<String> parameterNames = request.getParameterNames(); 
+//파라미터를 Map으로 조회
+Map<String, String[]> parameterMap = request.getParameterMap(); 
+//동일한 이름의 복수 파라미터 조회
+String[] usernames = request.getParameterValues("username"); 
 ```
+## 2. 단순 텍스트
+```java
+ServletInputStream inputStream = request.getInputStream();
+String messageBody = 
+	StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
+```
+## 3. J
 # 임시 저장소 기능
 해당 HTTP 요청이 시작할 때 부터 끝날 때 까지 유지되는 임시 저장소 기능을 제공
 - 저장: `request.setAttribute(name, value)`
