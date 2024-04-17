@@ -118,7 +118,28 @@ ServletInputStream inputStream = request.getInputStream();
 String messageBody = 
 	StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
 ```
-## 3. J
+## 3. JSON
+들어오는 데이터가 `{"username": "hello", "age": 20}` 형태인 경우
+```java
+// 우선 해당 JSON 형태에 맞게 데이터 클래스를 생성
+
+@Getter @Setter
+ public class HelloData {
+     private String username;
+     private int age;
+}
+```
+
+```java
+// 단순 텍스트를 불러올 때와 마찬가지로 우선 body값을 불러옴
+ServletInputStream inputStream = request.getInputStream();
+String messageBody = 
+	StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
+	
+// objectMapper를 사용하여 읽어온 body값을 미리 생성한 데이터 클래스에 맞게 매핑해줌
+JsonData jsonData = objectMapper.readValue(messageBody, JsonData.class);
+```
+
 # 임시 저장소 기능
 해당 HTTP 요청이 시작할 때 부터 끝날 때 까지 유지되는 임시 저장소 기능을 제공
 - 저장: `request.setAttribute(name, value)`
