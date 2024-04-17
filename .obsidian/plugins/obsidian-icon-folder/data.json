@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbArrowLeft",
+      "IbArrowRight",
       "RiQuestionAnswerFill",
       "TiMessageCircleQuestion",
-      "RiEarthLine",
-      "IbTriangleWithBlocks",
-      "BoBxRename"
+      "RiEarthLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -86,6 +86,6 @@
   "Java/Spring/@Qualifier.md": "BoBxRename",
   "Java/Spring/MVC in Spring.md": "IbTriangleWithBlocks",
   "Java/Spring/Servlet.md": "RiEarthLine",
-  "Java/Spring/HttpServletRequest.md": "TiMessageCircleQuestion",
-  "Java/Spring/HttpServletResponse.md": "RiQuestionAnswerFill"
+  "Java/Spring/HttpServletRequest.md": "IbArrowRight",
+  "Java/Spring/HttpServletResponse.md": "IbArrowLeft"
 }
