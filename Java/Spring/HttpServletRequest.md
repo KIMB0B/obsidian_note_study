@@ -7,20 +7,19 @@
 ## Start-Line 정보
 
 ```java
-//GET
 System.out.println("request.getMethod() = " + request.getMethod());
-// HTTP/1.1
 System.out.println("request.getProtocol() = " + request.getProtocol());
-//http
 System.out.println("request.getScheme() = " + request.getScheme());
-// http://localhost:8080/hello
 System.out.println("request.getRequestURL() = " + request.getRequestURL());
-// /request-header
-System.out.println("request.getRequestURI() = " + request.getRequestURI());
-//username=hi     
+System.out.println("request.getRequestURI() = " + request.getRequestURI());    
 System.out.println("request.getQueryString() = " + request.getQueryString());  
-//https 사용 유무
 System.out.println("request.isSecure() = " + request.isSecure()); 
 ```
 
 ## 헤더 정보
+
+```java
+request.getHeaderNames().asIterator().forEachRemaining(headerName -> 
+	System.out.println(headerName + ": " + request.getHeader(headerName))
+);
+```
