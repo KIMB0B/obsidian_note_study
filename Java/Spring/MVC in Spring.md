@@ -1,6 +1,6 @@
-# 전체 구조
+# [[Model-View-Controller(MVC)]] 전체 구조
 
-![[Pasted image 20240418045156.png]]
+![[Spring MVC 구조.png]]
 
 # 동작 순서
 1. **핸들러 조회**: 핸들러 매핑을 통해 요청 URL에 매핑된 핸들러(컨트롤러)를 조회한다.
