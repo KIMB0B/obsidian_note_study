@@ -46,5 +46,28 @@ accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/ 
 request.getLocales().asIterator().forEachRemaining(locale -> 
 	System.out.println("locale = " + locale)
 );
+// 제일 우선순위 높은 한 언어만 가져옴
 System.out.println("request.getLocale() = " + request.getLocale());
+```
+결과
+```console
+locale = ko  
+locale = en_US  
+locale = en
+locale = ko_KR
+
+request.getLocale() = ko
+```
+# Cookie 편의 조회
+testCookie란 이름으로 hello값을 가진 쿠키 값을 넣었을 때
+```java
+if (request.getCookies() != null) {
+    for (Cookie cookie : request.getCookies()) {
+        System.out.println(cookie.getName() + ": " + cookie.getValue());
+	}
+}
+```
+결과
+```console
+testCookie: hello
 ```
