@@ -13,4 +13,7 @@ public class Controller {
 }
 ```
 >[!note] 코드 설명
->`localhost:8080/hello`로 접속하면 
+>`localhost:8080/hello`로 접속하면 ModelAndView를 통해 hello-form.jsp를 렌더링 함
+
+# 장점
+@RequestMapping은 메서드 단위에서 
