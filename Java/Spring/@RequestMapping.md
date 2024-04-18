@@ -16,4 +16,9 @@ public class Controller {
 >`localhost:8080/hello`로 접속하면 ModelAndView를 통해 hello-form.jsp를 렌더링 함
 
 # 장점
-@RequestMapping은 메서드 단위에서 
+
+@RequestMapping은 메서드 단위에서 적용되기 때문에 하나의 컨트롤러에서 여러 경로를 매핑할 수 있다.
+
+# 중복되는 경로 관리
+
+하나의 컨트롤러 클래스에서 중복되는 경로는 아래와 같이 통일할 수 있음
