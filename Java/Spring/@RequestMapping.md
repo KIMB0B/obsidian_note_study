@@ -6,9 +6,9 @@
 ```java
 @Controller
 public class Controller {
-	@RequestMapping("/hello")
-    public ModelAndView process() {
-        return new ModelAndView("hello-form");
+	@RequestMapping("/hello/form")
+    public String helloForm() {
+        return "hello-form";
     }
 }
 ```
@@ -22,3 +22,15 @@ public class Controller {
 # 중복되는 경로 관리
 
 하나의 컨트롤러 클래스에서 중복되는 경로는 아래와 같이 통일할 수 있음
+```java
+@Controller
+@RequestMapping("/hello")
+public class Controller {
+
+	@GetMapping("/form")
+    return "hello-form";
+
+	@GetMapping("/save")
+	
+}
+```
