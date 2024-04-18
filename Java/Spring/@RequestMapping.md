@@ -4,5 +4,13 @@
 
 # 사용 예시
 ```java
-
+@Controller
+public class Controller {
+	@RequestMapping("/hello")
+    public ModelAndView process() {
+        return new ModelAndView("hello-form");
+    }
+}
 ```
+>[!note] 코드 설명
+>`localhost:8080/hello`로 접속하면 
