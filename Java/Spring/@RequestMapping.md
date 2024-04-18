@@ -6,7 +6,7 @@
 ```java
 @Controller
 public class Controller {
-	@RequestMapping("/hello/form")
+	@RequestMapping("/hello/form", method = RequestMethod.GET)
     public String helloForm() {
         return "hello-form";
     }
@@ -19,6 +19,10 @@ public class Controller {
 
 @RequestMapping은 메서드 단위에서 적용되기 때문에 하나의 컨트롤러에서 여러 경로를 매핑할 수 있다.
 
+# 간편한 Get, Post 사용
+
+`@GetMapping` 또는 `@PostMapping`으로 Get 또는 Post 방식의 @RequestMapping을 간편하게 정의할 수 있음
+
 # 중복되는 경로 관리
 
 하나의 컨트롤러 클래스에서 중복되는 경로는 아래와 같이 통일할 수 있음
@@ -28,9 +32,13 @@ public class Controller {
 public class Controller {
 
 	@GetMapping("/form")
-    return "hello-form";
+    public String helloForm() {
+        return "hello-form";
+    }
 
 	@GetMapping("/save")
-	
+	public String helloSave() {
+        return "hello-save";
+    }
 }
 ```
