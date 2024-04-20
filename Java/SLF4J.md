@@ -14,3 +14,12 @@ log.info(" info log={}", "aaa");
 log.warn(" warn log={}", "aaa");
 log.error("error log={}", "aaa");
 ```
+>[!note] 코드 설명
+>첫번째 줄을 보면 LoggerFactory의 getLogger()를 통해 log를 작성할 수 있는 변수를 선언함
+>log의 단계는 error < warn < info < debug < trace 단계로 깊어지며 어느 단계부터 로그를 볼건지 설정할 수 있음
+
+# 로그 레벨 설정
+# 사용 예시
+
+```
+```
