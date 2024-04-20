@@ -19,9 +19,14 @@ public class Controller {
 
 @RequestMapping은 메서드 단위에서 적용되기 때문에 하나의 컨트롤러에서 여러 경로를 매핑할 수 있다.
 
-# 간편한 Get, Post 사용
+# 간편한 축약 Annotation 사용
 
-`@GetMapping` 또는 `@PostMapping`으로 Get 또는 Post 방식의 @RequestMapping을 간편하게 정의할 수 있음
+`@GetMapping` 또는 `@PostMapping` 등으로 Get 또는 Post 방식 등의 @RequestMapping을 간편하게 정의할 수 있음
+- @GetMapping  
+- @PostMapping  
+* @PutMapping  
+* @DeleteMapping  
+* @PatchMapping
 
 # 중복되는 경로 관리
 

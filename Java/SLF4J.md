@@ -29,7 +29,7 @@ public class MainController {
 
 # Annotation 사용
 
-Lo@Slf4j Annotation을 사용하여 log를 선언하는 부분을 생략할 수 있음.
+Lombok의 @Slf4j Annotation을 사용하여 log를 선언하는 부분을 생략할 수 있음.
 ```java
 @Slf4j
 public class MainController {
