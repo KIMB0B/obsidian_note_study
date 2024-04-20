@@ -78,5 +78,6 @@ public class RequestHeaderController {
 >-기본 값: `defaultValue`
 
 # 요청 데이터 조회
-## 1. 파라미터,HTML Form
-`http://localhost:8080/request-param?username=hello&age=20` 경로로 요청했을 때
+## 1. [[@RequestParam]]
+## 2. [[@ModelAttribute]]
+

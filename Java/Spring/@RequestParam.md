@@ -1,3 +1,5 @@
+
+`http://localhost:8080/request-param?username=hello&age=20` 경로로 요청했을 때
 # 기본 사용법
 ```java
 @ResponseBody
@@ -15,8 +17,8 @@ public String requestParam(
 # 파라미터명 인자값 생략
 ```java
 @ResponseBody
-@RequestMapping("/request-param-v3")
-public String requestParamV3(
+@RequestMapping("/request-param")
+public String requestParam(
          @RequestParam String username,
          @RequestParam int age) {
     log.info("username={}, age={}", username, age);
@@ -37,3 +39,13 @@ public String requestParamV3(
 
 >[!note] defaultValue 설명
 > 해당 파라미터의 값을 지정하지 않으면 기본적으로 지정될 값을 설정할 수 있음.
+
+# 파라미터 전체 Map으로 조회
+```java
+@ResponseBody
+@RequestMapping("/request-param-map")
+public String requestParamMap(@RequestParam Map<String, Object> paramMap) {
+	log.info("username={}, age={}", paramMap.get("username"), paramMap.get("age"));
+    return "ok";
+}
+```
