@@ -85,3 +85,4 @@ public class RequestHeaderController {
 	객체를 파라미터들의 형태와 동일하게 만들어 객체 클래스 형태로 파라미터를 불러올 수 있음
 ## 2. JSON 조회
 ### [[@RequestBody]]
+## 3. View 템플릿
