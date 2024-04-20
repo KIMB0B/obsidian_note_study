@@ -68,6 +68,21 @@ public String mappingPath(@PathVariable String uesrId) {
 }
 ```
 
+# HTTP Header 조회
+```java
+public class RequestHeaderController {
+
+    @RequestMapping("/headers")
+    public String headers(
+	    HttpServletRequest request,
+	    HttpServletResponse response,
+	    HttpMethod httpMethod,
+	    Locale locale,
+		@RequestHeader MultiValueMap<String, String> headerMap,
+						@RequestHeader("host") String host,
+						@CookieValue(value = "myCookie", required = false) String cookie
+```
+
 # 매핑 조건 걸기
 ## 1. 특정 헤더 조건 매핑 (headers 옵션)
 
