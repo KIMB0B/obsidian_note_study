@@ -54,7 +54,6 @@ public class Controller {
 ```java
 @GetMapping("/mapping/{userId}")
 public String mappingPath(@PathVariable("userId") String data) {
-
     log.info("mappingPath userId={}", data);
     return "ok";
 }
@@ -69,7 +68,8 @@ public String mappingPath(@PathVariable String uesrId) {
 }
 ```
 
-# 특정 헤더 조건 매핑 (headers 옵션)
+# 매핑 조건 걸기
+## 1. 특정 헤더 조건 매핑 (headers 옵션)
 
 특정 헤더를 기준으로 조건을 추가하여 현재 요청 URL에서 요청을 할지 말지 결정함
 * headers="mode",  (mode라는 header가 있을 때)
@@ -81,20 +81,29 @@ public String mappingPath(@PathVariable String uesrId) {
 
 @GetMapping(value = "/mapping-header", headers = "mode=debug")
 public String mappingHeader() {
-
     log.info("mappingHeader");
 	return "ok";
 }
 ```
 
-# 미디어 타입 조건 매핑 (consumes 옵션)
+## 2. Content-Type 미디어 타입 조건 매핑 (consumes 옵션)
 
 application/json 타입으로 요청 데이터를 가진 채로 해당 경로에 요청해야지만 매핑이 되도록 조건을 줌
 ```java
 @PostMapping(value = "/mapping-consume", consumes = "application/json")
 public String mappingConsumes() {
-
     log.info("mappingConsumes");
     return "ok";
+}
+```
+
+## 3. Accept 미디어 타입 조건 매핑 (produces 옵션)
+
+요청한 사용자가 text/html 타입의 응답 타입을 받아들일 수 있다고 해야지만 매핑이 되도록 조건을 줌
+```java
+@PostMapping(value = "/mapping-produce", produces = "text/html")
+public String mappingProduces() {
+     log.info("mappingProduces");
+     return "ok";
 }
 ```
