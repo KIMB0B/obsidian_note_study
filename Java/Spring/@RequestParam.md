@@ -1,5 +1,18 @@
 # 기본 사용법
+```java
+@ResponseBody
+@RequestMapping("/request-param")
+public String requestParam(
+	    @RequestParam("username") String memberName,
+	    @RequestParam("age") int memberAge) {
+	log.info("username={}, age={}", memberName, memberAge);
+	return "ok";
+}
+```
+> [!note] @RequestParam 설명
+> @RequestParam으로 파라미터의 이름을 인자로 넣어 해당 변수를 사용할 수 있음
 
+# 파라미터명 인자값 생략
 ```java
 @ResponseBody
 @RequestMapping("/request-param-v3")
@@ -13,6 +26,7 @@ public String requestParamV3(
 >[!note] 생략 설명
 >변수명을 파라미터명과 동일하게 지정하면 @RequestParam 뒤의 인자를 생략할 수 있음.
 
+# 추가 옵션
 ```java
 @RequestParam(required = true, defaultValue = "guest") String username,
 @RequestParam(required = false, defaultValue = "-1") int age
