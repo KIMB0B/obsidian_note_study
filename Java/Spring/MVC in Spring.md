@@ -78,7 +78,10 @@ public class RequestHeaderController {
 >-기본 값: `defaultValue`
 
 # 요청 데이터 조회
-## 1. [[@RequestParam]]
+## 1. 파라미터 조회
+### [[@RequestParam]]
 	인자값으로 파라미터를 하나하나 불러올 수 있음
-## 2. [[@ModelAttribute]]
+### [[@ModelAttribute]]
 	객체를 파라미터들의 형태와 동일하게 만들어 객체 클래스 형태로 파라미터를 불러올 수 있음
+## 2. JSON 조회
+### [[@RequestBody]]
