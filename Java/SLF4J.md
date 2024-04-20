@@ -19,7 +19,16 @@ log.error("error log={}", "aaa");
 >log의 단계는 error < warn < info < debug < trace 단계로 깊어지며 어느 단계부터 로그를 볼건지 설정할 수 있음
 
 # 로그 레벨 설정
-# 사용 예시
 
+```properties
+# application.properties
+
+# 전체 로그 레벨을 info 단계로 설정
+# 그럼 info 단계부터 warn, error 단계의 에러가 나옴
+logging.level.root=info
+
+#hello.springmvc 패키지와 그 하위 로그 레벨을 debug 단계로 설정
+# 그럼 해당 패키지와 하위 로그의 로그들은 debug부터 info, warn, error 단계의 에러가 나옴
+logging.level.hello.springmvc=debug
 ```
-```
+
