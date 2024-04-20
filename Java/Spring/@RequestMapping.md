@@ -85,19 +85,26 @@ public class RequestHeaderController {
 	}
 ```
 > [!note] 설명
-> `HttpMethod`: HTTP 메서드를 조회한다.
+> `HttpMethod`: 
+> HTTP 메서드를 조회한다.
 > 
-> `Locale`: Locale 정보를 조회한다.  
+> `Locale`: 
+> Locale 정보를 조회한다.  
 > 
-> `@RequestHeader MultiValueMap<String, String> headerMap`: 모든 HTTP 헤더를 MultiValueMap 형식으로 조회한다. 
->`@RequestHeader("host") String host`
->	특정 HTTP 헤더를 조회한다. 
->	속성
-		필수 값 여부: `required`
-기본 값 속성: `defaultValue`  
-`@CookieValue(value = "myCookie", required = false) String cookie`
-특정 쿠키를 조회한다. 속성
-필수 값 여부: `required` 기본 값: `defaultValue`
+> `@RequestHeader MultiValueMap<String, String> headerMap`: 
+> 모든 HTTP 헤더를 MultiValueMap 형식으로 조회한다. 
+> 
+>`@RequestHeader("host") String host`: 
+>특정 HTTP 헤더를 조회한다. 
+>속성
+>-필수 값 여부: `required`
+>-기본 값 속성: `defaultValue`  
+>
+>`@CookieValue(value = "myCookie", required = false) String cookie`: 
+>특정 쿠키를 조회한다.
+>속성
+>-필수 값 여부: `required` 
+>-기본 값: `defaultValue`
 
 # 매핑 조건 걸기
 ## 1. 특정 헤더 조건 매핑 (headers 옵션)
