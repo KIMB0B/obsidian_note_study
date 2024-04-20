@@ -30,7 +30,7 @@ public class Controller {
 
 # 중복되는 경로 관리
 
-하나의 컨트롤러 클래스에서 중복되는 경로는 아래와 같이 통일할 수 있음
+하나의 컨트롤러 클래스에서 중복되는 상위 경로는 아래와 같이 통일할 수 있음
 ```java
 @Controller
 @RequestMapping("/hello")
