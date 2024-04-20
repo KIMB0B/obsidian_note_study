@@ -34,3 +34,11 @@ logging.level.hello.springmvc=debug
 
 # 올바른 로그 사용법
 
+- 올바르지 않은 경우
+	`log.debug("data=" + data)`
+	로그 출력 레벨을 info로 설정해도 해당 코드에 있는 "data="+data가 실제 실행이 되어 버린다. 
+	결과적으로 문자 더하기 연산이 발생함.
+- 올바른 경우
+	`log.debug("data={}", data)`
+	로그 출력 레벨을 info로 설정하면 아무일도 발생하지 않는다. 
+	따라서 위과 같은 의미없는 연산이 발생하지 않음.
