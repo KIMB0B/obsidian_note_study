@@ -90,23 +90,6 @@ public String requestParam(
 	return "ok";
 }
 ```
-> [!note] 설명
+> [!note] @RequestParam 설명
 > @RequestParam으로 파라미터의 이름을 인자로 넣어 해당 변수를 사용할 수 있음
 
-```java
-@ResponseBody
-@RequestMapping("/request-param-v3")
-public String requestParamV3(
-         @RequestParam String username,
-         @RequestParam int age) {
-    log.info("username={}, age={}", username, age);
-    return "ok";
-}
-```
->[!note] 설명
->변수명을 파라미터명과 동일하게 지정하면 @RequestParam 뒤의 인자를 생략할 수 있음.
-
-```java
-@RequestParam(required = true) String username,
-@RequestParam(required = false) int age
-```
