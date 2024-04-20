@@ -28,7 +28,7 @@ public class Controller {
 * @DeleteMapping  
 * @PatchMapping
 
-# 중복되는 경로 관리
+# 중복되는 상위 경로 관리
 
 하나의 컨트롤러 클래스에서 중복되는 상위 경로는 아래와 같이 통일할 수 있음
 ```java
@@ -45,5 +45,26 @@ public class Controller {
 	public String helloSave() {
         return "hello-save";
     }
+}
+```
+
+# 경로 변수 사용
+
+경로에 {} 부분으로 변수로 받을 부분을 지정하고 @PathVariable로 해당 경로에 들어온 값을 변수로 사용할 수 있음
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable("userId") String data) {
+
+    log.info("mappingPath userId={}", data);
+    return "ok";
+}
+```
+변수명을 {}안에 넣은 값과 같은 값으로 지으면 @PathVariable의 인자값을 생략할 수 있음
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable String uesrId) {
+
+    log.info("mappingPath userId={}", userId);
+    return "ok";
 }
 ```
