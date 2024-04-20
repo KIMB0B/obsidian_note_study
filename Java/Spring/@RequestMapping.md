@@ -48,7 +48,7 @@ public class Controller {
 }
 ```
 
-# 경로 변수 사용
+# 경로 변수 사용 (@PathVariable)
 
 경로에 {} 부분으로 변수로 받을 부분을 지정하고 @PathVariable로 해당 경로에 들어온 값을 변수로 사용할 수 있음
 ```java
@@ -68,3 +68,11 @@ public String mappingPath(@PathVariable String uesrId) {
     return "ok";
 }
 ```
+
+# 특정 헤더 조건 매핑(headers 옵션)
+
+특정 헤더를 기준으로 조건을 추가하여 현재 요청 URL에서 요청을 할지 말지 결정함
+* headers="mode",  (mode라는 header가 있을 때)
+* headers="!mode"  
+* headers="mode=debug"  
+* headers="mode!=debug" (! = )
