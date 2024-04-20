@@ -19,4 +19,76 @@
 
 [[@RequestMapping]]을 이용하여 메서드에 경로를 매핑함
 
+# 경로 변수 사용 (@PathVariable)
 
+경로에 {} 부분으로 변수로 받을 부분을 지정하고 @PathVariable로 해당 경로에 들어온 값을 변수로 사용할 수 있음
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable("userId") String data) {
+    log.info("mappingPath userId={}", data);
+    return "ok";
+}
+```
+변수명을 {}안에 넣은 값과 같은 값으로 지으면 @PathVariable의 인자값을 생략할 수 있음
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable String uesrId) {
+
+    log.info("mappingPath userId={}", userId);
+    return "ok";
+}
+```
+
+# HTTP Header 조회
+```java
+public class RequestHeaderController {
+
+    @RequestMapping("/headers")
+    public String headers(
+	    HttpServletRequest request,
+	    HttpServletResponse response,
+	    HttpMethod httpMethod,
+	    Locale locale,
+		@RequestHeader MultiValueMap<String, String> headerMap,
+		@RequestHeader("host") String host,
+		@CookieValue(value = "myCookie", required = false) String cookie
+	) {
+	}
+```
+> [!note] 설명
+> `HttpMethod`: 
+> HTTP 메서드를 조회한다.
+> 
+> `Locale`: 
+> Locale 정보를 조회한다.  
+> 
+> `@RequestHeader MultiValueMap<String, String> headerMap`: 
+> 모든 HTTP 헤더를 MultiValueMap 형식으로 조회한다. 
+> 
+>`@RequestHeader("host") String host`: 
+>특정 HTTP 헤더를 조회한다. 
+>속성
+>-필수 값 여부: `required`
+>-기본 값 속성: `defaultValue`  
+>
+>`@CookieValue(value = "myCookie", required = false) String cookie`: 
+>특정 쿠키를 조회한다.
+>속성
+>-필수 값 여부: `required` 
+>-기본 값: `defaultValue`
+
+# 요청 데이터 조회
+## 1. 파라미터,HTML Form
+`http://localhost:8080/request-param?username=hello&age=20` 경로로 요청했을 때
+```java
+@ResponseBody
+@RequestMapping("/request-param")
+public String requestParam(
+         @RequestParam("username") String memberName,
+         @RequestParam("age") int memberAge) {
+
+     log.info("username={}, age={}", memberName, memberAge);
+
+     return "ok";
+ }
+```
