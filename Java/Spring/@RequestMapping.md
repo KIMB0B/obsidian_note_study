@@ -69,10 +69,32 @@ public String mappingPath(@PathVariable String uesrId) {
 }
 ```
 
-# 특정 헤더 조건 매핑(headers 옵션)
+# 특정 헤더 조건 매핑 (headers 옵션)
 
 특정 헤더를 기준으로 조건을 추가하여 현재 요청 URL에서 요청을 할지 말지 결정함
 * headers="mode",  (mode라는 header가 있을 때)
-* headers="!mode"  
-* headers="mode=debug"  
-* headers="mode!=debug" (! = )
+* headers="!mode"  (mode라는 header가 없을 때)
+* headers="mode=debug"   (mode라는 header의 값이 debug일 때)
+* headers="mode!=debug" (mode라는 header의 값이 debug가 아닐 때)
+```java
+// 3번째 경우 예시
+
+@GetMapping(value = "/mapping-header", headers = "mode=debug")
+public String mappingHeader() {
+
+    log.info("mappingHeader");
+	return "ok";
+}
+```
+
+# 미디어 타입 조건 매핑 (consumes 옵션)
+
+application/json 타입으로 요청 데이터를 가진 채로 해당 경로에 요청해야지만 매핑이 되도록 조건을 줌
+```java
+@PostMapping(value = "/mapping-consume", consumes = "application/json")
+public String mappingConsumes() {
+
+    log.info("mappingConsumes");
+    return "ok";
+}
+```
