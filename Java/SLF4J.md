@@ -32,3 +32,5 @@ logging.level.root=info
 logging.level.hello.springmvc=debug
 ```
 
+# 올바른 로그 사용법
+
