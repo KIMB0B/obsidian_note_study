@@ -16,28 +16,7 @@
 8. **뷰 렌더링**: 뷰를 통해서 뷰를 렌더링 한다.
 
 # 경로 매핑
-
-[[@RequestMapping]]을 이용하여 메서드에 경로를 매핑함
-
-# 경로 변수 사용 (@PathVariable)
-
-경로에 {} 부분으로 변수로 받을 부분을 지정하고 @PathVariable로 해당 경로에 들어온 값을 변수로 사용할 수 있음
-```java
-@GetMapping("/mapping/{userId}")
-public String mappingPath(@PathVariable("userId") String data) {
-    log.info("mappingPath userId={}", data);
-    return "ok";
-}
-```
-변수명을 {}안에 넣은 값과 같은 값으로 지으면 @PathVariable의 인자값을 생략할 수 있음
-```java
-@GetMapping("/mapping/{userId}")
-public String mappingPath(@PathVariable String uesrId) {
-
-    log.info("mappingPath userId={}", userId);
-    return "ok";
-}
-```
+- ## [[@RequestMapping]]
 
 # HTTP Header 조회
 ```java
@@ -79,10 +58,34 @@ public class RequestHeaderController {
 
 # 요청 데이터 조회
 ## 1. 파라미터 조회
-### [[@RequestParam]]
+- ### [[@RequestParam]]
 	인자값으로 파라미터를 하나하나 불러올 수 있음
-### [[@ModelAttribute]]
+- ### [[@ModelAttribute]]
 	객체를 파라미터들의 형태와 동일하게 만들어 객체 클래스 형태로 파라미터를 불러올 수 있음
 ## 2. JSON 조회
-### [[@RequestBody]]
+- ### [[@RequestBody]]
 ## 3. View 템플릿
+
+
+# 경로 변수 조회 (@PathVariable)
+
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable("userId") String data) {
+    log.info("mappingPath userId={}", data);
+    return "ok";
+}
+```
+>[!note] @PathVariable설명
+>경로에 {} 부분으로 변수로 받을 부분을 지정하고 @PathVariable로 해당 경로에 들어온 값을 변수로 사용할 수 있음
+
+```java
+@GetMapping("/mapping/{userId}")
+public String mappingPath(@PathVariable String uesrId) {
+
+    log.info("mappingPath userId={}", userId);
+    return "ok";
+}
+```
+>[!note] 생략 설명
+>변수명을 {}안에 넣은 값과 같은 값으로 지으면 @PathVariable의 인자값을 생략할 수 있음
