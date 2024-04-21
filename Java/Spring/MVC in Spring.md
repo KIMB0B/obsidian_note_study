@@ -67,7 +67,22 @@ public class RequestHeaderController {
 
 # 응답 데이터 전달
 ## 1. View 템플릿
+view 템플릿 경로가 `src/main/resources/templates`인 경우
+```Java
+@RequestMapping("/response-view")
+public String responseView(Model model) {
+	model.addAttribute("data", "hello!!");
+	return "response/hello";
+}
+```
 ## 2. 단순 텍스트
+```java
+@ResponseBody
+@GetMapping("/response-body-string")
+	public String responseBody() {
+	return "ok";
+}
+```
 ## 3. JSON
 
 
