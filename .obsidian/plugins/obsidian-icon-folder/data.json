@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxsLeaf",
       "IbDocumentCode",
       "TiPlugConnected",
       "IbArrowLeft",
-      "IbArrowRight",
-      "RiQuestionAnswerFill"
+      "IbArrowRight"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -89,5 +89,6 @@
   "Java/Spring/HttpServletRequest.md": "IbArrowRight",
   "Java/Spring/HttpServletResponse.md": "IbArrowLeft",
   "Java/Spring/@RequestMapping.md": "TiPlugConnected",
-  "Java/SLF4J.md": "IbDocumentCode"
+  "Java/SLF4J.md": "IbDocumentCode",
+  "Java/ThymeLeaf": "BoBxsLeaf"
 }
