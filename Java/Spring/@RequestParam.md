@@ -1,6 +1,9 @@
+# 정의
 
-`http://localhost:8080/request-param?username=hello&age=20` 경로로 요청했을 때
+>클라이언트가 보낸 요청 중 파라미터의 값을 불러오고 싶을 때 사용하는 Annotation
+
 # 기본 사용법
+`http://localhost:8080/request-param?username=hello&age=20` 경로로 요청했을 때
 ```java
 @ResponseBody
 @RequestMapping("/request-param")
