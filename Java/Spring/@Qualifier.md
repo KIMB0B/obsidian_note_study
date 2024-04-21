@@ -17,7 +17,7 @@ public class RateDiscountPolicy implements DiscountPolicy {
 public OrderServiceImpl(
 	MemberRepository memberRepository,
 	@Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy
-) {     
+) {
 	this.memberRepository = memberRepository;
     this.discountPolicy = discountPolicy;
 }
