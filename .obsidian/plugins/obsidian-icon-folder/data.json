@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "BoBxsLeaf",
-      "IbDocumentCode",
-      "TiPlugConnected",
-      "IbArrowLeft",
-      "IbArrowRight"
+      "RiBodyScanLine",
+      "RiBodyScanFill",
+      "LiVariable",
+      "TiBrandDatabricks",
+      "BoBxsLeaf"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -90,5 +90,9 @@
   "Java/Spring/HttpServletResponse.md": "IbArrowLeft",
   "Java/Spring/@RequestMapping.md": "TiPlugConnected",
   "Java/SLF4J.md": "IbDocumentCode",
-  "Java/ThymeLeaf": "BoBxsLeaf"
+  "Java/ThymeLeaf": "BoBxsLeaf",
+  "Java/Spring/@ModelAttribute.md": "TiBrandDatabricks",
+  "Java/Spring/@RequestParam.md": "LiVariable",
+  "Java/Spring/@ResponseBody.md": "RiBodyScanFill",
+  "Java/Spring/@RequestBody.md": "RiBodyScanLine"
 }
