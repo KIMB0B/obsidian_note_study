@@ -83,8 +83,21 @@ public String responseView(Model model) {
 	return "ok";
 }
 ```
+>[!note] 설명
+>
 ## 3. JSON
-
+```java
+@ResponseStatus(HttpStatus.OK)
+@ResponseBody
+@GetMapping("/response-body-json")
+public HelloData responseBodyJson() {
+	HelloData helloData = new HelloData();
+    helloData.setUsername("userA");
+    helloData.setAge(20);
+    
+	return helloData;
+}
+```
 
 
 # 경로 변수 조회 (@PathVariable)
