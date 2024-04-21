@@ -1,3 +1,7 @@
+# 정의
+> HTTP 요청의 Body를 자바 객체로 변환하여 그 메소드의 파라미터로 전달하도록 함.
+> 즉, 클라이언트로부터 받은 요청 본문을 자동으로 원하는 타입의 객체로 매핑해주는 역할
+
 # JSON과 같은 형태의 객체 생성
 ```java
 @Data
@@ -16,3 +20,5 @@ public HelloData requestBodyJson(@RequestBody HelloData data) {
     return data;
 }
 ```
+>[!note] 설명
+>@RequestBody 어노테이션이 붙은 HelloData 형태의 data 
