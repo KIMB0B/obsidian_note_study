@@ -16,7 +16,7 @@
 8. **뷰 렌더링**: 뷰를 통해서 뷰를 렌더링 한다.
 
 # 경로 매핑
-- ## [[@RequestMapping]]
+- ## [[@RequestMapping]]를 사용
 
 # HTTP Header 조회
 ```java
@@ -63,7 +63,7 @@ public class RequestHeaderController {
 - ### [[@ModelAttribute]]
 	객체를 파라미터들의 형태와 동일하게 만들어 객체 클래스 형태로 파라미터를 불러올 수 있음
 ## 2. JSON 조회
-- ### [[@RequestBody]]
+- ### [[@RequestBody]] 사용
 
 # 응답 데이터 전달
 ## 1. View 템플릿
@@ -75,30 +75,8 @@ public String responseView(Model model) {
 	return "response/hello";
 }
 ```
-## 2. 단순 텍스트
-```java
-@ResponseBody
-@GetMapping("/response-body-string")
-	public String responseBody() {
-	return "ok";
-}
-```
->[!note] 설명
->
-## 3. JSON
-```java
-@ResponseStatus(HttpStatus.OK)
-@ResponseBody
-@GetMapping("/response-body-json")
-public HelloData responseBodyJson() {
-	HelloData helloData = new HelloData();
-    helloData.setUsername("userA");
-    helloData.setAge(20);
-    
-	return helloData;
-}
-```
-
+## 2. 단순 텍스트 또는 JSON
+- ### [[@ResponseBody]] 사용
 
 # 경로 변수 조회 (@PathVariable)
 

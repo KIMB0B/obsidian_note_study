@@ -21,4 +21,5 @@ public HelloData requestBodyJson(@RequestBody HelloData data) {
 }
 ```
 >[!note] 설명
->@RequestBody 어노테이션이 붙은 HelloData 형태의 data 
+>@RequestBody 어노테이션이 붙은 HelloData 형태의 data 변수를 바로 지정할 수 있음.
+>추가적으로 이렇게 생성한 data를 그대로 클라이언트에게 return하기 위해 [[@ResponseBody]]를 사용함.
