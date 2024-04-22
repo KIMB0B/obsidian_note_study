@@ -11,7 +11,7 @@ Spring에선 `ResourceBundleMessageSource`를 [[Bean]]으로 등록해주면 됨
 public MessageSource messageSource() {
 	ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 	
-	messageSource.setBasenames("messages", "errors");
+	messageSource.setBasenames("messages", "errors"); //properties 파일명
     messageSource.setDefaultEncoding("utf-8");
     return messageSource;
 	
@@ -25,3 +25,14 @@ spring.messages.basename=messages
 
 메시지 파일은 `src/main/resources/` 경로에 넣어주면 됨
 ![[Pasted image 20240423005450.png]]
+
+# Spring 소스 내에서 사용
+
+
+<span style="background:#fff88f">MessageSource</span> 클래스를 사용하면 메시지를 소스로 불러오는 것이 가능함
+```java
+@Autowired
+MessageSource ms;
+
+ms.getMessage("hello", null, null)
+```
