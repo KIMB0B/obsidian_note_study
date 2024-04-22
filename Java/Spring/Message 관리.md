@@ -3,3 +3,16 @@
 >Spring 프로젝트에서 여러 곳에 사용되는 다양한 문구를 한 곳에서 관리할 수 있도록 하는 기능
 >국가별로 설정할 수도 있어서 국제화 기능을 제공함
 
+# 초기 설정
+
+```java
+@Bean
+public MessageSource messageSource() {
+ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+	
+	messageSource.setBasenames("messages", "errors");
+    messageSource.setDefaultEncoding("utf-8");
+    return messageSource;
+	
+}
+```
