@@ -19,3 +19,8 @@ public MessageSource messageSource() {
 ```
 
 Spring Boot에서는 자동으로 등록이 되어 있어서 `application.properties`에서 설정해주면 됨
+```properties
+spring.messages.basename=messages
+```
+
+메시지 파일은 `src/main/resources/` 경로에 넣어주면 됨
