@@ -36,8 +36,8 @@ hello.name=안녕 {0}
 ```
 ```properties
 # messages_en.properties
-hello=안녕
-hello.name=안녕 {0}
+hello=hi
+hello.name=hi {0}
 ```
 
 # Spring 소스 내에서 사용
@@ -47,6 +47,18 @@ hello.name=안녕 {0}
 @Autowired
 MessageSource ms;
 
-ms.getMessage("hello", null, null)
-ms.getMessage("hello", new Object[]{"Spring"}, null)
+ms.getMessage("hello", null, Locale.ENGLISH) // hi
+ms.getMessage("hello", new Object[]{"Spring"}, null) // 안녕 Spring
 ```
+>[!note] 정리
+>getMessage에는 일반적으로 총 3개의 인자가 들어옴
+>
+>첫번째: 코드값
+>두번째: 인자값
+>세번째: 지역
+>
+>인자값으로는 한개의 인자만 있다 하더라도 Object 타입의 배열로 전달해야함
+
+# ThymeLeaf에 적용
+
+[[표현식 종류#3. 메시지 표현식 - ` {...}`]]
