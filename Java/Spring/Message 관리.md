@@ -5,10 +5,11 @@
 
 # 초기 설정
 
+Spring에선 `ResourceBundleMessageSource`를 [[Bean]]으로 등록해주면 됨
 ```java
 @Bean
 public MessageSource messageSource() {
-ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+	ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 	
 	messageSource.setBasenames("messages", "errors");
     messageSource.setDefaultEncoding("utf-8");
@@ -16,3 +17,5 @@ ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
 	
 }
 ```
+
+Spring Boot에서는 자동으로 등록이 되어 있어서 `application.properties`에서 설정해주면 됨
