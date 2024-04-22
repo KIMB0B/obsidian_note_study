@@ -24,3 +24,4 @@ spring.messages.basename=messages
 ```
 
 메시지 파일은 `src/main/resources/` 경로에 넣어주면 됨
+![[Pasted image 20240423005450.png]]
