@@ -61,4 +61,9 @@ ms.getMessage("hello", new Object[]{"Spring"}, null) // 안녕 Spring
 
 # ThymeLeaf에 적용
 
-[[표현식 종류#3. 메시지 표현식 - ` {...}`]]
+[[표현식 종류#3. 메시지 표현식 - ` {...}`|ThymeLeaf의 메시지 표현식]]을 통해 정해놓은 문구를 코드를 입력하여 가져올 수 있음
+```html
+<div th:text="#{hello.name(${user.name})}"></h2>
+```
+>[!note] 설명
+>#{...}으로 메시지의 코드를 입력하여 값을 가져오고 그 뒤에 (...) 부분에 인자값으로 넣을 값을 넣음
