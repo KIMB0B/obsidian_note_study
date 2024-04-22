@@ -26,8 +26,21 @@ spring.messages.basename=messages
 메시지 파일은 `src/main/resources/` 경로에 넣어주면 됨
 ![[Pasted image 20240423005450.png]]
 
-# Spring 소스 내에서 사용
+# Message 파일 생성
 
+messages.properties에 저장하고 싶은 문구들을 <span style="background:#fff88f">코드=문구</span> 형태로 저장한다.
+```properties
+# messages.properties
+hello=안녕
+hello.name=안녕 {0}
+```
+```properties
+# messages_en.properties
+hello=안녕
+hello.name=안녕 {0}
+```
+
+# Spring 소스 내에서 사용
 
 <span style="background:#fff88f">MessageSource</span> 클래스를 사용하면 메시지를 소스로 불러오는 것이 가능함
 ```java
@@ -35,4 +48,5 @@ spring.messages.basename=messages
 MessageSource ms;
 
 ms.getMessage("hello", null, null)
+ms.getMessage("hello", new Object[]{"Spring"}, null)
 ```
