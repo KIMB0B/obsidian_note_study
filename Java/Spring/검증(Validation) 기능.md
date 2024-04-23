@@ -42,6 +42,7 @@ bindingResult.addError(new FieldError(
 	false, 
 	new String[]{"required.item.itemName"}, 
 	null, 
-	"상품 이름은 필수입니다."));
+	"상품 이름은 필수입니다.")
+);
 ```
 

@@ -85,3 +85,7 @@ if (...) {
 	bindingResult.addError(new ObjectError("item", "총합은 10,000원 이상이어야 합니다.")); 
 }
 ```
+
+# 더 간단한 오류 상황 추가 방법
+
+# 1. rejectValue()
