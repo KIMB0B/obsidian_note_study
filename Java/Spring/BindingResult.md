@@ -85,5 +85,3 @@ if (...) {
 	bindingResult.addError(new ObjectError("item", "총합은 10,000원 이상이어야 합니다.")); 
 }
 ```
-
-# [[검증 관련 기능|ThymeLeaf에서 검증 오류 표현]]

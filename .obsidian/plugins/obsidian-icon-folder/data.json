@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiPassValidLine",
       "RiEarthFill",
       "RiBodyScanLine",
       "RiBodyScanFill",
-      "LiVariable",
-      "TiBrandDatabricks"
+      "LiVariable"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -95,5 +95,6 @@
   "Java/Spring/@RequestParam.md": "LiVariable",
   "Java/Spring/@ResponseBody.md": "RiBodyScanFill",
   "Java/Spring/@RequestBody.md": "RiBodyScanLine",
-  "Java/Spring/Message 관리.md": "RiEarthFill"
+  "Java/Spring/Message 관리.md": "RiEarthFill",
+  "Java/Spring/검증(Validation) 기능.md": "RiPassValidLine"
 }
