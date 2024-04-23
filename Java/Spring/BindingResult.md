@@ -88,4 +88,13 @@ if (...) {
 
 # 더 간단한 오류 상황 추가 방법
 
+>[!info] 설명
+>[[BindingResult#1. 필드 오류 - FieldError|FieldError]]나 [[BindingResult#2. 글로벌 오류 - ObjectError|ObjectError]]를 사용하지 않아도 가능
+>BindingResult는 @ModelAttribute 바로 뒤에 나오기 때문에 검증해야 할 객체 대상을 알고 있어서 간단하게 사용이 가능함
 # 1. rejectValue()
+
+```java
+void rejectValue(@Nullable String field, String errorCode,
+         @Nullable Object[] errorArgs, @Nullable String defaultMessage);
+
+```
