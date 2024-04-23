@@ -42,11 +42,3 @@ if (...) {
 
 # ThymeLeaf에서 검증 오류 표현
 
-## 1. `#field`
-
-BindingResult가 제공하는 검증 오류에 접근할 수 있음.
-```html
-<div th:if="${#fields.hasGlobalErrors()}">
-	...
-</div>
-```
