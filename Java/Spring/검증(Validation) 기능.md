@@ -17,7 +17,10 @@ Message 기능을 사용하여 오류 메시지를 효과적으로 관리할 수
 ## 1. 오류 Message 설정 파일 생성과 application 설정
 
  `src/main/resources/` 경로에 errors.properties 생성
+ 
  그 후 `application.properties`에서 errors도 추가해줌
 ```properties
 spring.messages.basename=messages, errors
 ```
+
+
