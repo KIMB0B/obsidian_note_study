@@ -13,11 +13,28 @@
 
 ```java
 // FieldError 생성자 요약
-public FieldError(String objectName, String field, String defaultMessage) {}
+
+// 1. 간단한 버전
+public FieldError(
+	String objectName, 
+	String field, 
+	String defaultMessage)
+
+// 2. 상세 버전
+public FieldError(
+	String objectName, 
+	String field, 
+	@Nullable Object rejectedValue, 
+	boolean bindingFailure, 
+	@Nullable String[] codes, 
+	@Nullable Object[] arguments, 
+	@Nullable String defaultMessage)
 ```
-- `objectName` : `@ModelAttribute` 이름  
-- `field` : 오류가 발생한 필드 이름  
-- `defaultMessage` : 오류 기본 메시지
+> [!note] 파라미터 정리(간단한 버전)
+> - `objectName` : `@ModelAttribute` 이름  
+>- `field` : 오류가 발생한 필드 이름  
+>- `defaultMessage` : 오류 기본 메시지
+
 ```java
 // 사용 예시
 if (...) {  
@@ -27,9 +44,14 @@ if (...) {
 
 ## 2. 글로벌 오류 - ObjectError
 
-```
+```java
 // ObjectError 생성자 요약
+
+// 1. 간단한 버전
 public ObjectError(String objectName, String defaultMessage) {}
+
+// 2. 상세 버전
+
 ```
 - `objectName` : `@ModelAttribute` 의 이름  
 - `defaultMessage` : 오류 기본 메시지
@@ -40,5 +62,5 @@ if (...) {
 }
 ```
 
-# ThymeLeaf에서 검증 오류 표현
+# [[검증 관련 기능|ThymeLeaf에서 검증 오류 표현]]
 
