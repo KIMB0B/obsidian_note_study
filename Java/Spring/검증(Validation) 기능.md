@@ -42,4 +42,35 @@ bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
 
 # 오류 Message 레벨 분류
 
-상세적으로 출력할 
+상세적으로 단계를 나눠서 오류 문구를 관리할 수 있음
+```properties
+#==ObjectError==  
+#Level1  
+totalPriceMin.item=상품의 가격 * 수량의 합은 {0}원 이상이어야 합니다. 현재 값 = {1}  
+#Level2  
+totalPriceMin=전체 가격은 {0}원 이상이어야 합니다. 현재 값 = {1}  
+
+#==FieldError==  
+#Level1  
+required.item.itemName=상품 이름은 필수입니다.  
+range.item.price=가격은 {0} ~ {1} 까지 허용합니다.  
+max.item.quantity=수량은 최대 {0} 까지 허용합니다.  
+  
+#Level2 - 생략  
+  
+#Level3  
+required.java.lang.String=필수 문자입니다.  
+required.java.lang.Integer=필수 숫자입니다.  
+min.java.lang.String={0} 이상의 문자를 입력해주세요.  
+min.java.lang.Integer={0} 이상의 숫자를 입력해주세요.  
+range.java.lang.String={0} ~ {1} 까지의 문자를 입력해주세요.  
+range.java.lang.Integer={0} ~ {1} 까지의 숫자를 입력해주세요.  
+max.java.lang.String={0} 까지의 문자를 허용합니다.  
+max.java.lang.Integer = {0} 까지의 숫자를 허용합니다.  
+  
+#Level4  
+required = 필수 값 입니다.  
+min= {0} 이상이어야 합니다.  
+range= {0} ~ {1} 범위를 허용합니다.  
+max= {0} 까지 허용합니다.  
+```
