@@ -40,4 +40,6 @@ bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
 ```
 [[BindingResult#^9302a9|code를 range.item.price가 아닌 range만 추가한 이유 ]]
 
-# Message
+# 오류 Message 레벨 분류
+
+상세적으로 출력할 
