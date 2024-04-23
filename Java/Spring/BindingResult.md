@@ -108,7 +108,7 @@ void rejectValue(
 
 ```java
 // 사용 예시
-bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null)
+bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null);
 ```
 >[!info] code를 축약할 수 있는 이유
 >`errors.properties`에 <u>range.item.price=가격은 {0} ~ {1} 까지 허용합니다.</u> 라고 작성했을 때 code를 "range.item.price"가 아닌 "price"라고 축약하여 써도 잘 작동한다.
@@ -129,3 +129,7 @@ void reject(
 > - `errorArgs` : 오류 메시지에서 `{0}`, `{1}`... 을 치환하기 위한 값
 > - `defaultMessage` : 오류 메시지를 찾을 수 없을 때 사용하는 기본 메시지
 
+```java
+// 사용 예시
+bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
+```
