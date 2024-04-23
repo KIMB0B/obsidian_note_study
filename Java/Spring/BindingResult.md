@@ -35,11 +35,22 @@ public FieldError(
 >- `field` : 오류가 발생한 필드 이름  
 >- `defaultMessage` : 오류 기본 메시지
 
+> [!note] 파라미터 정리(상세 버전)
+> - `objectName` : `@ModelAttribute` 이름  
+>- `field` : 오류 필드  
+> - `rejectedValue` : 사용자가 입력한 값(거절된 값)  
+> - `bindingFailure` : 타입 오류 같은 바인딩 실패인지, 검증 실패인지 구분 값 
+> - `codes` : 메시지 코드  
+> - `arguments` : 메시지에서 사용하는 인자  
+> - `defaultMessage` : 기본 오류 메시지
+
 ```java
 // 사용 예시
-if (...) {  
-	bindingResult.addError(new FieldError("item", "itemName", "상품 이름은 필수입니다.")); 
-}
+bindingResult.addError(new FieldError("item", "itemName", "상품 이름은 필수입니다.")); 
+
+// 오류 발생 시 사용자가 입력한 값을 유지한 버전
+// rejectedValue 파라미터를 추가함
+new FieldError("item", "itemName", item.getItemName(), false, null, null, "상품 이름은 필수입니다.")
 ```
 
 ## 2. 글로벌 오류 - ObjectError
@@ -48,7 +59,9 @@ if (...) {
 // ObjectError 생성자 요약
 
 // 1. 간단한 버전
-public ObjectError(String objectName, String defaultMessage) {}
+public ObjectError(
+	String objectName, 
+	String defaultMessage)
 
 // 2. 상세 버전
 
