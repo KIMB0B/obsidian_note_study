@@ -35,14 +35,6 @@ totalPriceMin=가격 * 수량의 합은 {0}원 이상이어야 합니다. 현재
 
 String 타입의 배열로  메시지 code를 우선순위대로 추가함
 ```java
-bindingResult.addError(new FieldError(
-	"item", 
-	"itemName", 
-	item.getItemName(), 
-	false, 
-	new String[]{"required.item.itemName"}, 
-	null, 
-	"상품 이름은 필수입니다.")
-);
+bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null)
 ```
 
