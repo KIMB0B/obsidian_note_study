@@ -5,7 +5,7 @@
 
 >[!warning] 주의사항
 > Controller의 함수의 매개변수로 들어가는 BindingResult는 [[@ModelAttribute]]이 붙은 매개변수 바로 뒤에 와야한다. 
-> ex) public String addUser(@ModelAttribute User user, BindingResult bindingResult, ...) {...}
+> ex) public String addUser(@ModelAttribute User user, <u>BindingResult bindingResult</u>, ...) {...}
 
 # 오류 상황 추가
 
@@ -33,3 +33,12 @@ public ObjectError(String objectName, String defaultMessage) {}
 ```
 - `objectName` : `@ModelAttribute` 의 이름  
 - `defaultMessage` : 오류 기본 메시지
+```java
+// 사용 예시
+if (...) {  
+	bindingResult.addError(new ObjectError("item", "총합은 10,000원 이상이어야 합니다.")); 
+}
+```
+
+# ThymeLeaf에서 검증 오류 표현
+
