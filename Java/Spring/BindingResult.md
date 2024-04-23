@@ -7,3 +7,29 @@
 > Controller의 함수의 매개변수로 들어가는 BindingResult는 [[@ModelAttribute]]이 붙은 매개변수 바로 뒤에 와야한다. 
 > ex) public String addUser(@ModelAttribute User user, BindingResult bindingResult, ...) {...}
 
+# 오류 상황 추가
+
+## 1. 필드 오류 - FieldError
+
+```java
+// FieldError 생성자 요약
+public FieldError(String objectName, String field, String defaultMessage) {}
+```
+- `objectName` : `@ModelAttribute` 이름  
+- `field` : 오류가 발생한 필드 이름  
+- `defaultMessage` : 오류 기본 메시지
+```java
+// 사용 예시
+if (...) {  
+	bindingResult.addError(new FieldError("item", "itemName", "상품 이름은 필수입니다.")); 
+}
+```
+
+## 2. 글로벌 오류 - ObjectError
+
+```
+// ObjectError 생성자 요약
+public ObjectError(String objectName, String defaultMessage) {}
+```
+- `objectName` : `@ModelAttribute` 의 이름  
+- `defaultMessage` : 오류 기본 메시지
