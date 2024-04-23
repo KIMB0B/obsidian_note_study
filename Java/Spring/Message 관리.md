@@ -66,4 +66,4 @@ ms.getMessage("hello", new Object[]{"Spring"}, null) // 안녕 Spring
 <div th:text="#{hello.name(${user.name})}"></h2>
 ```
 >[!note] 설명
->#{...}으로 메시지의 코드를 입력하여 값을 가져오고 그 뒤에 (...) 부분에 인자값으로 넣을 값을 넣음
+>#{...}으로 메시지의 코드를 입력하여 값을 가져오고 그 안쪽의 뒤에 (...) 부분에 인자값으로 넣을 값을 넣음
