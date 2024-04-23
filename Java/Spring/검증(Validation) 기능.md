@@ -16,11 +16,19 @@ Message 기능을 사용하여 오류 메시지를 효과적으로 관리할 수
 
 ## 1. 오류 Message 설정 파일 생성과 application 설정
 
- `src/main/resources/` 경로에 errors.properties 생성
+ `src/main/resources/` 경로에 `errors.properties` 생성
  
  그 후 `application.properties`에서 errors도 추가해줌
 ```properties
 spring.messages.basename=messages, errors
 ```
 
+## 2. errors.properties 내용 추가
+```properties
+# 예시
+required.item.itemName=상품 이름은 필수입니다.
+range.item.price=가격은 {0} ~ {1} 까지 허용합니다.
+max.item.quantity=수량은 최대 {0} 까지 허용합니다.
+totalPriceMin=가격 * 수량의 합은 {0}원 이상이어야 합니다. 현재 값 = {1}
+```
 
