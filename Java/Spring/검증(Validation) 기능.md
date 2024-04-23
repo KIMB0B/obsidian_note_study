@@ -37,4 +37,5 @@ String 타입의 배열로  메시지 code를 우선순위대로 추가함
 ```java
 bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null)
 ```
+[[BindingResult#^9302a9|code를 range.item.price가 아닌 range만 추가한 이유 ]]
 
