@@ -64,10 +64,21 @@ public ObjectError(
 	String defaultMessage)
 
 // 2. 상세 버전
-
+public FieldError(
+	String objectName, 
+	@Nullable String[] codes, 
+	@Nullable Object[] arguments, 
+	@Nullable String defaultMessage)
 ```
-- `objectName` : `@ModelAttribute` 의 이름  
-- `defaultMessage` : 오류 기본 메시지
+> [!note] 파라미터 정리(간단한 버전)
+> - `objectName` : `@ModelAttribute` 이름 
+>- `defaultMessage` : 오류 기본 메시지
+
+> [!note] 파라미터 정리(상세 버전)
+> - `objectName` : `@ModelAttribute` 이름  
+> - `codes` : 메시지 코드  
+> - `arguments` : 메시지에서 사용하는 인자  
+> - `defaultMessage` : 기본 오류 메시지
 ```java
 // 사용 예시
 if (...) {  
