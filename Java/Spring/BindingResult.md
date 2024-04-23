@@ -50,7 +50,7 @@ bindingResult.addError(new FieldError("item", "itemName", "상품 이름은 필�
 
 // 오류 발생 시 사용자가 입력한 값을 유지한 버전
 // rejectedValue 파라미터를 추가함
-new FieldError("item", "itemName", item.getItemName(), false, null, null, "상품 이름은 필수입니다.")
+bindingResult.addError(new FieldError("item", "itemName", item.getItemName(), false, null, null, "상품 이름은 필수입니다."))
 ```
 
 ## 2. 글로벌 오류 - ObjectError
