@@ -94,7 +94,19 @@ if (...) {
 # 1. rejectValue()
 
 ```java
-void rejectValue(@Nullable String field, String errorCode,
-         @Nullable Object[] errorArgs, @Nullable String defaultMessage);
+void rejectValue(
+	@Nullable String field, 
+	String errorCode,
+	@Nullable Object[] errorArgs, 
+	@Nullable String defaultMessage);
+```
+> [!note] 파라미터 정리
+> - `field` : 오류 필드명
+> - `errorCode` : 오류 코드(메시지 코드가 아님)
+> - `errorArgs` : 오류 메시지에서 `{0}`, `{1}`... 을 치환하기 위한 값
+> - `defaultMessage` : 오류 메시지를 찾을 수 없을 때 사용하는 기본 메시지
 
+```java
+// 사용 예시
+bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null)
 ```
