@@ -5,4 +5,5 @@
 
 >[!warning] 주의사항
 > Controller의 함수의 매개변수로 들어가는 BindingResult는 [[@ModelAttribute]]이 붙은 매개변수 바로 뒤에 와야한다. 
-> ex) public String a
+> ex) public String addUser(@ModelAttribute User user, BindingResult bindingResult, ...) {...}
+
