@@ -112,4 +112,6 @@ public String addItem(
 	...
 }
 ```
-## [[@Validated]]를 사용하여 간결하게 사용
+### [[@Validated]]를 사용하여 간결하게 사용
+
+# [[Bean Validation]] 사용

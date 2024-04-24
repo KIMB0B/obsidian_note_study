@@ -1,6 +1,6 @@
 # 정의
 
-> 검증기를 실행하라는 Annotation.
+> [[검증(Validation) 기능|검증]]기를 실행하라는 Annotation.
 > `WebDataBinder` 에 등록한 검증기를 찾아서 실행.
 
 # 검증기 선정 방법
