@@ -50,3 +50,19 @@ public String addItem(
 }
 ```
 
+### Message 등록
+```properties
+// 상세
+NotBlank.item.itemName=상품 이름은 필수입니다.
+
+// 범용
+NotBlank={0} 공백X 
+Range={0}, {2} ~ {1} 허용 
+Max={0}, 최대 {1}
+```
+>[!note] 인자값
+>`{0}` 은 필드명이고, `{1}` , `{2}` ...은 각 애노테이션 마다 다르다.
+
+# 오브젝트 에러 처리
+
+[[BindingResult#]]]가 아닌 Object
