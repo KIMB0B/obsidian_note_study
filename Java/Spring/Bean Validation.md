@@ -65,4 +65,5 @@ Max={0}, 최대 {1}
 
 # 오브젝트 에러 처리
 
-[[BindingResult#]]]가 아닌 Object
+[[BindingResult#1. 필드 오류 - FieldError|FieldError]]가 아닌 [[BindingResult#2. 글로벌 오류 - ObjectError|ObjectError]]관련 오류는 오브젝트 오류 관련 부분만 직접 자바 코드로 작성하는 것을 권장
+

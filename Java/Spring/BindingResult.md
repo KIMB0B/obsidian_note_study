@@ -11,8 +11,6 @@
 
 ## 1. 필드 오류 - FieldError
 
-^b84129
-
 ```java
 // FieldError 생성자 요약
 
