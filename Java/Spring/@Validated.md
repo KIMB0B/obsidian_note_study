@@ -25,14 +25,14 @@ public class ItemValidator implements Validator {
 ```
 ### 호출 클래스 상위
 ```java
-// 아래 부분 제외해도 검증 가능
-// private final ItemValidator itemValidator;
-
 @InitBinder
 public void init(WebDataBinder dataBinder) {
     dataBinder.addValidators(itemValidator);
 }
 ```
+
+^b256ed
+
 ### 호출 메서드
 ```java
 @PostMapping("/add")
