@@ -106,7 +106,7 @@ private final ItemValidator itemValidator;
 public String addItem(
 	@ModelAttribute Item item, 
 	BindingResult bindingResult, 
-	RedirectAttributes redirectAttributes) {
+	...) {
 
 	itemValidator.validate(item, bindingResult);
 	...

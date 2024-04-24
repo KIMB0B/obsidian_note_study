@@ -39,7 +39,7 @@ public void init(WebDataBinder dataBinder) {
 public String addItem(
 	@Validated @ModelAttribute Item item, 
 	BindingResult bindingResult, 
-	RedirectAttributes redirectAttributes) {
+	...) {
 
 	// 아래 부분 제외해도 검증 가능
 	// itemValidator.validate(item, bindingResult);

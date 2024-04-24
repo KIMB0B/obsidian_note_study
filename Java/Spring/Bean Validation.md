@@ -17,4 +17,35 @@ implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 # 사용 예시
 
-### 
+### 도메인에 적용
+```java
+@Data
+ public class Item {
+
+     private Long id;
+     
+     @NotBlank
+     private String itemName;
+
+     @NotNull
+     @Range(min = 1000, max = 1000000)
+     private Integer price;
+
+     @NotNull
+     @Max(9999)
+     private Integer quantity;
+}
+```
+>[!note] 설명
+>@NotBlank, @NotNull, @Range, @Max 등등 여러가지의 Bean Validation이 있음
+
+### 호출 메서드
+```java
+@PostMapping("/add")
+public String addItem(
+	@Validated @ModelAttribute Item item, 
+	BindingResult bindingResult, 
+	...) {
+	...
+}
+```
