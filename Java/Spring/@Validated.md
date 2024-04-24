@@ -32,6 +32,9 @@ public void init(WebDataBinder dataBinder) {
 ```
 ## 호출 메서드
 ```java
+// 아래 부분 제외해도 검증 가능
+// private final ItemValidator itemValidator;
+
 @PostMapping("/add")
 public String addItem(
 	@Validated @ModelAttribute Item item, 

@@ -74,3 +74,45 @@ min= {0} 이상이어야 합니다.
 range= {0} ~ {1} 범위를 허용합니다.  
 max= {0} 까지 허용합니다.  
 ```
+
+# 검증 로직 분리
+
+Validator 인터페이스를 구현한 검증 로직을 별도로 분리하여 관리 가능
+## Validator 인터페이스 구조
+```java
+public interface Validator {
+    boolean supports(Class<?> clazz);
+    void validate(Object target, Errors errors);
+}
+```
+## 사용 예시
+```java
+@Component
+public class ItemValidator implements Validator {
+
+    @Override    
+    public boolean supports(Class<?> clazz) {
+        return Item.class.isAssignableFrom(clazz);
+    }
+
+	@Override
+    public void validate(Object target, Errors errors) {
+	    ...
+	}
+}
+```
+## 호출 예시
+```java
+private final ItemValidator itemValidator;
+
+@PostMapping("/add")
+public String addItem(
+	@ModelAttribute Item item, 
+	BindingResult bindingResult, 
+	RedirectAttributes redirectAttributes) {
+
+	itemValidator.validate(item, bindingResult);
+	...
+}
+```
+## [[@Validated]]f
