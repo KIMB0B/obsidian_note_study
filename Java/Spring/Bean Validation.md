@@ -69,3 +69,16 @@ Max={0}, 최대 {1}
 
 # Groups
 
+같은 Model이어도 상황별로 검증 로직이 다를 때 사용할 수 있음.
+
+예시) 상품 등록할 때는 수량을 9999까지만 넣을 수 있지만 수정할 때는 무제한으로 넣을 수 있는 경우
+### 1. Interface 생성
+```java
+package hello.itemservice.domain.item;
+public interface SaveCheck { }
+```
+```java
+package hello.itemservice.domain.item;
+public interface UpdateCheck { }
+```
+### 2. 
