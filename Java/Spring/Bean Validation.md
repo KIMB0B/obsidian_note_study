@@ -67,12 +67,13 @@ Max={0}, 최대 {1}
 
 [[BindingResult#1. 필드 오류 - FieldError|FieldError]]가 아닌 [[BindingResult#2. 글로벌 오류 - ObjectError|ObjectError]]관련 오류는 오브젝트 오류 관련 부분만 [[BindingResult#2. reject()|직접 자바 코드]]로 작성하는 것을 권장
 
-# Groups
+# 검증 로직 분리
+### Groups
 
 같은 Model이어도 상황별로 검증 로직이 다를 때 사용할 수 있음.
 
 예시) 상품 등록할 때는 수량을 9999까지만 넣을 수 있지만 수정할 때는 무제한으로 넣을 수 있는 경우
-### 1. Interface 생성
+##### 1. Interface 생성
 ```java
 package hello.itemservice.domain.item;
 public interface SaveCheck { }
@@ -81,4 +82,24 @@ public interface SaveCheck { }
 package hello.itemservice.domain.item;
 public interface UpdateCheck { }
 ```
-### 2. 
+##### 2. Groups 적용
+```java
+@Data
+public class Item {
+	...
+	
+	@NotNull(groups = {SaveCheck.class, UpdateCheck.class}) // 등록 수정 둘 다 적용
+	@Max(value = 9999, groups = SaveCheck.class) // 등록시에만 적용
+	private Integer quantity;
+```
+### 3. Groups 로직 적용
+```java
+// 저장 로직에 추가 예시
+
+@PostMapping("/add")
+public String addItemV2(
+	@Validated(SaveCheck.class) @ModelAttribute Item item, // 인터페이스를 인자로 추가
+	BindingResult bindingResult, ...) {
+	...
+}
+```
