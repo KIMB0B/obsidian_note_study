@@ -13,7 +13,7 @@ implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 ### 다른 검증기 연결 코드 제거
 
-[[@Validated#^dfaab1|다른 검증기 연결 코드]]가 있으면 Spring Validation만 적용해주기 위해 삭제
+[[@Validated#^dfaab1|다른 검증기 연결 코드]]가 있으면 Spring의 Bean Validation만 적용해주기 위해 삭제
 
 # 사용 예시
 
