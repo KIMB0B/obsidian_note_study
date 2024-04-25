@@ -57,14 +57,46 @@ public String addItem(
 public Object addItem(
 	@RequestBody @Validated ItemSaveForm form, 
 	BindingResult bindingResult) { 
-	
+
+	// 오류 발생 시
 	if (bindingResult.hasErrors()) {  
 		log.info("검증 오류 발생 errors={}", bindingResult); 
 		return bindingResult.getAllErrors();
 	}
 
-log.info("성공 로직 실행");
+	// 성공 시
+    return form;
+}
+```
 
-         return form;
-     }
+실패 응답 예시
+```json
+[  
+	{
+		"codes": [
+		    "Max.itemSaveForm.quantity",
+		    "Max.quantity",
+		    "Max.java.lang.Integer",
+		    "Max"
+		],
+		"arguments": [
+			{
+				"codes": [
+			        "itemSaveForm.quantity",
+					"quantity"
+				],        
+				"arguments": null,
+			    "defaultMessage": "quantity",
+			    "code": "quantity"
+			},
+			9999
+		],  
+		"defaultMessage": "9999 이하여야 합니다", 
+		"objectName": "itemSaveForm", 
+		"field": "quantity",  
+		"rejectedValue": 10000, 
+		"bindingFailure": false,  
+		"code": "Max"
+	}
+]
 ```
