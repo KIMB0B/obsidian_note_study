@@ -9,7 +9,7 @@
 
 # 오류 상황 추가
 
-## 1. 필드 오류 - FieldError
+### 1. 필드 오류 - FieldError
 
 ```java
 // FieldError 생성자 요약
@@ -53,7 +53,7 @@ bindingResult.addError(new FieldError("item", "itemName", "상품 이름은 필�
 bindingResult.addError(new FieldError("item", "itemName", item.getItemName(), false, null, null, "상품 이름은 필수입니다."))
 ```
 
-## 2. 글로벌 오류 - ObjectError
+### 2. 글로벌 오류 - ObjectError
 
 ```java
 // ObjectError 생성자 요약
@@ -91,7 +91,7 @@ if (...) {
 >[!info] 설명
 >[[BindingResult#1. 필드 오류 - FieldError|FieldError]]나 [[BindingResult#2. 글로벌 오류 - ObjectError|ObjectError]]를 사용하지 않아도 가능
 >BindingResult는 @ModelAttribute 바로 뒤에 나오기 때문에 검증해야 할 객체 대상을 알고 있어서 간단하게 사용이 가능함
-# 1. rejectValue()
+### 1. rejectValue()
 
 ```java
 void rejectValue(
@@ -116,7 +116,7 @@ bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null);
 >그 이유는 작성한 코드 뒤에 자동으로 `.필드명.모델명`이 붙도록 하기 때문이다.
 
 ^9302a9
-## 2. reject()
+### 2. reject()
 
 ```java
 void reject(
