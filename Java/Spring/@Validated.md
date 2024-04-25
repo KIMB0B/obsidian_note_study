@@ -30,9 +30,10 @@ public void init(WebDataBinder dataBinder) {
     dataBinder.addValidators(itemValidator);
 }
 ```
-[[Bean Validation]]을 사용하면 생략 가능
 
-^b256ed
+^dfaab1
+
+[[Bean Validation]]을 이용하면 생략 가능
 
 ### 호출 메서드
 ```java
@@ -46,4 +47,24 @@ public String addItem(
 	// itemValidator.validate(item, bindingResult);
 	...
 }
+```
+
+# HTTP 메시지 컨버터를 통한 객체 Return
+
+[[@RequestBody]]를 사용하여 객체 자체를 return할 때도 검증 기능을 사용할 수 있음.
+```java
+@PostMapping("/add")
+public Object addItem(
+	@RequestBody @Validated ItemSaveForm form, 
+	BindingResult bindingResult) { 
+	
+	if (bindingResult.hasErrors()) {  
+		log.info("검증 오류 발생 errors={}", bindingResult); 
+		return bindingResult.getAllErrors();
+	}
+
+log.info("성공 로직 실행");
+
+         return form;
+     }
 ```
