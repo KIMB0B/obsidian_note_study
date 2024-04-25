@@ -1,6 +1,6 @@
 # 정의
 
-> Spring Bean을 관리하고 조회하는 Spring Container의 최상위 인터페이스인 BeanFactory라는 인터페이스의 기능을 모두 상속받아서 제공하는 역할을 함
+> [[Bean|Spring Bean]]을 관리하고 조회하는 Spring Container의 최상위 인터페이스인 BeanFactory라는 인터페이스의 기능을 모두 상속받아서 제공하는 역할을 함
 > 거기다가 추가적으로 편리한 부가기능을 더 제공함
 
 # 구조
