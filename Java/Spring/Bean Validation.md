@@ -92,7 +92,7 @@ public class Item {
 	@Max(value = 9999, groups = SaveCheck.class) // 등록시에만 적용
 	private Integer quantity;
 ```
-### 3. Groups 로직 적용
+##### 3. Groups 로직 적용
 ```java
 // 저장 로직에 추가 예시
 
@@ -102,4 +102,31 @@ public String addItemV2(
 	BindingResult bindingResult, ...) {
 	...
 }
+```
+
+### 객체 자체를 분리
+
+Groups보다 더 범용적으로 쓰는 방법. 데이터 객체 자체를 추가용, 수정용 등으로 따로 만듦.
+
+##### 1. 객체 각각 생성
+```java
+// 추가용
+
+@Data
+public class ItemSaveForm {
+
+    @NotBlank     
+    private String itemName;
+
+    @NotNull
+    @Range(min = 1000, max = 1000000)
+    private Integer price;
+
+    @NotNull
+    @Max(value = 9999)
+    private Integer quantity;
+}
+```
+```java
+// tn
 ```
