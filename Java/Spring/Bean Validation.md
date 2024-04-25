@@ -92,7 +92,7 @@ public class Item {
 	@Max(value = 9999, groups = SaveCheck.class) // 등록시에만 적용
 	private Integer quantity;
 ```
-##### 3. Groups 로직 적용
+##### 3. Groups 로직 Controller에 적용
 ```java
 // 저장 로직에 추가 예시
 
@@ -128,5 +128,35 @@ public class ItemSaveForm {
 }
 ```
 ```java
-// tn
+// 수정용
+
+@Data
+public class ItemUpdateForm {
+
+    @NotNull
+    private Long id;
+    
+    @NotBlank
+    private String itemName;
+
+    @NotNull
+    @Range(min = 1000, max = 1000000)
+    private Integer price;
+
+	//수정에서는 수량은 자유롭게 변경할 수 있다. 
+	private Integer quantity;
 ```
+### 2. 분리 로직 Controller에 적용
+```java
+// 저장 로직에 추가 예시
+
+@PostMapping("/add")
+public String addItemV2(
+	@Validated @ModelAttribute("item") ItemSaveForm item, // ItemSaveForm 타입
+	BindingResult bindingResult, ...) {
+	...
+}
+```
+>[!warning] 주의
+`@ModelAttribute("item")` 에 `item` 이름을 넣어준 부분을 주의하자. 
+이것을 넣지 않으면 `ItemSaveForm` 의 경우 규칙에 의해 `itemSaveForm` 이라는 이름으로 MVC Model에 담기게 된다. 이렇게 되면 뷰 템플릿에서 접근하 는 `th:object` 이름도 함께 변경해주어야 한다.
