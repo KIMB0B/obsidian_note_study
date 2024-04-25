@@ -30,6 +30,7 @@ public void init(WebDataBinder dataBinder) {
     dataBinder.addValidators(itemValidator);
 }
 ```
+[[Bean Validation]]을 사용하면 생략 가능
 
 ^b256ed
 
