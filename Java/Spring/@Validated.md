@@ -49,7 +49,7 @@ public String addItem(
 }
 ```
 
-# HTTP 메시지 컨버터를 통한 객체 Return
+# [[@RequestBody]]를 이용한 반환
 
 [[@RequestBody]]를 사용하여 객체 자체를 return할 때도 검증 기능을 사용할 수 있음.
 ```java
@@ -69,7 +69,7 @@ public Object addItem(
 }
 ```
 
-실패 응답 예시
+실패 응답 예시 (9999개 제한인 제품 수량에 10000을 입력한 경우)
 ```json
 [  
 	{
@@ -100,3 +100,10 @@ public Object addItem(
 	}
 ]
 ```
+>[!tip] 팁
+>이렇게 에러 내용 전체를 출력하기 보단 필요한 내용만 뽑아서 출력하는게 도움이 됨.
+
+# [[@ModelAttribute]]와 [[@RequestBody]]에서 작동의 차이
+
+- `@ModelAttribute` 는 특정 필드가 바인딩 되지 않아도 나머지 필드 는 정상 바인딩 되고, Validator를 사용한 검증도 적용할 수 있다.  
+- `@RequestBody` 는 HttpMessageConverter 단계에서 JSON 데이터를 객체로 변경하지 못하면 이후 단계 자 체가 진행되지 않고 예외가 발생한다. 컨트롤러도 호출되지 않고, Validator도 적용할 수 없다.
