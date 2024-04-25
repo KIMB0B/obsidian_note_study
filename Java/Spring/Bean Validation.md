@@ -155,8 +155,18 @@ public String addItemV2(
 	@Validated @ModelAttribute("item") ItemSaveForm item, // ItemSaveForm 타입
 	BindingResult bindingResult, ...) {
 	...
+	Item item = new Item(); 
+	item.setItemName(form.getItemName()); 
+	item.setPrice(form.getPrice()); 
+	item.setQuantity(form.getQuantity());
+	...
 }
 ```
+>[!note] 설명
+>분리해서 만든 데이터 모델 타입으로 item을 파라미터로 추가함.
+>코드 중간에 new Item();을 이용하여 기존의 Item타입으로 객체를 새로 만들어준 후 이용할 수 있음.
+
 >[!warning] 주의
 `@ModelAttribute("item")` 에 `item` 이름을 넣어준 부분을 주의하자. 
-이것을 넣지 않으면 `ItemSaveForm` 의 경우 규칙에 의해 `itemSaveForm` 이라는 이름으로 MVC Model에 담기게 된다. 이렇게 되면 뷰 템플릿에서 접근하 는 `th:object` 이름도 함께 변경해주어야 한다.
+이것을 넣지 않으면 `ItemSaveForm` 의 경우 규칙에 의해 `itemSaveForm` 이라는 이름으로 MVC Model에 담기게 된다. 
+이렇게 되면 뷰 템플릿에서 접근하 는 `th:object` 이름도 함께 변경해주어야 한다.
